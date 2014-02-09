@@ -1,0 +1,55 @@
+{ rank = same ; 1957 ; "Flow-matic" ; "Fortran I" [ fontsize=40 ] }
+{ rank = same ; 1958 ; "Algol 58" ; "Fortran II" }
+{ rank = same ; 1959 ; "Lisp" [ fontsize=40 ] }
+{ rank = same ; 1960 ; "Algol 60" [ fontsize=40 ] ; "APL" ; "COBOL" [ fontsize=40 ] }
+{ rank = same ; 1961 ; "CPL" }
+{ rank = same ; 1962 ; "Fortran IV" }
+{ rank = same ; 1963 ; "Simula I" ; "Snobol" ; "JOSS" }
+{ rank = same ; 1964 ; "Basic" ; "PL/I" [ fontsize=40 ] }
+{ rank = same ; 1966 ; "ISWIM" ; "Algol W" ; "QED" }
+{ rank = same ; 1967 ; "Mumps" ; "Snobol4" ; "Simula 67" ; "Logo" }
+{ rank = same ; 1968 ; "COBOL-68" ; "Algol 68" }
+{ rank = same ; 1969 ; "Smalltalk" [ fontsize=40 ] ; "BCPL" ; "Forth" }
+{ rank = same ; 1970 ; "B" ; "Prolog" [ fontsize=40 ] }
+{ rank = same ; 1971 ; "C" ; "sh" ; "Pascal" [ fontsize=40 ] ; "ed" }
+{ rank = same ; 1972 ; "Smalltalk 72" }
+{ rank = same ; 1973 ; "grep" }
+{ rank = same ; 1974 ; "SEQUEL" ; "CLU" ; "Smalltalk 74" ; "COBOL-74" }
+{ rank = same ; 1975 ; "Modula" ; "Scheme" [ fontsize=40 ] }
+{ rank = same ; 1976 ; "SEQUEL/2" ; "SASL" ; "Beta" ; "Smalltalk 76" ; "ex" ; "S" }
+{ rank = same ; 1977 ; "Standard Mumps" ; "Fortran 77" [ fontsize=40 ] ; "SQL" ; "Modula-2" ; "ML" [ fontsize=40 ] }
+{ rank = same ; 1978 ; "CSP" ; "csh" ; "awk" ; "Scheme MIT" ; "Smalltalk 78" ; "Hope" ; "FP" ; "C (K&R)" [ fontsize=40 ] }
+{ rank = same ; 1979 ; "Ada" ; "REXX" ; "sed" }
+{ rank = same ; 1980 ; "ABC" ; "Smalltalk 80" [ fontsize=40 ] }
+{ rank = same ; 1981 ; "tcsh" ; "KRC" }
+{ rank = same ; 1982 ; "REXX 3.0" ; "PostScript" ; "Blit" }
+{ rank = same ; 1983 ; "ksh" ; "occam" ; "Ada 83" [ fontsize=40 ] ; "Icon" ; "Pascal AFNOR" ; "BETA" ; "sam" }
+{ rank = same ; 1984 ; "APL 2" ; "SML" [ fontsize=40 ] ; "Mumps 1984" ; "Lazy ML" ; "Scheme 84" }
+{ rank = same ; 1985 ; "Miranda" ; "Objective Pascal" ; "nawk" ; "C++" [ fontsize=40 ] ; "Lean" ; "CLIPS" ; "Common Lisp" [ fontsize=40 ] ; "FL" ; "COBOL-85" }
+{ rank = same ; 1986 ; "Eiffel" [ fontsize=40 ] ; "Scheme R3RS" ; "ANSI SQL" ; "Objective-C" }
+{ rank = same ; 1987 ; "Self" ; "Caml" [ fontsize=40 ] ; "Perl" [ fontsize=40 ] ; "ISO SQL" ; "Clean" }
+{ rank = same ; 1988 ; "Object REXX" ; "Erlang" ; "Quick Basic" ; "Life" ; "A+" ; "Scheme R4RS" ; "Tcl" [ fontsize=40 ] ; "Oberon" ; "ksh88" ; "S-PLUS" }
+{ rank = same ; 1989 ; "bash" ; "Modula-3" ; "ANSI C" ; "Concurrent Clean" ; "Eiffel 2" ; "CLOS" ; "Lambda Prolog" ; "Newsqueak" }
+{ rank = same ; 1990 ; "Haskell" ; "Fortran 90" [ fontsize=40 ] ; "SML 90" ; "zsh" ; "Ease" ; "C++ (ARM)" ; "Visual Basic" }
+{ rank = same ; 1991 ; "Gofer" ; "Oberon-2" ; "CLIPS 5.0" ; "Python" [ fontsize=40 ] ; "Perl 4" ; "Sather 0.1" ; "Oak" ; "vimscript" }
+{ rank = same ; 1992 ; "Cecil" ; "Dylan" ; "SQL-92" ; "Alef" }
+{ rank = same ; 1993 ; "AppleScript" ; "Mercury" ; "NewtonScript" ; "K" ; "ksh93" ; "Acme" ; "R" }
+{ rank = same ; 1994 ; "Perl 5" [ fontsize=40 ] ; "PostScript level 2" ; "Sather 1.0" ; "Common Lisp (ANSI)" ; "Lua" }
+{ rank = same ; 1995 ; "Delphi" ; "Oz 1" ; "Java" [ fontsize=40 ] ; "JavaScript" [ fontsize=40 ] ; "Prolog ISO" ; "Ruby" [ fontsize=40 ] ; "Ada 95" ; "PHP" ; "C95" }
+{ rank = same ; 1996 ; "APL 96" ; "Eiffel 3" ; "Pike" ; "bash 2.0" ; "Limbo" ; "Squeak" ; "Pizza" ; "OCaml" [ fontsize=40 ] }
+{ rank = same ; 1997 ; "zsh 3.0" ; "J" ; "NetREXX" ; "ECMAScript" ; "SML 97" ; "J++" }
+{ rank = same ; 1998 ; "C++ (ISO)" [ fontsize=40 ] ; "F-Script" ; "ksh98" ; "Scheme R5RS" [ fontsize=40 ] ; "Haskell 98" [ fontsize=40 ] ; "Java 2 (v1.2)" ; "Perl 5.005" ; "REBOL" }
+{ rank = same ; 1999 ; "C99" ; "Oz 3" ; ".NET" ; "SQL-1999" ; "J++ 6.0" ; "Tcl 8.1" ; "Python 1.5.2" ; "ECMAScript rel3" }
+{ rank = same ; 2000 ; "OCaml 3.0" ; "C#" [ fontsize=40 ] ; "Quilt" ; "Lua 4.0" ; "PHP4" ; "Perl 5.6.0" ; "Python 2.0" [ fontsize=40 ] ; "JavaScript 1.5" ; "Mondrian" }
+{ rank = same ; 2001 ; "VB.NET" ; "zsh 4.0" ; "XQuery" ; "GHC 5.00" }
+{ rank = same ; 2002 ; "Python 2.2" ; "SML.NET" ; "Perl 5.8.0" ; "Cyclone" ; "F#" ; "J#" ; "COBOL 2002" }
+{ rank = same ; 2003 ; "Fortran 2003" ; "Nemerle" ; "Lua 5.0" ; "Boo" ; "GHC 6.0" ; "Nice" ; "SQL-2003" ; "Io" ; "Ruby 1.8" }
+{ rank = same ; 2004 ; "DOT" }
+{ rank = same ; 2004 ; "Groovy" ; "PHP5" ; "Python 2.4" ; "bash 3.0" ; "Scala" ; "Java 2 (v1.5 beta)" [ fontsize=40 ] }
+{ rank = same ; 2005 ; "Zonnon" ; "C# 2.0" [ fontsize=40 ] ; "Unicon" ; "Cyclone 1.0" }
+{ rank = same ; 2006 ; "CAL (Open Quark)" ; "JavaScript 1.7" ; "Python 2.5" }
+{ rank = same ; 2007 ; "Clojure" }
+{ rank = same ; 2007 ; "Scheme R6RS" ; "D 1.0" ; "Fortress 1.0beta" ; "C# 3.0" ; "Groovy 1" }
+{ rank = same ; 2009 ; "Go" ; "CoffeeScript" }
+{ rank = same ; 2010 ; "Haskell 2010" }
+{ rank = same ; 2012 ; "Rust" }
