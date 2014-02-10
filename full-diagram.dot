@@ -672,7 +672,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "IT" -> "ALGOL 58"
 "BNF" -> "ALGOL 58"
 "IAL" -> "ALGOL 58" [weight=7]
-"ALGOL 58" -> "ALGOL 60" [weight=7]
+"ALGOL 58" -> "ALGOL 60" [weight=25]
 "ALGOL 58" -> "NELIAC"
 "ALGOL 60" -> "ALGOL X" [weight=5]
 "ALGOL 60" -> "PL360"
