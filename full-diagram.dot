@@ -321,7 +321,7 @@ node [ fontsize=40, style=filled ];
 
 { rank = same ; 1980
     "Concurrent\nEuclid"
-    "Smalltalk 80" [ fontsize=60 ]
+    "Smalltalk-80" [ fontsize=60 ]
     "cT"
 }
 
