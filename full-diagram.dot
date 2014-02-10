@@ -152,10 +152,10 @@ node [ fontsize=40, style=filled ];
     "COWSEL"
     "MIMIC"
     "MARK IV"
-    "Speakeasy"
     "IITRAN"
     "PDP-1 LISP"
     "GAP"
+    "Named\nStorage" [style=dotted]
 }
 
 { rank = same ; 1965
@@ -204,6 +204,7 @@ node [ fontsize=40, style=filled ];
     "POP-1"
     "DIBOL"
     "REFAL"
+    "Speakeasy"
 }
 
 { rank = same ; 1969
@@ -247,8 +248,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1973
+    "Speakeasy-3"
     "PL/C"
-    "Speakeasy 3"
     "CONNIVER"
     "QLISP"
     "Popler"
@@ -819,16 +820,16 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SIMULA 67" -> "Smalltalk"
 "PLANNER" -> "Smalltalk-71"
 "Smalltalk" -> "Smalltalk-71"
-"Smalltalk-71" -> "Smalltalk-72" [weight=3]
-"Smalltalk-72" -> "Smalltalk-76" [weight=3]
-"Smalltalk-76" -> "Smalltalk-80" [weight=3]
-"Smalltalk-80" -> "Smalltalk-80 v2" [weight=3]
-"Smalltalk-80 v2" -> "Smalltalk-80 v2.5" [weight=3]
+"Smalltalk-71" -> "Smalltalk-72" [weight=5]
+"Smalltalk-72" -> "Smalltalk-76" [weight=5]
+"Smalltalk-76" -> "Smalltalk-80" [weight=5]
+"Smalltalk-80" -> "Smalltalk-80 v2" [weight=5]
+"Smalltalk-80 v2" -> "Smalltalk-80 v2.5" [weight=5]
 "Smalltalk-80 v2.5" -> "VisualWorks"
 "Smalltalk-80" -> "sam"
 "Smalltalk-80" -> "Apple Smalltalk"
 "Apple Smalltalk" -> "Squeak"
-"Smalltalk-80 v2" -> "ANSI Smalltalk" [weight=3]
+"Smalltalk-80 v2" -> "ANSI Smalltalk" [weight=5]
 
 "PLANNER" -> "Micro Planner"
 "POP-2" -> "Popler"
@@ -848,6 +849,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SNOBOL" -> "SNOBOL3"
 "SNOBOL3" -> "SNOBOL4"
 "SNOBOL4" -> "Lua"
+
+"Named\nStorage" -> "Speakeasy"
+"Speakeasy" -> "Speakeasy-3"
+"MORTRAN" -> "Speakeasy-3"
 
 "IPL" -> "IPL-II" [weight=4]
 "IPL-II" -> "IPL-V" [weight=4]
@@ -897,22 +902,23 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "B" -> "C" [weight=9]
 "ALGOL 68" -> "C"
 "C" -> "csh"
-"C" -> "K&R C"
-"K&R C" -> "C89"
+"C" -> "K&R C" [weight=9]
+"K&R C" -> "C89" [weight=9]
 "C++" -> "C89"
-"C89" -> "C95"
-"C95" -> "C99"
-"C99" -> "C11"
+"C89" -> "C95" [weight=9]
+"C95" -> "C99" [weight=9]
+"C99" -> "C11" [weight=9]
 "Smalltalk-80" -> "Objective-C"
 "C" -> "Objective-C"
+"C" -> "C++" [weight=5]
 "Simula" -> "C++"
 "Ada" -> "C++"
 "CLU" -> "C++"
 "ML" -> "C++"
-"C++" -> "C++98"
-"C++98" -> "C++03"
-"C++03" -> "C++TR1"
-"C++TR1" -> "C++11"
+"C++" -> "C++98" [weight=9]
+"C++98" -> "C++03" [weight=9]
+"C++03" -> "C++TR1" [weight=9]
+"C++TR1" -> "C++11" [weight=9]
 
 "DIBOL" -> "DIBOL-8"
 
