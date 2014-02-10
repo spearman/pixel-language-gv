@@ -151,6 +151,11 @@ node [ fontsize=40, style=filled ];
     "CORAL"
     "COWSEL"
     "MIMIC"
+    "MARK IV"
+    "Speakeasy"
+    "IITRAN"
+    "PDP-1 LISP"
+    "GAP"
 }
 
 { rank = same ; 1965
@@ -158,11 +163,16 @@ node [ fontsize=40, style=filled ];
     "ALGOL X"
     "PL360"
     "MAD/I"
+    "TELCOMP"
+    "STRINGCOMP"
+    "FILECOMP"
+    "ATLAS Autocode"
+    "GPM"
 }
 
 { rank = same ; 1966
     "Coral 66"
-    "ISWIM"
+    "ISWIM" [style=dotted]
     "ALGOL W"
     "QED"
     "BASIC v3"
@@ -171,35 +181,47 @@ node [ fontsize=40, style=filled ];
     "IPL-VI"
     "JOSS II"
     "MUMPS"
+    "BBN LISP"
 }
 
 { rank = same ; 1967
+    "Ghost"
+    "Interlisp"
     "SNOBOL4"
     "SIMULA 67"
-    "Logo"
     "BCPL"
 }
 
 { rank = same ; 1968
+    "CRT RPS"
+    "XPL"
     "COBOL-68"
     "ALGOL 68"
     "BASIC v4"
     "MLISP"
     "TTM"
     "POP-1"
+    "DIBOL"
+    "REFAL"
 }
 
 { rank = same ; 1969
+    "Logo"
     "Smalltalk" [ style=dotted, fontsize=60 ]
-    "Forth"
     "RPG II"
     "B"
+    "PPL"
+    "SETL"
+    "TUTOR"
 }
 
 { rank = same ; 1970
+    "FORTH"
+    "Space Programming\nLanguage"
     "Prolog" [ fontsize=60 ]
     "BASIC v5"
     "POP-2"
+    "DIBOL-8"
 }
 
 { rank = same ; 1971
@@ -218,6 +240,8 @@ node [ fontsize=40, style=filled ];
 { rank = same ; 1973
     "MLISP 2"
     "grep"
+    "MORTRAN"
+    "ML" [ fontsize=60 ]
 }
 
 { rank = same ; 1974
@@ -227,9 +251,11 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1975
+    "ABC"
     "POP-11"
     "Modula"
     "Scheme" [ fontsize=60 ]
+    "MAPPER"
 }
 
 { rank = same ; 1976
@@ -248,8 +274,8 @@ node [ fontsize=40, style=filled ];
     "Standard Mumps"
     "FORTRAN 77" [ fontsize=60 ]
     "SQL"
+    "MicroTUTOR"
     "Modula-2"
-    "ML" [ fontsize=60 ]
 }
 
 { rank = same ; 1978
@@ -274,6 +300,7 @@ node [ fontsize=40, style=filled ];
 { rank = same ; 1980
     "ABC"
     "Smalltalk 80" [ fontsize=60 ]
+    "cT"
 }
 
 { rank = same ; 1981
@@ -393,7 +420,7 @@ node [ fontsize=40, style=filled ];
     "K"
     "ksh93"
     "Acme"
-    "R"
+    "R" [ fontsize=60 ]
 }
 
 { rank = same ; 1994
@@ -468,6 +495,7 @@ node [ fontsize=40, style=filled ];
     "Python 2.0" [ fontsize=60 ]
     "JavaScript 1.5"
     "Mondrian"
+    "VPython"
 }
 
 { rank = same ; 2001
@@ -608,6 +636,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "FORTRAN 77" -> "Fortran 90" [weight=5]
 "FORTRAN" -> "COMTRAN"
 "FORTRAN" -> "PACT I"
+"FORTRAN IV" -> "MORTRAN" [weight=5]
 
 "FARGO" -> "RPG"
 "RPG" -> "RPG II"
@@ -625,6 +654,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "NPL" -> "PL/I"
 "COBOL" -> "PL/I"
 "ALGOL 60" -> "PL/I"
+"PL/I" -> "IITRAN"
+"PL/I" -> "XPL"
 
 "GEORGE" -> "Laning Zierler\nSystem" [weight=5]
 "Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=10]
@@ -636,6 +667,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Sequentielle\nFormelübersetzung" -> "ALGOL 58"
 "IAL" -> "MAD"
 "MAD" -> "MAD/I"
+"PL/I" -> "MAD/I"
 "MAD" -> "GOM"
 "IT" -> "ALGOL 58"
 "BNF" -> "ALGOL 58"
@@ -649,11 +681,21 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 58" -> "JOVIAL"
 "JOVIAL" -> "CORAL"
 "JOVIAL" -> "SYMPL"
+"JOVIAL" -> "Space Programming\nLanguage"
 "CORAL" -> "Coral 66"
+"FORTRAN" -> "Coral 66"
+"ALGOL 60" -> "Coral 66"
 "ALGOL 58" -> "ALGO"
 "ALGOL 58" -> "ALGOL 30"
 "ALGOL 60" -> "ALGOL 30"
 "ALGOL 60" -> "Scheme"
+"Autocode" -> "ATLAS Autocode"
+"ALGOL 60" -> "ATLAS Autocode"
+"ATLAS Autocode" -> "Edinburgh IMP"
+"ALGOL 60" -> "IMP65"
+"IMP65" -> "IMP70"
+"BNF" -> "IMP72"
+"IMP70" -> "IMP72"
 
 "PL360" -> "ALGOL W"
 "ALGOL X" -> "ALGOL W"
@@ -663,7 +705,12 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 
 "ALGOL 58" -> "JOSS I"
 "JOSS I" -> "JOSS II"
-"JOSS I" -> "MUMPS"
+"FILECOMP" -> "MUMPS"
+"STRINGCOMP" -> "MUMPS"
+"TELCOMP" -> "MUMPS"
+"JOSS I" -> "TELCOMP"
+"JOSS I" -> "FILECOMP"
+"JOSS I" -> "STRINGCOMP"
 
 "ALGOL 60" -> "SIMULA I"
 "SIMULA I" -> "SIMULA 67"
@@ -671,6 +718,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Smalltalk" -> "Smalltalk-71"
 "Smalltalk-71" -> "Smalltalk-72"
 "Smalltalk-72" -> "Smalltalk-76"
+
+"MARK IV" -> "Space Programming\nLanguage"
 
 "COMIT" -> "SNOBOL"
 "FORTRAN II" -> "SNOBOL"
@@ -688,6 +737,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 60" -> "MLISP"
 "MLISP" -> "MLISP 2"
 
+"GAP" -> "TTM"
+"GPM" -> "TTM"
 "TRAC" -> "TTM"
 "TRAC" -> "SAM76"
 "LISP" -> "SAM76"
@@ -702,6 +753,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ANSI BASIC" -> "True BASIC"
 
 "APL" -> "APL 2"
+"APL" -> "PPL"
+"PPL" -> "S"
+"S" -> "R"
+"S" -> "S-PLUS"
 
 "ALGOL 60" -> "CPL"
 "CPL" -> "COWSEL"
@@ -712,4 +767,30 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "CPL" -> "BCPL" [weight=10]
 "BCPL" -> "B"[weight=10]
 "B" -> "C"
+
+"DIBOL" -> "DIBOL-8"
+
+"ALGOL 60" -> "ISWIM"
+"LISP" -> "ISWIM" [weight=7]
+"ISWIM" -> "ML" [weight=10]
+"LISP" -> "PDP-1 LISP" [weight=5]
+"PDP-1 LISP" -> "BBN LISP"
+"BBN LISP" -> "Interlisp"
+"LISP" -> "Ghost"
+"Ghost" -> "Logo"
+"Logo" -> "Smalltalk 71"
+
+"RPG" -> "CRT RPS"
+"CRT RPS" -> "MAPPER"
+
+"SETL" -> "ABC"
+"ALGOL 68" -> "ABC"
+"ABC" -> "Python"
+"Python" -> "VPython"
+
+"TUTOR" -> "microTUTOR"
+"microTUTOR" -> "cT"
+"cT" -> "VPython"
+
+
 }
