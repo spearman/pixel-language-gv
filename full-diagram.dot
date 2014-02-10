@@ -171,6 +171,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1966
+    "EULER"
     "Coral 66"
     "ISWIM" [style=dotted]
     "ALGOL W"
@@ -217,18 +218,21 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1970
+    "BLISS"
     "FORTH"
     "Space Programming\nLanguage"
     "BASIC v5"
     "POP-2"
     "DIBOL-8"
+    "Pascal" [ fontsize=60 ]
 }
 
 { rank = same ; 1971
+    "CDL"
+    "Sue"
     "Micro Planner"
-    "C"
+    "C" [ fontsize=80 ]
     "sh"
-    "Pascal" [ fontsize=60 ]
     "ed"
     "BASIC v6"
     "Smalltalk-71"
@@ -241,6 +245,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1973
+    "PL/C"
     "Speakeasy 3"
     "CONNIVER"
     "QLISP"
@@ -252,6 +257,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1974
+    "SP/k"
     "SEQUEL"
     "CLU"
     "COBOL-74"
@@ -263,9 +269,13 @@ node [ fontsize=40, style=filled ];
     "Modula"
     "Scheme" [ fontsize=60 ]
     "MAPPER"
+    "Euclid"
 }
 
 { rank = same ; 1976
+    "CDL2"
+    "KRL"
+    "Mesa"
     "SAM76"
     "SEQUEL/2"
     "SASL"
@@ -276,6 +286,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1977
+    "FRL"
     "Icon"
     "Standard Mumps"
     "FORTRAN 77" [ fontsize=60 ]
@@ -286,15 +297,16 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1978
+    "UCSD Pascal"
     "SYMPL"
-    "CSP"
+    "CSP" [style=dotted]
     "csh"
     "awk"
     "Scheme MIT"
-    "Smalltalk 78"
     "Hope"
     "FP"
     "C (K&R)" [ fontsize=60 ]
+    "TeX"
 }
 
 { rank = same ; 1979
@@ -305,6 +317,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1980
+    "Concurrent\nEuclid"
     "Smalltalk 80" [ fontsize=60 ]
     "cT"
 }
@@ -315,6 +328,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1982
+    "Turing"
     "REXX 3.0"
     "PostScript"
     "Blit"
@@ -322,6 +336,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "Cedar"
     "True BASIC"
     "ksh"
     "occam"
@@ -331,6 +346,7 @@ node [ fontsize=40, style=filled ];
     "sam"
     "ABAP"
     "Smalltalk-80 v2"
+    "Clascal"
 }
 
 { rank = same ; 1984
@@ -340,11 +356,12 @@ node [ fontsize=40, style=filled ];
     "Mumps 1984"
     "Lazy ML"
     "Scheme 84"
+    "Modula-2+"
 }
 
 { rank = same ; 1985
     "Miranda"
-    "Objective Pascal"
+    "Object Pascal"
     "nawk"
     "C++" [ fontsize=60 ]
     "Lean"
@@ -363,16 +380,18 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1987
+    "Turing+"
     "Self"
     "Caml" [ fontsize=60 ]
     "Perl" [ fontsize=60 ]
     "ISO SQL"
     "Clean"
+    "Erlang"
+    "occam 2"
 }
 
 { rank = same ; 1988
     "Object REXX"
-    "Erlang"
     "Quick Basic"
     "Life"
     "A+"
@@ -395,6 +414,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "Object Oberon"
     "Haskell"
     "Fortran 90" [ fontsize=60 ]
     "SML 90"
@@ -406,6 +426,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1991
+    "Object-Oriented\nTuring"
     "VisualWorks"
     "Gofer"
     "Oberon-2"
@@ -435,6 +456,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1994
+    "Oberon/F"
     "Perl 5" [ fontsize=60 ]
     "PostScript level 2"
     "Sather 1.0"
@@ -455,6 +477,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1996
+    "KM"
+    "occam pi"
     "APL 96"
     "Eiffel 3"
     "Pike"
@@ -467,6 +491,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1997
+    "Component\nPascal"
     "zsh 3.0"
     "J"
     "NetREXX"
@@ -476,6 +501,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1998
+    "Active Oberon"
     "C++ (ISO)" [ fontsize=60 ]
     "F-Script"
     "ksh98"
@@ -519,6 +545,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2002
+    "Zonnon"
     "Python 2.2"
     "SML.NET"
     "Perl 5.8.0"
@@ -542,6 +569,7 @@ node [ fontsize=40, style=filled ];
 
 { rank = same ; 2004
     "DOT"
+    "CDL3"
 }
 
 { rank = same ; 2004
@@ -554,7 +582,6 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2005
-    "Zonnon"
     "C# 2.0" [ fontsize=60 ]
     "Unicon"
     "Cyclone 1.0"
@@ -673,10 +700,19 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 60" -> "PL/I"
 "PL/I" -> "IITRAN"
 "PL/I" -> "XPL"
+"XPL" -> "Sue"
+"Pascal" -> "Sue"
+"PL/I" -> "PL/C"
+"PL/I" -> "SP/k"
+"SP/k" -> "Turing"
 
 "GEORGE" -> "Laning Zierler\nSystem" [weight=4]
 "Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=9]
 "Laning Zierler\nSystem" -> "IT" [weight=4]
+
+"BNF" -> "CDL"
+"CDL" -> "CDL2"
+"CDL2" -> "CDL3"
 
 "Plankalkül" -> "Superplan"
 "Plankalkül" -> "ALGOL 58"
@@ -714,11 +750,55 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "BNF" -> "IMP72"
 "IMP70" -> "IMP72"
 
+"ALGOL 60" -> "EULER"
+"EULER" -> "Pascal"
 "PL360" -> "ALGOL W"
 "ALGOL X" -> "ALGOL W"
 "ALGOL W" -> "Pascal"
 "Pascal" -> "Icon"
+"Pascal" -> "WEB"
+"WEB" -> "TeX"
 "SNOBOL4" -> "Icon"
+"Pascal" -> "Clascal"
+"Pascal" -> "Modula" [weight=2]
+"Smalltalk-80" -> "Clascal"
+"Modula" -> "Clascal"
+"Modula" -> "Modula-2" [weight=3]
+"Pascal" -> "Euclid"
+"Euclid" -> "Mesa"
+"Euclid" -> "Concurrent\nEuclid" [weight=3]
+"Concurrent\nEuclid" -> "Turing" [weight=3]
+"Turing" -> "Turing+" [weight=3]
+"Turing+" -> "Object-Oriented\nTuring" [weight=3]
+"Mesa" -> "Modula-2"
+"Modula-2" -> "Modula-2+" [weight=3]
+"Modula-2+" -> "Modula-3" [weight=3]
+"Oberon" -> "Modula-3"
+"Oberon-2" -> "Active Oberon"
+"Active Oberon" -> "Zonnon"
+"Oberon" -> "Object Oberon"
+"Object Oberon" -> "Oberon-2"
+"Oberon-2" -> "Oberon/F"
+"Oberon/F" -> "Component\nPascal"
+"Mesa" -> "Cedar"
+"Smalltalk" -> "UCSD Pascal"
+"Pascal" -> "UCSD Pascal" [weight=3]
+"UCSD Pascal" -> "Clascal" [weight=3]
+"Clascal" -> "Objective Pascal" [weight=3]
+"Modula-2" -> "Oberon"
+
+
+"CSP" -> "Newsqueak"
+"CSP" -> "occam"
+"occam" -> "occam 2"
+"occam 2" -> "occam pi"
+"occam" -> "Ease"
+"Newsqueak" -> "Alef"
+"C" -> "Alef"
+"Alef" -> "Limbo"
+"Alef" -> "Acme"
+"CSP" -> "Go"
+"C" -> "Go"
 
 "ALGOL 58" -> "JOSS I"
 "JOSS I" -> "JOSS II"
@@ -754,6 +834,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "PLANNER" -> "Prolog"
 "PLANNER" -> "CONNIVER"
 "PLANNER" -> "Ether"
+"Prolog" -> "Erlang"
 
 "MARK IV" -> "Space Programming\nLanguage"
 
@@ -774,6 +855,9 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 60" -> "MLISP"
 "MLISP" -> "MLISP 2"
 
+"KRL" -> "FRL"
+"KRL" -> "KM"
+"LISP" -> "KM"
 
 "GAP" -> "TTM"
 "GPM" -> "TTM"
@@ -824,6 +908,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 
 "SETL" -> "ABC"
 "ALGOL 68" -> "ABC"
+"ALGOL 68" -> "BLISS"
 "ABC" -> "Python"
 "Python" -> "VPython"
 
