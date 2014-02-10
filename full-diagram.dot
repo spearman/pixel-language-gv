@@ -213,18 +213,19 @@ node [ fontsize=40, style=filled ];
     "PPL"
     "SETL"
     "TUTOR"
+    "PLANNER"
 }
 
 { rank = same ; 1970
     "FORTH"
     "Space Programming\nLanguage"
-    "Prolog" [ fontsize=60 ]
     "BASIC v5"
     "POP-2"
     "DIBOL-8"
 }
 
 { rank = same ; 1971
+    "Micro Planner"
     "C"
     "sh"
     "Pascal" [ fontsize=60 ]
@@ -234,10 +235,16 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "QA4" [ style=dotted ]
+    "Prolog" [ fontsize=60 ]
     "Smalltalk-72"
 }
 
 { rank = same ; 1973
+    "Speakeasy 3"
+    "CONNIVER"
+    "QLISP"
+    "Popler"
     "MLISP 2"
     "grep"
     "MORTRAN"
@@ -266,7 +273,6 @@ node [ fontsize=40, style=filled ];
     "Smalltalk-76"
     "ex"
     "S"
-    "SBASIC"
 }
 
 { rank = same ; 1977
@@ -276,6 +282,7 @@ node [ fontsize=40, style=filled ];
     "SQL"
     "MicroTUTOR"
     "Modula-2"
+    "SBASIC"
 }
 
 { rank = same ; 1978
@@ -298,7 +305,6 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1980
-    "ABC"
     "Smalltalk 80" [ fontsize=60 ]
     "cT"
 }
@@ -312,6 +318,7 @@ node [ fontsize=40, style=filled ];
     "REXX 3.0"
     "PostScript"
     "Blit"
+    "Ether"
 }
 
 { rank = same ; 1983
@@ -323,6 +330,7 @@ node [ fontsize=40, style=filled ];
     "BETA"
     "sam"
     "ABAP"
+    "Smalltalk-80 v2"
 }
 
 { rank = same ; 1984
@@ -344,6 +352,7 @@ node [ fontsize=40, style=filled ];
     "Common Lisp" [ fontsize=60 ]
     "FL"
     "COBOL-85"
+    "Aple Smalltalk"
 }
 
 { rank = same ; 1986
@@ -393,9 +402,11 @@ node [ fontsize=40, style=filled ];
     "Ease"
     "C++ (ARM)"
     "Visual Basic"
+    "Smalltalk-80 v2.5"
 }
 
 { rank = same ; 1991
+    "VisualWorks"
     "Gofer"
     "Oberon-2"
     "CLIPS 5.0"
@@ -452,6 +463,7 @@ node [ fontsize=40, style=filled ];
     "Squeak"
     "Pizza"
     "OCaml" [ fontsize=60 ]
+    "CobolScript"
 }
 
 { rank = same ; 1997
@@ -472,6 +484,7 @@ node [ fontsize=40, style=filled ];
     "Java 2 (v1.2)"
     "Perl 5.005"
     "REBOL"
+    "ANSI Smalltalk"
 }
 
 { rank = same ; 1999
@@ -584,9 +597,9 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 
 "Plankalkül" -> "Klammerausdrücke"
 
-"ENIAC" -> "ENIAC Short Code" [weight=5]
-"ENIAC Short Code" -> "Brief Code" [weight=5]
-"Brief Code" -> "Short Code" [weight=5]
+"ENIAC" -> "ENIAC Short Code" [weight=4]
+"ENIAC Short Code" -> "Brief Code" [weight=4]
+"Brief Code" -> "Short Code" [weight=4]
 "Short Code" -> "OMNIBAC\nAssembler"
 "Short Code" -> "Intermediate\nProgramming Language"
 "Plankalkül" -> "Intermediate\nProgramming Language"
@@ -596,10 +609,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 
 "IAS" -> "EDVAC"
 "IAS" -> "ORDVAC/\nILLIAC I"
-"ENIAC" -> "EDSAC" [weight=7]
-"ENIAC" -> "EDVAC" [weight=5]
+"ENIAC" -> "EDSAC" [weight=6]
+"ENIAC" -> "EDVAC" [weight=4]
 "EDVAC" -> "EDSAC"
-"EDSAC" -> "EDSAC 2" [weight=10]
+"EDSAC" -> "EDSAC 2" [weight=9]
 "EDSAC" -> "Regional Assembly\nLanguage"
 "EDSAC" -> "LEO I"
 "EDSAC" -> "Rochester\nAssembler"
@@ -612,31 +625,31 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "CPC Coding" -> "Autocode"
 "Autocode" -> "Mark 1\nAutocode"
 
-"Short Code" -> "A-0" [weight=10]
-"A-0" -> "A-1" [weight=5]
-"A-1" -> "A-2" [weight=5]
-"A-2" -> "MATH-MATIC" [weight=7]
+"Short Code" -> "A-0" [weight=9]
+"A-0" -> "A-1" [weight=4]
+"A-1" -> "A-2" [weight=4]
+"A-2" -> "MATH-MATIC" [weight=6]
 "A-2" -> "ARITH-MATIC"
-"A-2" -> "FLOW-MATIC" [weight=5]
-"FLOW-MATIC" -> "AIMACO" [weight=5]
+"A-2" -> "FLOW-MATIC" [weight=4]
+"FLOW-MATIC" -> "AIMACO" [weight=4]
 "A-2" -> "PACT I"
 
-"Speedcoding" -> "FORTRAN" [weight=3]
-"GEORGE" -> "FORTRAN" [weight=4]
+"Speedcoding" -> "FORTRAN" [weight=2]
+"GEORGE" -> "FORTRAN" [weight=3]
 "BACAIC" -> "FORTRAN"
 "FORTRAN" -> "MATH-MATIC"
 "FORTRAN" -> "ALGOL 58"
-"FORTRAN" -> "FORTRAN II" [weight=10]
-"FORTRAN II" -> "FORTRAN III" [weight=5]
-"FORTRAN II" -> "FORTRAN IV" [weight=5]
+"FORTRAN" -> "FORTRAN II" [weight=9]
+"FORTRAN II" -> "FORTRAN III" [weight=4]
+"FORTRAN II" -> "FORTRAN IV" [weight=4]
 "FORTRAN II" -> "BASIC"
-"FORTRAN IV" -> "FORTRAN 66" [weight=5]
+"FORTRAN IV" -> "FORTRAN 66" [weight=4]
 "FORTRAN II" -> "Basic FORTRAN"
-"FORTRAN 66" -> "FORTRAN 77" [weight=5]
-"FORTRAN 77" -> "Fortran 90" [weight=5]
+"FORTRAN 66" -> "FORTRAN 77" [weight=4]
+"FORTRAN 77" -> "Fortran 90" [weight=4]
 "FORTRAN" -> "COMTRAN"
 "FORTRAN" -> "PACT I"
-"FORTRAN IV" -> "MORTRAN" [weight=5]
+"FORTRAN IV" -> "MORTRAN" [weight=4]
 
 "FARGO" -> "RPG"
 "RPG" -> "RPG II"
@@ -645,21 +658,25 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COMPASS" -> "MIMIC"
 "FORTRAN" -> "MIMIC"
 
-"COMTRAN" -> "COBOL" [weight=8]
-"AIMACO" -> "COBOL" [weight=5]
-"FACT" -> "COBOL" [weight=4]
+"COMTRAN" -> "COBOL" [weight=7]
+"AIMACO" -> "COBOL" [weight=4]
+"FACT" -> "COBOL" [weight=3]
 "COBOL" -> "ABAP"
 "COBOL" -> "COBOL-61"
 "COBOL-61" -> "COBOL-68"
+"COBOL-68" -> "COBOL-74"
+"COBOL-74" -> "COBOL-85"
+"COBOL-85" -> "COBOL 2002"
+"COBOL-85" -> "CobolSCript"
 "NPL" -> "PL/I"
 "COBOL" -> "PL/I"
 "ALGOL 60" -> "PL/I"
 "PL/I" -> "IITRAN"
 "PL/I" -> "XPL"
 
-"GEORGE" -> "Laning Zierler\nSystem" [weight=5]
-"Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=10]
-"Laning Zierler\nSystem" -> "IT" [weight=5]
+"GEORGE" -> "Laning Zierler\nSystem" [weight=4]
+"Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=9]
+"Laning Zierler\nSystem" -> "IT" [weight=4]
 
 "Plankalkül" -> "Superplan"
 "Plankalkül" -> "ALGOL 58"
@@ -671,13 +688,13 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "MAD" -> "GOM"
 "IT" -> "ALGOL 58"
 "BNF" -> "ALGOL 58"
-"IAL" -> "ALGOL 58" [weight=7]
-"ALGOL 58" -> "ALGOL 60" [weight=25]
+"IAL" -> "ALGOL 58" [weight=6]
+"ALGOL 58" -> "ALGOL 60" [weight=15]
 "ALGOL 58" -> "NELIAC"
-"ALGOL 60" -> "ALGOL X" [weight=5]
+"ALGOL 60" -> "ALGOL X" [weight=4]
 "ALGOL 60" -> "PL360"
 "ALGOL 60" -> "BASIC"
-"ALGOL X" -> "ALGOL 68" [weight=5]
+"ALGOL X" -> "ALGOL 68" [weight=4]
 "ALGOL 58" -> "JOVIAL"
 "JOVIAL" -> "CORAL"
 "JOVIAL" -> "SYMPL"
@@ -715,9 +732,28 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 60" -> "SIMULA I"
 "SIMULA I" -> "SIMULA 67"
 "SIMULA 67" -> "Smalltalk"
+"PLANNER" -> "Smalltalk-71"
 "Smalltalk" -> "Smalltalk-71"
-"Smalltalk-71" -> "Smalltalk-72"
-"Smalltalk-72" -> "Smalltalk-76"
+"Smalltalk-71" -> "Smalltalk-72" [weight=3]
+"Smalltalk-72" -> "Smalltalk-76" [weight=3]
+"Smalltalk-76" -> "Smalltalk-80" [weight=3]
+"Smalltalk-80" -> "Smalltalk-80 v2" [weight=3]
+"Smalltalk-80 v2" -> "Smalltalk-80 v2.5" [weight=3]
+"Smalltalk-80 v2.5" -> "VisualWorks"
+"Smalltalk-80" -> "sam"
+"Smalltalk-80" -> "Apple Smalltalk"
+"Apple Smalltalk" -> "Squeak"
+"Smalltalk-80 v2" -> "ANSI Smalltalk" [weight=3]
+
+"PLANNER" -> "Micro Planner"
+"POP-2" -> "Popler"
+"PLANNER" -> "Popler"
+"PLANNER" -> "QA4"
+"QA4" -> "QLISP"
+"Interlisp" -> "QLISP"
+"PLANNER" -> "Prolog"
+"PLANNER" -> "CONNIVER"
+"PLANNER" -> "Ether"
 
 "MARK IV" -> "Space Programming\nLanguage"
 
@@ -727,15 +763,17 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SNOBOL3" -> "SNOBOL4"
 "SNOBOL4" -> "Lua"
 
-"IPL" -> "IPL-II" [weight=5]
-"IPL-II" -> "IPL-V" [weight=5]
-"IPL-V" -> "IPL-VI" [weight=5]
-"IPL-II" -> "LISP" [weight=3]
-"FORTRAN" -> "LISP" [weight=4]
+"IPL" -> "IPL-II" [weight=4]
+"IPL-II" -> "IPL-V" [weight=4]
+"IPL-V" -> "IPL-VI" [weight=4]
+"IPL-II" -> "LISP" [weight=2]
+"FORTRAN" -> "LISP" [weight=3]
 "LISP" -> "Scheme"
 "LISP" -> "MLISP"
+"LISP" -> "PLANNER"
 "ALGOL 60" -> "MLISP"
 "MLISP" -> "MLISP 2"
+
 
 "GAP" -> "TTM"
 "GPM" -> "TTM"
@@ -743,14 +781,15 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "TRAC" -> "SAM76"
 "LISP" -> "SAM76"
 
-"BASIC" -> "BASIC v2" [weight=10]
-"BASIC v2" -> "BASIC v3" [weight=5]
-"BASIC v3" -> "BASIC v4" [weight=5]
-"BASIC v4" -> "BASIC v5" [weight=5]
-"BASIC v5" -> "BASIC v6" [weight=5]
-"BASIC v6" -> "SBASIC" [weight=5]
-"SBASIC" -> "ANSI BASIC" [weight=5]
-"ANSI BASIC" -> "True BASIC"
+"BASIC" -> "BASIC v2" [weight=9]
+"BASIC v2" -> "BASIC v3" [weight=4]
+"BASIC v3" -> "BASIC v4" [weight=4]
+"BASIC v4" -> "BASIC v5" [weight=4]
+"BASIC v5" -> "BASIC v6" [weight=4]
+"BASIC v6" -> "SBASIC" [weight=4]
+"FORTRAN 77" -> "SBASIC"
+"SBASIC" -> "BASIC v7" [weight=4]
+"BASIC v7" -> "True BASIC"
 
 "APL" -> "APL 2"
 "APL" -> "PPL"
@@ -764,21 +803,21 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COWSEL" -> "POP-1"
 "POP-1" -> "POP-2"
 "POP-2" -> "POP-11"
-"CPL" -> "BCPL" [weight=10]
-"BCPL" -> "B"[weight=10]
+"CPL" -> "BCPL" [weight=9]
+"BCPL" -> "B"[weight=9]
 "B" -> "C"
 
 "DIBOL" -> "DIBOL-8"
 
 "ALGOL 60" -> "ISWIM"
-"LISP" -> "ISWIM" [weight=7]
-"ISWIM" -> "ML" [weight=10]
-"LISP" -> "PDP-1 LISP" [weight=5]
+"LISP" -> "ISWIM" [weight=6]
+"ISWIM" -> "ML" [weight=9]
+"LISP" -> "PDP-1 LISP" [weight=4]
 "PDP-1 LISP" -> "BBN LISP"
 "BBN LISP" -> "Interlisp"
 "LISP" -> "Ghost"
 "Ghost" -> "Logo"
-"Logo" -> "Smalltalk 71"
+"Logo" -> "Smalltalk-72"
 
 "RPG" -> "CRT RPS"
 "CRT RPS" -> "MAPPER"
@@ -791,6 +830,23 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "TUTOR" -> "microTUTOR"
 "microTUTOR" -> "cT"
 "cT" -> "VPython"
+
+"QED" -> "ed"
+"QED" -> "sed"
+"ed" -> "grep"
+"ed" -> "sam"
+"ed" -> "ex"
+"ex" -> "vimscript"
+"SNOBOL4" -> "awk"
+"C" -> "awk"
+"awk" -> "nawk"
+"nawk" -> "Perl"
+"nawk" -> "Tcl"
+"Tcl" -> "Tcl 8.1"
+
+"Blit" -> "sam"
+"sam" -> "Acme"
+"Oberon" -> "Acme"
 
 
 }
