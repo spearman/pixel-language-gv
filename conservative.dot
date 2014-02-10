@@ -466,30 +466,31 @@ node [ fontsize=30, style=filled ];
     "Rust"
 }
 
-"A-0" -> "A-1"
-"A-1" -> "A-2"
+"A-0" -> "A-1" [weight=5]
+"A-1" -> "A-2" [weight=5]
 "A-2" -> "MATH-MATIC"
 "A-2" -> "ARITH-MATIC"
-"A-2" -> "FLOW-MATIC"
+"A-2" -> "FLOW-MATIC" [weight=5]
 "Speedcoding" -> "FORTRAN"
 "GEORGE" -> "FORTRAN"
 "FORTRAN" -> "MATH-MATIC"
-"FLOW-MATIC" -> "AIMACO"
-"AIMACO" -> "COBOL"
+"FLOW-MATIC" -> "AIMACO" [weight=5]
+"AIMACO" -> "COBOL" [weight=5]
 "FORTRAN" -> "ALGOL 58"
-"FORTRAN" -> "FORTRAN II"
-"FORTRAN II" -> "FORTRAN III"
-"FORTRAN II" -> "FORTRAN IV"
+"FORTRAN" -> "FORTRAN II" [weight=5]
+"FORTRAN II" -> "FORTRAN III" [weight=5]
+"FORTRAN II" -> "FORTRAN IV" [weight=5]
 "FORTRAN II" -> "BASIC"
 "FORTRAN IV" -> "FORTRAN 66"
 "FORTRAN II" -> "Basic FORTRAN"
 "FORTRAN 66" -> "FORTRAN 77"
-"ALGOL 58" -> "ALGOL 60"
+"FORTRAN 77" -> "Fortran 90"
+"ALGOL 58" -> "ALGOL 60" [weight=5]
 "ALGOL 58" -> "NELIAC"
-"ALGOL 60" -> "ALGOL X"
+"ALGOL 60" -> "ALGOL X" [weight=5]
 "ALGOL 60" -> "PL360"
 "ALGOL 60" -> "BASIC"
-"ALGOL X" -> "ALGOL 68"
+"ALGOL X" -> "ALGOL 68" [weight=5]
 "PL360" -> "ALGOL W"
 "ALGOL X" -> "ALGOL W"
 "ALGOL W" -> "Pascal"
