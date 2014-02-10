@@ -207,6 +207,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1969
+    "Bon"
     "Logo"
     "Smalltalk" [ style=dotted, fontsize=60 ]
     "RPG II"
@@ -231,7 +232,6 @@ node [ fontsize=40, style=filled ];
     "CDL"
     "Sue"
     "Micro Planner"
-    "C" [ fontsize=80 ]
     "sh"
     "ed"
     "BASIC v6"
@@ -239,9 +239,11 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "C" [ fontsize=80 ]
     "QA4" [ style=dotted ]
     "Prolog" [ fontsize=60 ]
     "Smalltalk-72"
+    "PL/M"
 }
 
 { rank = same ; 1973
@@ -297,6 +299,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1978
+    "K&R C"
     "UCSD Pascal"
     "SYMPL"
     "CSP" [style=dotted]
@@ -305,7 +308,6 @@ node [ fontsize=40, style=filled ];
     "Scheme MIT"
     "Hope"
     "FP"
-    "C (K&R)" [ fontsize=60 ]
     "TeX"
 }
 
@@ -420,7 +422,6 @@ node [ fontsize=40, style=filled ];
     "SML 90"
     "zsh"
     "Ease"
-    "C++ (ARM)"
     "Visual Basic"
     "Smalltalk-80 v2.5"
 }
@@ -502,7 +503,7 @@ node [ fontsize=40, style=filled ];
 
 { rank = same ; 1998
     "Active Oberon"
-    "C++ (ISO)" [ fontsize=60 ]
+    "C++98"
     "F-Script"
     "ksh98"
     "Scheme R5RS" [ fontsize=60 ]
@@ -565,6 +566,7 @@ node [ fontsize=40, style=filled ];
     "SQL-2003"
     "Io"
     "Ruby 1.8"
+    "C++03"
 }
 
 { rank = same ; 2004
@@ -594,10 +596,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2007
+    "C++TR1"
     "Clojure"
-}
-
-{ rank = same ; 2007
     "Scheme R6RS"
     "D 1.0"
     "Fortress 1.0beta"
@@ -612,6 +612,10 @@ node [ fontsize=40, style=filled ];
 
 { rank = same ; 2010
     "Haskell 2010"
+}
+
+{ rank = same ; 201
+    "C++11"
 }
 
 { rank = same ; 2012
@@ -703,6 +707,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "XPL" -> "Sue"
 "Pascal" -> "Sue"
 "PL/I" -> "PL/C"
+"XPL" -> "PL/M"
 "PL/I" -> "SP/k"
 "SP/k" -> "Turing"
 
@@ -889,7 +894,25 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "POP-2" -> "POP-11"
 "CPL" -> "BCPL" [weight=9]
 "BCPL" -> "B"[weight=9]
-"B" -> "C"
+"B" -> "C" [weight=9]
+"ALGOL 68" -> "C"
+"C" -> "csh"
+"C" -> "K&R C"
+"K&R C" -> "C89"
+"C++" -> "C89"
+"C89" -> "C95"
+"C95" -> "C99"
+"C99" -> "C11"
+"Smalltalk-80" -> "Objective-C"
+"C" -> "Objective-C"
+"Simula" -> "C++"
+"Ada" -> "C++"
+"CLU" -> "C++"
+"ML" -> "C++"
+"C++" -> "C++98"
+"C++98" -> "C++03"
+"C++03" -> "C++TR1"
+"C++TR1" -> "C++11"
 
 "DIBOL" -> "DIBOL-8"
 
