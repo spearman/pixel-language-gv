@@ -294,7 +294,7 @@ node [ fontsize=40, style=filled ];
     "Standard Mumps"
     "FORTRAN 77" [ fontsize=60 ]
     "SQL"
-    "MicroTUTOR"
+    "microTutor"
     "Modula-2"
     "SBASIC"
 }
@@ -942,8 +942,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ABC" -> "Python"
 "Python" -> "VPython"
 
-"TUTOR" -> "microTUTOR"
-"microTUTOR" -> "cT"
+"TUTOR" -> "microTutor"
+"microTutor" -> "cT"
 "cT" -> "VPython"
 
 "QED" -> "ed"
