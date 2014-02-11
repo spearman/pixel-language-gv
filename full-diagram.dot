@@ -149,6 +149,7 @@ node [ fontsize=40, style=filled ];
 { rank = same ; 1964
     "BASIC" [ fontsize=60]
     "PL/I" [ fontsize=60 ]
+    "Multics"
     "TRAC"
     "CORAL"
     "COWSEL"
@@ -161,6 +162,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1965
+    "EPL"
     "COCOA"
     "BASIC v2"
     "ALGOL X"
@@ -198,6 +200,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1968
+    "TMG"
     "Macsyma"
     "CRT RPS"
     "XPL"
@@ -213,6 +216,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1969
+    "Unix"
     "GML"
     "Bon"
     "Logo"
@@ -226,6 +230,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1970
+    "yacc"
     "BLISS"
     "FORTH"
     "Space Programming\nLanguage"
@@ -249,6 +254,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "Pascal-P"
     "INTERCAL"
     "C" [ fontsize=80 ]
     "QA4" [ style=dotted ]
@@ -273,6 +279,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1974
+    "Pascal-P2"
     "SP/k"
     "SEQUEL"
     "CLU"
@@ -291,6 +298,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1976
+    "Pascal-P3"
+    "LIS"
     "Zetalisp"
     "PLEX"
     "CDL2"
@@ -306,6 +315,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1977
+    "Concurrent\nPascal"
     "sh" [fontsize=60]
     "Datalog"
     "FRL"
@@ -333,14 +343,16 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1979
+    "Green" [style=dotted]
     "S-1 Lisp"
-    "Ada"
     "REXX"
     "sed"
     "BASIC v7"
 }
 
 { rank = same ; 1980
+    "JRT Pascal"
+    "Ada" [fontsize=60]
     "Portable\nStandard Lisp"
     "LeLisp"
     "Spice Lisp"
@@ -351,6 +363,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1981
+    "Pascal-SC"
     "tsch"
     "Relational\nLanguage"
     "tcsh"
@@ -358,6 +371,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1982
+    "Pascal-S"
     "Turing"
     "REXX 3.0"
     "PostScript"
@@ -366,13 +380,15 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "Pascal 83"
+    "Turbo Pascal"
     "Edinburgh\nProlog"
     "ISIL"
     "Cedar"
     "True BASIC"
     "ksh"
     "occam"
-    "Ada 83" [ fontsize=60 ]
+    "Ada 83"
     "Pascal AFNOR"
     "BETA"
     "sam"
@@ -425,6 +441,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1987
+    "GNU Pascal"
+    "OS/2"
+    "Ada 87"
     "BDI" [style=dotted]
     "Flat GHC"
     "Turing+"
@@ -470,6 +489,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "Pascal 90"
     "Scheme R4RS"
     "SCM"
     "EuLisp"
@@ -510,6 +530,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1993
+    "SuperPascal"
+    "Free Pascal"
     "Guile Scheme"
     "Nyquist"
     "VBA"
@@ -535,6 +557,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1995
+    "Virtual Pascal"
     "Mercury"
     "Delphi"
     "Oz 1"
@@ -548,6 +571,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1996
+    "CSS"
     "ActiveX"
     "AgentSpeak"
     "DSSSL"
@@ -639,6 +663,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2003
+    "Delphi 8"
     "Fortran 2003"
     "Nemerle"
     "Lua 5.0"
@@ -657,6 +682,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2004
+    "AJAX"
     "Groovy"
     "PHP5"
     "Python 2.4"
@@ -666,12 +692,14 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2005
+    "Morfik"
     "C# 2.0" [ fontsize=60 ]
     "Unicon"
     "Cyclone 1.0"
 }
 
 { rank = same ; 2006
+    "Oxygene"
     "CAL (Open Quark)"
     "JavaScript 1.7"
     "Python 2.5"
@@ -687,11 +715,13 @@ node [ fontsize=40, style=filled ];
     "Groovy 1"
 }
 
-{ rank = same ; 2009
+{ rank = same ; 2008
     "Lisp Flavored\nErlang"
+    "Delphi Prism"
 }
 
 { rank = same ; 2009
+    "Embarcadero\nDelphi 2009"
     "Go"
     "CoffeeScript"
 }
@@ -781,12 +811,12 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "AIMACO" -> "COBOL" [weight=4]
 "FACT" -> "COBOL" [weight=3]
 "COBOL" -> "ABAP"
-"COBOL" -> "COBOL-61"
-"COBOL-61" -> "COBOL-68"
-"COBOL-68" -> "COBOL-74"
-"COBOL-74" -> "COBOL-85"
-"COBOL-85" -> "COBOL 2002"
-"COBOL-85" -> "CobolSCript"
+"COBOL" -> "COBOL-61" [weight=5]
+"COBOL-61" -> "COBOL-68" [weight=5]
+"COBOL-68" -> "COBOL-74" [weight=5]
+"COBOL-74" -> "COBOL-85" [weight=5]
+"COBOL-85" -> "COBOL 2002" [weight=5]
+"COBOL-85" -> "CobolSCript" [weight=3]
 "NPL" -> "PL/I"
 "COBOL" -> "PL/I"
 "ALGOL 60" -> "PL/I"
@@ -819,12 +849,12 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "BNF" -> "ALGOL 58"
 "IAL" -> "ALGOL 58" [weight=15]
 "LISP" -> "ALGOL 60"    //ALGOL inherited the IF-THEN-ELSE structure from LISP
-"ALGOL 58" -> "ALGOL 60" [weight=15]
+"ALGOL 58" -> "ALGOL 60" [weight=20]
 "ALGOL 58" -> "NELIAC"
-"ALGOL 60" -> "ALGOL X" [weight=4]
+"ALGOL 60" -> "ALGOL X" [weight=20]
 "ALGOL 60" -> "PL360"
 "ALGOL 60" -> "BASIC"
-"ALGOL X" -> "ALGOL 68" [weight=4]
+"ALGOL X" -> "ALGOL 68" [weight=20]
 "ALGOL 58" -> "JOVIAL"
 "JOVIAL" -> "CORAL"
 "JOVIAL" -> "SYMPL"
@@ -849,12 +879,51 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "PL360" -> "ALGOL W"
 "ALGOL X" -> "ALGOL W"
 "ALGOL W" -> "Pascal"
+"COBOL" -> "Pascal"
+"SIMULA 67" -> "Pascal"
 "Pascal" -> "Icon"
+"SNOBOL4" -> "Icon"
 "Pascal" -> "WEB"
 "WEB" -> "TeX"
-"SNOBOL4" -> "Icon"
-"Pascal" -> "Clascal"
-"Pascal" -> "Modula" [weight=2]
+
+
+"Pascal" -> "Pascal-P" [weight=5]
+"Pascal-P" -> "Pascal-P2" [weight=5]
+"Pascal-P2" -> "UCSD Pascal" [weight=3]
+"Pascal-P2" -> "Pascal-P3" [weight=5]
+"Pascal-P3" -> "Pascal 83" [weight=5]
+"Pascal 83" -> "Pascal 90" [weight=5]
+
+"Pascal-P3" -> "Concurrent\nPascal"
+"Concurrent\nPascal" -> "SuperPascal"
+"Pascal-P3" -> "Pascal-S"
+
+"Pascal" -> "Pascal-SC"
+"Pascal-SC" -> "GNU Pascal"
+"Pascal 83" -> "GNU Pascal"
+
+"Smalltalk" -> "UCSD Pascal"
+"BASIC" -> "UCSD Pascal"
+"UCSD Pascal" -> "JRT Pascal"
+"Modula-2" -> "Turbo Pascal"
+"Pascal" -> "Turbo Pascal"
+"UCSD Pascal" -> "Turbo Pascal" [weight=3]
+"Turbo Pascal" -> "Object Pascal" [weight=3]
+"Free Pascal" -> "Virtual Pascal" [weight=3]
+"Turbo Pascal" -> "Delphi" [weight=3]
+"Object Pascal" -> "Delphi" [weight=3]
+"COM" -> "Delphi"
+"Delphi" -> "Delphi 8"
+".NET" -> "Delphi 8"
+"Delphi 8" -> "Delphi Prism"
+"Delphi 8" -> "Embarcadero\nDelphi 2009"
+"Object Pascal" -> "Free Pascal"
+"Free Pascal" -> "Morfik Pascal"
+"AJAX" -> "Morfik Pascal"
+".NET" -> "Oxygene"
+"Object Pascal" -> "Oxygene"
+
+"Pascal" -> "Modula" [weight=3]
 "Smalltalk-80" -> "Clascal"
 "Modula" -> "Clascal"
 "Modula" -> "Modula-2" [weight=3]
@@ -865,8 +934,13 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Turing" -> "Turing+" [weight=3]
 "Turing+" -> "Object-Oriented\nTuring" [weight=3]
 "Mesa" -> "Modula-2"
+"Mesa" -> "Cedar"
+"Pascal" -> "Clascal" [weight=5]
+"Clascal" -> "Object Pascal" [weight=5]
+
 "Modula-2" -> "Modula-2+" [weight=3]
 "Modula-2+" -> "Modula-3" [weight=3]
+"Modula-2" -> "Oberon"
 "Oberon" -> "Modula-3"
 "Oberon-2" -> "Active Oberon"
 "Active Oberon" -> "Zonnon"
@@ -874,12 +948,17 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Object Oberon" -> "Oberon-2"
 "Oberon-2" -> "Oberon/F"
 "Oberon/F" -> "Component\nPascal"
-"Mesa" -> "Cedar"
-"Smalltalk" -> "UCSD Pascal"
-"Pascal" -> "UCSD Pascal" [weight=3]
-"UCSD Pascal" -> "Clascal" [weight=3]
-"Clascal" -> "Objective Pascal" [weight=3]
-"Modula-2" -> "Oberon"
+
+"LIS" -> "Green"
+"Green" -> "Ada"
+"ALGOL 68" -> "Ada"
+"Pascal" -> "Ada" [weight=3]
+"UCSD Pascal" -> "Ada"
+"Ada" -> "Ada 83" [weight=5]
+"SETL" -> "Ada 83"
+"Ada 83" -> "Ada 87"
+"Ada 87" -> "Ada 95" [weight=5]
+"C++" -> "Ada 95"
 
 
 "CSP" -> "Newsqueak"
@@ -1116,23 +1195,18 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "S" -> "R"
 "S" -> "S-PLUS"
 
-"ALGOL 68" -> "sh"
-"C" -> "csh"
-"sh" -> "csh"
-"sh" -> "ksh"
-"sh" -> "rc"
-"sh" -> "ash"
-"csh" -> "tsch"
-"csh" -> "ksh"
-"ksh" -> "ksh88"
-"ksh" -> "ksh93"
-"csh" -> "Hamilton\nC shell"
-"ksh" -> "bash"
-"csh" -> "bash"
-"bash" -> "zsh"
-"ksh" -> "zsh"
-"ash" -> "dash"
-
+"PL/I" -> "EPL" [weight=3]
+"EPL" -> "TMG"
+"ALGOL 68" -> "TMG"
+"ALGOL 68" -> "C"
+"PL/I" -> "C"   //file inclusion mechanisms more like BCPL?
+"Multics" -> "EPL" [weight=3]
+"Multics" -> "Bon"
+"TMG" -> "B"
+"FORTRAN 66" -> "B"
+"Multics" -> "B" [weight=3]
+"Unix" -> "B" [weight=3]
+"B" -> "yacc"
 
 "ALGOL 60" -> "CPL"
 "CPL" -> "COWSEL"
@@ -1153,7 +1227,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "C99" -> "C11" [weight=9]
 "Smalltalk-80" -> "Objective-C"
 "C" -> "Objective-C"
-"C" -> "C++" [weight=5]
+"K&R C" -> "C++" [weight=8]
 "Simula" -> "C++"
 "Ada" -> "C++"
 "CLU" -> "C++"
@@ -1162,6 +1236,38 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "C++98" -> "C++03" [weight=9]
 "C++03" -> "C++TR1" [weight=9]
 "C++TR1" -> "C++11" [weight=9]
+
+"ALGOL 68" -> "sh"
+"Unix" -> "C"
+"Unix" -> "sh"
+"C" -> "csh"
+"sh" -> "csh"
+"sh" -> "ksh"
+"sh" -> "rc"
+"sh" -> "ash"
+"csh" -> "tsch"
+"csh" -> "ksh"
+"ksh" -> "ksh88"
+"ksh" -> "ksh93"
+"csh" -> "Hamilton\nC shell"
+"ksh" -> "bash"
+"csh" -> "bash"
+"bash" -> "zsh"
+"ksh" -> "zsh"
+"ash" -> "dash"
+
+"QED" -> "ed"
+"QED" -> "sed"
+"ed" -> "grep"
+"ed" -> "sam"
+"ed" -> "ex"
+"ex" -> "vimscript"
+"SNOBOL4" -> "awk"
+"C" -> "awk"
+"awk" -> "nawk"
+"nawk" -> "Perl"
+"nawk" -> "Tcl"
+"Tcl" -> "Tcl 8.1"
 
 "DIBOL" -> "DIBOL-8"
 
@@ -1178,22 +1284,11 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "microTutor" -> "cT"
 "cT" -> "VPython"
 
-"QED" -> "ed"
-"QED" -> "sed"
-"ed" -> "grep"
-"ed" -> "sam"
-"ed" -> "ex"
-"ex" -> "vimscript"
-"SNOBOL4" -> "awk"
-"C" -> "awk"
-"awk" -> "nawk"
-"nawk" -> "Perl"
-"nawk" -> "Tcl"
-"Tcl" -> "Tcl 8.1"
-
 "Blit" -> "sam"
 "sam" -> "Acme"
 "Oberon" -> "Acme"
+
+
 
 "COCOA" -> "SGML"
 "GML" -> "SGML"
@@ -1206,6 +1301,9 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SGML" -> "SGML (ENR)"
 "SGML (ENR)" -> "WebSGML"
 "HTML" -> "XML"
+"HTML" -> "CSS"
+"XML" -> "AJAX"
+"Javascript" -> "AJAX"
 "SGML" -> "DSSSL"
 "Scheme" -> "DSSSL"
 "DSSSL" -> "XSL"
