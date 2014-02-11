@@ -1,7 +1,7 @@
 digraph dd {
 
   {
-    node [ shape=plaintext,fontsize=25 ];
+    node [ shape=plaintext,fontsize=40 ];
 
     1940 -> 1941 -> 1942 -> 1943 -> 1944 -> 1945 -> 1946 -> 1947 -> 1948 -> 1949 ->
     1950 -> 1951 -> 1952 -> 1953 -> 1954 -> 1955 -> 1956 -> 1957 -> 1958 -> 1959 ->
@@ -88,6 +88,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1957
+    "IAL" [ style=dotted ]
     "MATH-MATIC"
     "FLOW-MATIC"
     "COMTRAN"
@@ -95,7 +96,6 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1958
-    "IAL" [ style=dotted ]
     "IPL-V"
     "BNF"
     "ALGOL 58"
@@ -159,6 +159,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1965
+    "COCOA"
     "BASIC v2"
     "ALGOL X"
     "PL360"
@@ -208,6 +209,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1969
+    "GML"
     "Bon"
     "Logo"
     "Smalltalk" [ style=dotted, fontsize=60 ]
@@ -240,6 +242,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "INTERCAL"
     "C" [ fontsize=80 ]
     "QA4" [ style=dotted ]
     "Prolog" [ fontsize=60 ]
@@ -326,6 +329,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1981
+    "Relational\nLanguage"
     "tcsh"
     "KRC"
 }
@@ -339,6 +343,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "Edinburgh\nProlog"
+    "ISIL"
     "Cedar"
     "True BASIC"
     "ksh"
@@ -363,6 +369,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1985
+    "KL-ONE"
     "Miranda"
     "Object Pascal"
     "nawk"
@@ -376,13 +383,17 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1986
+    "NU-Prolog"
+    "KL0"
     "Eiffel" [ fontsize=60 ]
     "Scheme R3RS"
     "ANSI SQL"
     "Objective-C"
+    "DWISIL"
 }
 
 { rank = same ; 1987
+    "Flat GHC"
     "Turing+"
     "Self"
     "Caml" [ fontsize=60 ]
@@ -391,9 +402,11 @@ node [ fontsize=40, style=filled ];
     "Clean"
     "Erlang"
     "occam 2"
+    "Parlog"
 }
 
 { rank = same ; 1988
+    "SICStus Prolog"
     "Object REXX"
     "Quick Basic"
     "Life"
@@ -406,6 +419,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1989
+    "REFAL-5"
     "bash"
     "Modula-3"
     "ANSI C"
@@ -417,6 +431,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "C-INTERCAL"
     "Object Oberon"
     "Haskell"
     "Fortran 90" [ fontsize=60 ]
@@ -425,9 +440,11 @@ node [ fontsize=40, style=filled ];
     "Ease"
     "Visual Basic"
     "Smalltalk-80 v2.5"
+    "HTML"
 }
 
 { rank = same ; 1991
+    "TriINTERCAL"
     "Object-Oriented\nTuring"
     "VisualWorks"
     "Gofer"
@@ -441,6 +458,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1992
+    "Gödel"
+    "HyTime"
     "Cecil"
     "Dylan"
     "SQL-92"
@@ -448,6 +467,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1993
+    "KL1"
     "AppleScript"
     "Mercury"
     "NewtonScript"
@@ -479,6 +499,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1996
+    "DSSSL"
+    "SGML (ENR)"
     "KM"
     "occam pi"
     "APL 96"
@@ -503,6 +525,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1998
+    "WebSGML"
+    "XML"
     "Active Oberon"
     "C++98"
     "F-Script"
@@ -516,6 +540,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1999
+    "XSL"
     "C99"
     "Oz 3"
     ".NET"
@@ -540,6 +565,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2001
+    "XLink"
     "VB.NET"
     "zsh 4.0"
     "XQuery"
@@ -731,7 +757,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "MAD" -> "GOM"
 "IT" -> "ALGOL 58"
 "BNF" -> "ALGOL 58"
-"IAL" -> "ALGOL 58" [weight=6]
+"IAL" -> "ALGOL 58" [weight=15]
 "ALGOL 58" -> "ALGOL 60" [weight=15]
 "ALGOL 58" -> "NELIAC"
 "ALGOL 60" -> "ALGOL X" [weight=4]
@@ -842,6 +868,20 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "PLANNER" -> "CONNIVER"
 "PLANNER" -> "Ether"
 "Prolog" -> "Erlang"
+"Prolog" -> "Edinburgh\nProlog"
+"Edinburgh\nProlog" -> "KL0"
+"Flat GHC" -> "KL1"
+"KL0" -> "KL1"
+"Edinburgh\nProlog" -> "SICStus Prolog"
+"SICStus Prolog" -> "Gödel"
+"Prolog" -> "Relational\nLanguage"
+"Relational\nLanguage" -> "Gödel"
+"Relational\nLanguage" -> "Parlog"
+"Edinburgh\nProlog" -> "NU-Prolog"
+"NU-Prolog" -> "Gödel"
+"ML" -> "Gödel"
+"Modula-2" -> "Gödel"
+
 
 "MARK IV" -> "Space Programming\nLanguage"
 
@@ -854,6 +894,11 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Named\nStorage" -> "Speakeasy"
 "Speakeasy" -> "Speakeasy-3"
 "MORTRAN" -> "Speakeasy-3"
+
+"REFAL" -> "REFAL-5"
+
+"INTERCAL" -> "C-INTERCAL"
+"C-INTERCAL" -> "TriINTERCAL"
 
 "IPL" -> "IPL-II" [weight=4]
 "IPL-II" -> "IPL-V" [weight=4]
@@ -963,5 +1008,22 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "sam" -> "Acme"
 "Oberon" -> "Acme"
 
+"COCOA" -> "SGML"
+"GML" -> "SGML"
+"GML" -> "ISIL"
+"SGML" -> "HyTime"
+"HyTime" -> "XML"
+"SGML" -> "XML"
+"ISIL" -> "DWISIL"
+"SGML" -> "HTML"
+"SGML" -> "SGML (ENR)"
+"SGML (ENR)" -> "WebSGML"
+"HTML" -> "XML"
+"SGML" -> "DSSSL"
+"Scheme" -> "DSSSL"
+"DSSSL" -> "XSL"
+"awk" -> "XSL"
+"XML" -> "XSL"
+"XML" -> "XLink"
 
 }
