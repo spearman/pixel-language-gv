@@ -176,6 +176,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1966
+    "EXEC"
     "MACLISP" [fontsize=60]
     "EULER"
     "Coral 66"
@@ -241,6 +242,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1971
+    "Alpha"
     "NQTHM"
     "VLISP"
     "MDL"
@@ -254,6 +256,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "EXEC 2"
     "Pascal-P"
     "INTERCAL"
     "C" [ fontsize=80 ]
@@ -265,6 +268,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1973
+    "System R"
     "PLASMA"
     "CGOL"
     "Speakeasy-3"
@@ -279,6 +283,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1974
+    "Ingres"
     "Pascal-P2"
     "SP/k"
     "SEQUEL"
@@ -298,6 +303,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1976
+    "QUEL"
     "Pascal-P3"
     "LIS"
     "Zetalisp"
@@ -343,6 +349,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1979
+    "System/38"
+    "Oracle V2"
     "Green" [style=dotted]
     "S-1 Lisp"
     "REXX"
@@ -363,6 +371,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1981
+    "SQL/DS"
     "Pascal-SC"
     "tsch"
     "Relational\nLanguage"
@@ -380,6 +389,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "DB2"
     "Pascal 83"
     "Turbo Pascal"
     "Edinburgh\nProlog"
@@ -409,6 +419,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1985
+    "Postgres"
     "Scheme R2RS"
     "XLISP"
     "Emacs Lisp"
@@ -435,12 +446,13 @@ node [ fontsize=40, style=filled ];
     "KL0"
     "Eiffel" [ fontsize=60 ]
     "Scheme R3RS"
-    "ANSI SQL"
+    "SQL-86"
     "Objective-C"
     "DWISIL"
 }
 
 { rank = same ; 1987
+    "ARexx"
     "GNU Pascal"
     "OS/2"
     "Ada 87"
@@ -458,6 +470,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1988
+    "Object REXX"
     "Hamilton\nC shell"
     "SIOD"
     "XLISP 2.0"
@@ -474,6 +487,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1989
+    "SQL-89"
     "ash"
     "rc"
     "ACL2"
@@ -568,9 +582,12 @@ node [ fontsize=40, style=filled ];
     "Ada 95"
     "PHP"
     "C95"
+    "Postgres95"
 }
 
 { rank = same ; 1996
+    "NetRexx"
+    "PostgreSQL"
     "CSS"
     "ActiveX"
     "AgentSpeak"
@@ -596,7 +613,6 @@ node [ fontsize=40, style=filled ];
     "Component\nPascal"
     "zsh 3.0"
     "J"
-    "NetREXX"
     "ECMAScript"
     "SML 97"
     "J++"
@@ -618,11 +634,12 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1999
+    "SQL:1999"
     "XSL"
     "C99"
     "Oz 3"
     ".NET"
-    "SQL-1999"
+    "SQL3"
     "J++ 6.0"
     "Tcl 8.1"
     "Python 1.5.2"
@@ -670,7 +687,7 @@ node [ fontsize=40, style=filled ];
     "Boo"
     "GHC 6.0"
     "Nice"
-    "SQL-2003"
+    "SQL:2003"
     "Io"
     "Ruby 1.8"
     "C++03"
@@ -718,6 +735,7 @@ node [ fontsize=40, style=filled ];
 { rank = same ; 2008
     "Lisp Flavored\nErlang"
     "Delphi Prism"
+    "SQL:2008"
 }
 
 { rank = same ; 2009
@@ -733,6 +751,7 @@ node [ fontsize=40, style=filled ];
 { rank = same ; 2011
     "C++11"
     "C11"
+    "SQL:2011"
 }
 
 { rank = same ; 2012
@@ -816,7 +835,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COBOL-68" -> "COBOL-74" [weight=5]
 "COBOL-74" -> "COBOL-85" [weight=5]
 "COBOL-85" -> "COBOL 2002" [weight=5]
-"COBOL-85" -> "CobolSCript" [weight=3]
+"COBOL-85" -> "CobolScript" [weight=3]
 "NPL" -> "PL/I"
 "COBOL" -> "PL/I"
 "ALGOL 60" -> "PL/I"
@@ -1194,6 +1213,31 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "PPL" -> "S"
 "S" -> "R"
 "S" -> "S-PLUS"
+
+"EXEC" -> "EXEC 2"
+"EXEC 2" -> "REXX"
+"PL/I" -> "REXX"
+"REXX" -> "ARexx"
+"REXX" -> "NetRexx"
+"Java" -> "NetRexx"
+
+"Alpha" -> "QUEL"
+"Ingres" -> "QUEL"
+"QUEL" -> "Postgres"
+"Postgres" -> "Postgres95"
+"Alpha" -> "SEQUEL"
+"System R" -> "Ingres"
+"System R" -> "SEQUEL"
+"System R" -> "System/38"
+"SEQUEL" -> "SQL/DS"
+"SQL/DS" -> "DB2" [weight=3]
+"SQL/DS" -> "SQL-86" [weight=3]
+"SQL-86" -> "SQL-89" [weight=3]
+"SQL-92" -> "SQL:1999" [weight=3]
+"SQL:1999" -> "SQL:2003" [weight=3]
+"SQL:2003" -> "SQL:2006" [weight=3]
+"SQL:2006" -> "SQL:2008" [weight=3]
+"SQL:2008" -> "SQL:2011" [weight=3]
 
 "PL/I" -> "EPL" [weight=3]
 "EPL" -> "TMG"
