@@ -127,6 +127,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1962
+    "LISP 1.5"
     "SIMULA I" [style=dotted]
     "ALGOL 30"
     "FORTRAN IV"
@@ -172,6 +173,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1966
+    "MACLISP" [fontsize=60]
     "EULER"
     "Coral 66"
     "ISWIM" [style=dotted]
@@ -195,6 +197,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1968
+    "Macsyma"
     "CRT RPS"
     "XPL"
     "COBOL-68"
@@ -232,6 +235,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1971
+    "MDL"
+    "Eriplex"
     "CDL"
     "Sue"
     "Micro Planner"
@@ -248,18 +253,21 @@ node [ fontsize=40, style=filled ];
     "Prolog" [ fontsize=60 ]
     "Smalltalk-72"
     "PL/M"
+    "CONNIVER"
 }
 
 { rank = same ; 1973
+    "PLASMA"
+    "CGOL"
     "Speakeasy-3"
     "PL/C"
-    "CONNIVER"
     "QLISP"
     "Popler"
-    "MLISP 2"
+    "MLISP2"
     "grep"
     "MORTRAN"
     "ML" [ fontsize=60 ]
+    "LISP70"
 }
 
 { rank = same ; 1974
@@ -270,6 +278,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1975
+    "NIL"
     "ABC"
     "POP-11"
     "Modula"
@@ -279,6 +288,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1976
+    "VLISP"
+    "Lisp Machine\nLisp"
+    "Zetalisp"
+    "PLEX"
     "CDL2"
     "KRL"
     "Mesa"
@@ -292,6 +305,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1977
+    "Datalog"
     "FRL"
     "Icon"
     "Standard Mumps"
@@ -303,19 +317,20 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1978
+    "Franz Lisp" [ fontsize=60 ]
     "K&R C"
     "UCSD Pascal"
     "SYMPL"
     "CSP" [style=dotted]
     "csh"
     "awk"
-    "Scheme MIT"
     "Hope"
     "FP"
     "TeX"
 }
 
 { rank = same ; 1979
+    "S-1 Lisp"
     "Ada"
     "REXX"
     "sed"
@@ -323,6 +338,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1980
+    "LeLisp"
+    "Spice Lisp"
+    "Maple"
     "Concurrent\nEuclid"
     "Smalltalk-80" [ fontsize=60 ]
     "cT"
@@ -366,9 +384,12 @@ node [ fontsize=40, style=filled ];
     "Lazy ML"
     "Scheme 84"
     "Modula-2+"
+    "Common Lisp" [ fontsize=60 ]
 }
 
 { rank = same ; 1985
+    "XLISP"
+    "Emacs Lisp"
     "KL-ONE"
     "Miranda"
     "Object Pascal"
@@ -376,13 +397,16 @@ node [ fontsize=40, style=filled ];
     "C++" [ fontsize=60 ]
     "Lean"
     "CLIPS"
-    "Common Lisp" [ fontsize=60 ]
     "FL"
     "COBOL-85"
     "Aple Smalltalk"
 }
 
 { rank = same ; 1986
+    "AutoLISP"
+    "CMUCL"
+    "PRS" [style=dotted]
+    "Turbo Prolog"
     "NU-Prolog"
     "KL0"
     "Eiffel" [ fontsize=60 ]
@@ -393,6 +417,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1987
+    "BDI" [style=dotted]
     "Flat GHC"
     "Turing+"
     "Self"
@@ -400,12 +425,13 @@ node [ fontsize=40, style=filled ];
     "Perl" [ fontsize=60 ]
     "ISO SQL"
     "Clean"
-    "Erlang"
+    "Erlang" [ fontsize=60 ]
     "occam 2"
     "Parlog"
 }
 
 { rank = same ; 1988
+    "Mathematica"
     "SICStus Prolog"
     "Object REXX"
     "Quick Basic"
@@ -431,9 +457,11 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "EuLisp"
+    "PDC Prolog"
     "C-INTERCAL"
     "Object Oberon"
-    "Haskell"
+    "Haskell" [ fontsize=60 ]
     "Fortran 90" [ fontsize=60 ]
     "SML 90"
     "zsh"
@@ -458,6 +486,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1992
+    "ODBC"
     "Gödel"
     "HyTime"
     "Cecil"
@@ -467,9 +496,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1993
+    "COM"
     "KL1"
     "AppleScript"
-    "Mercury"
     "NewtonScript"
     "K"
     "ksh93"
@@ -478,6 +507,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1994
+    "Visual Prolog"
     "Oberon/F"
     "Perl 5" [ fontsize=60 ]
     "PostScript level 2"
@@ -487,6 +517,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1995
+    "Mercury"
     "Delphi"
     "Oz 1"
     "Java" [ fontsize=60 ]
@@ -499,6 +530,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1996
+    "AgentSpeak"
     "DSSSL"
     "SGML (ENR)"
     "KM"
@@ -515,6 +547,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1997
+    "ISLISP"
     "Component\nPascal"
     "zsh 3.0"
     "J"
@@ -531,7 +564,7 @@ node [ fontsize=40, style=filled ];
     "C++98"
     "F-Script"
     "ksh98"
-    "Scheme R5RS" [ fontsize=60 ]
+    "Scheme R5RS"
     "Haskell 98" [ fontsize=60 ]
     "Java 2 (v1.2)"
     "Perl 5.005"
@@ -633,6 +666,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2009
+    "Lisp Flavored\nErlang"
+}
+
+{ rank = same ; 2009
     "Go"
     "CoffeeScript"
 }
@@ -647,6 +684,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2012
+    "Elixir"
     "Rust"
 }
 
@@ -846,12 +884,12 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SIMULA I" -> "SIMULA 67"
 "SIMULA 67" -> "Smalltalk"
 "PLANNER" -> "Smalltalk-71"
-"Smalltalk" -> "Smalltalk-71"
-"Smalltalk-71" -> "Smalltalk-72" [weight=5]
-"Smalltalk-72" -> "Smalltalk-76" [weight=5]
-"Smalltalk-76" -> "Smalltalk-80" [weight=5]
-"Smalltalk-80" -> "Smalltalk-80 v2" [weight=5]
-"Smalltalk-80 v2" -> "Smalltalk-80 v2.5" [weight=5]
+"Smalltalk" -> "Smalltalk-71" [weight=10]
+"Smalltalk-71" -> "Smalltalk-72" [weight=10]
+"Smalltalk-72" -> "Smalltalk-76" [weight=10]
+"Smalltalk-76" -> "Smalltalk-80" [weight=10]
+"Smalltalk-80" -> "Smalltalk-80 v2" [weight=10]
+"Smalltalk-80 v2" -> "Smalltalk-80 v2.5" [weight=10]
 "Smalltalk-80 v2.5" -> "VisualWorks"
 "Smalltalk-80" -> "sam"
 "Smalltalk-80" -> "Apple Smalltalk"
@@ -867,20 +905,43 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "PLANNER" -> "Prolog"
 "PLANNER" -> "CONNIVER"
 "PLANNER" -> "Ether"
-"Prolog" -> "Erlang"
+"PLANNER" -> "PLASMA"
+"Prolog" -> "Datalog"
 "Prolog" -> "Edinburgh\nProlog"
+"Prolog" -> "Relational\nLanguage"
+"Edinburgh\nProlog" -> "Turbo Prolog"
+"Turbo Prolog" -> "PDC Prolog"
+"COM" -> "Visual Prolog"
+"ODBC" -> "Visual Prolog"
+"PDC Prolog" -> "Visual Prolog"
+
+"Eriplex" -> "PLEX"
+"PLEX" -> "Erlang"
+"Edinburgh\nProlog" -> "Erlang"
+"Clojure" -> "Elixir"
+"Erlang" -> "Elixir"
+"Common Lisp" -> "Lisp Flavored\nErlang"
+"Erlang" -> "Lisp Flavored\nErlang"
+
+"Edinburgh\nProlog" -> "SICStus Prolog"
+"SICStus Prolog" -> "Gödel"
+"Edinburgh\nProlog" -> "NU-Prolog"
+"NU-Prolog" -> "Gödel"
+"Relational\nLanguage" -> "Gödel"
+"Relational\nLanguage" -> "Parlog"
+"ML" -> "Gödel"
+"Modula-2" -> "Gödel"
+
 "Edinburgh\nProlog" -> "KL0"
 "Flat GHC" -> "KL1"
 "KL0" -> "KL1"
-"Edinburgh\nProlog" -> "SICStus Prolog"
-"SICStus Prolog" -> "Gödel"
-"Prolog" -> "Relational\nLanguage"
-"Relational\nLanguage" -> "Gödel"
-"Relational\nLanguage" -> "Parlog"
-"Edinburgh\nProlog" -> "NU-Prolog"
-"NU-Prolog" -> "Gödel"
-"ML" -> "Gödel"
-"Modula-2" -> "Gödel"
+
+"Edinburgh\nProlog" -> "AgentSpeak"
+"PRS" -> "BDI"
+"BDI" -> "AgentSpeak"
+
+"Edinburgh\nProlog" -> "Mercury"
+"Haskell" -> "Mercury"
 
 
 "MARK IV" -> "Space Programming\nLanguage"
@@ -900,16 +961,77 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "INTERCAL" -> "C-INTERCAL"
 "C-INTERCAL" -> "TriINTERCAL"
 
+"ALGOL 60" -> "ISWIM"
+"LISP" -> "ISWIM" [weight=6]
+"ISWIM" -> "ML" [weight=9]
+"LISP" -> "PDP-1 LISP" [weight=4]
+"PDP-1 LISP" -> "BBN LISP"
+"BBN LISP" -> "Interlisp"
+"LISP" -> "Ghost"
+"Ghost" -> "Logo"
+"Logo" -> "Smalltalk-72"
+
 "IPL" -> "IPL-II" [weight=4]
 "IPL-II" -> "IPL-V" [weight=4]
 "IPL-V" -> "IPL-VI" [weight=4]
 "IPL-II" -> "LISP" [weight=2]
 "FORTRAN" -> "LISP" [weight=3]
-"LISP" -> "Scheme"
+"LISP" -> "LISP 1.5" [weight=5]
+"LISP 1.5" -> "MACLISP" [weight=5]
+"MACLISP" -> "Common Lisp" [weight=5]
+"LISP 1.5" -> "VLISP"
 "LISP" -> "MLISP"
 "LISP" -> "PLANNER"
 "ALGOL 60" -> "MLISP"
-"MLISP" -> "MLISP 2"
+"MLISP" -> "MLISP2"
+"MLISP2" -> "LISP70"
+
+"Scheme" -> "XLISP"
+"Common Lisp" -> "XLISP"
+"XLISP" -> "AutoLISP"
+
+"MACLISP" -> "Lisp Machine\nLisp"
+"MACLISP" -> "NIL"
+"MACLISP" -> "Macsyma"
+"MACLISP" -> "Spice Lisp"
+"MACLISP" -> "Zetalisp"
+"Zetalisp" -> "Maple"
+"MACLISP" -> "CGOL"
+"ALGOL 68" -> "CGOL"
+"Macsyma" -> "Franz Lisp"
+"Macsyma" -> "Mathematica"
+"Macsyma" -> "Maple"
+"Lisp Machine\nLisp" -> "Common Lisp" [weight=3]
+"NIL" -> "Common Lisp"
+"S-1 Lisp" -> "Common Lisp"
+"Spice Lisp" -> "Common Lisp"
+"Spice Lisp" -> "CMUCL"
+"Scheme" -> "Common Lisp"
+"Common Lisp" -> "CMUCL"
+"MACLISP" -> "Emacs Lisp"
+"Common Lisp" -> "Emacs Lisp"
+
+"Scheme" -> "Scheme R5RS" [weight=3]
+"Scheme R5RS" -> "Scheme R6RS" [weight=3]
+
+"MACLISP" -> "MDL"
+"PLASMA" -> "Scheme"
+"MDL" -> "PLANNER"
+
+"VLISP" -> "LeLisp"
+"Common Lisp" -> "EuLisp"
+"Scheme" -> "EuLisp"
+"Common Lisp" -> "ISLISP"
+"Scheme" -> "ISLISP"
+"EuLisp" -> "ISLISP"
+"LeLisp" -> "ISLISP"
+
+
+"Common Lisp" -> "dotLisp" [weight=3]
+".NET" -> "dotLisp"
+"Java" -> "Clojure"
+"Common Lisp" -> "Clojure"
+"Haskell" -> "Clojure"
 
 "KRL" -> "FRL"
 "KRL" -> "KM"
@@ -967,16 +1089,6 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "C++TR1" -> "C++11" [weight=9]
 
 "DIBOL" -> "DIBOL-8"
-
-"ALGOL 60" -> "ISWIM"
-"LISP" -> "ISWIM" [weight=6]
-"ISWIM" -> "ML" [weight=9]
-"LISP" -> "PDP-1 LISP" [weight=4]
-"PDP-1 LISP" -> "BBN LISP"
-"BBN LISP" -> "Interlisp"
-"LISP" -> "Ghost"
-"Ghost" -> "Logo"
-"Logo" -> "Smalltalk-72"
 
 "RPG" -> "CRT RPS"
 "CRT RPS" -> "MAPPER"
