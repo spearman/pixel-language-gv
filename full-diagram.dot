@@ -81,7 +81,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1956
-    "FORTRAN" [ fontsize=60 ]
+    "FORTRAN" [fontsize=60]
     "PACT I"
     "Sequentielle\nFormelübersetzung"
     "IT"
@@ -115,8 +115,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1960
-    "COBOL" [ fontsize=60 ]
-    "ALGOL 60" [ fontsize=60 ]
+    "COBOL" [fontsize=60]
+    "ALGOL 60" [fontsize=60]
     "JOVIAL"
     "MAD"
 }
@@ -128,7 +128,7 @@ node [ fontsize=40, style=filled ];
 
 { rank = same ; 1962
     "LISP 1.5"
-    "SIMULA I" [style=dotted]
+    "SIMULA I" [style=dotted, fontsize=60]
     "ALGOL 30"
     "FORTRAN IV"
     "BRLESC I"
@@ -137,18 +137,19 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1963
+    "SIMSCRIPT"
     "Standard LISP"
     "CPL" [style=dotted]
     "JOSS I"
     "SNOBOL3"
     "MIDAS"
     "COMPASS"
-    "NPL" [style=dotted]
+    "MPPL" [style=dotted]
 }
 
 { rank = same ; 1964
     "BASIC" [ fontsize=60]
-    "PL/I" [ fontsize=60 ]
+    "PL/I" [fontsize=60]
     "Multics"
     "TRAC"
     "CORAL"
@@ -159,9 +160,11 @@ node [ fontsize=40, style=filled ];
     "PDP-1 LISP"
     "GAP"
     "Named\nStorage" [style=dotted]
+    "20-GATE"
 }
 
 { rank = same ; 1965
+    "QUICKSCRIPT"
     "EPL"
     "COCOA"
     "BASIC v2"
@@ -193,6 +196,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1967
+    "PAL"
     "Ghost"
     "InterLISP"
     "SNOBOL4"
@@ -201,6 +205,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1968
+    "FORTRAN V"
     "TMG"
     "Macsyma"
     "CRT RPS"
@@ -238,10 +243,11 @@ node [ fontsize=40, style=filled ];
     "BASIC v5"
     "POP-2"
     "DIBOL-8"
-    "Pascal" [ fontsize=60 ]
+    "Pascal" [fontsize=60]
 }
 
 { rank = same ; 1971
+    "SIMSCRIPT II.5"
     "Alpha"
     "NQTHM"
     "VLISP"
@@ -256,18 +262,21 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "MORTRAN"
     "EXEC 2"
     "Pascal-P"
     "INTERCAL"
-    "C" [ fontsize=80 ]
+    "C" [fontsize=80]
     "QA4" [ style=dotted ]
-    "Prolog" [ fontsize=60 ]
+    "Prolog" [fontsize=60]
     "Smalltalk-72"
     "PL/M"
     "CONNIVER"
+    "LCF" [style=dotted]
 }
 
 { rank = same ; 1973
+    "COMAL"
     "System R"
     "PLASMA"
     "CGOL"
@@ -277,12 +286,12 @@ node [ fontsize=40, style=filled ];
     "Popler"
     "MLISP2"
     "grep"
-    "MORTRAN"
-    "ML" [ fontsize=60 ]
+    "ML" [fontsize=60]
     "LISP70"
 }
 
 { rank = same ; 1974
+    "GPSS"
     "Ingres"
     "Pascal-P2"
     "SP/k"
@@ -297,12 +306,13 @@ node [ fontsize=40, style=filled ];
     "ABC"
     "POP-11"
     "Modula"
-    "Scheme" [ fontsize=60 ]
+    "Scheme" [fontsize=60]
     "MAPPER"
     "Euclid"
 }
 
 { rank = same ; 1976
+    "Ratfor"
     "QUEL"
     "Pascal-P3"
     "LIS"
@@ -321,13 +331,15 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1977
+    "NPL"
+    "Z notation" [style=dotted]
     "Concurrent\nPascal"
     "sh" [fontsize=60]
     "Datalog"
     "FRL"
     "Icon"
     "Standard Mumps"
-    "FORTRAN 77" [ fontsize=60 ]
+    "FORTRAN 77" [fontsize=60]
     "SQL"
     "microTutor"
     "Modula-2"
@@ -335,8 +347,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1978
+    "MicroFORTH"
     "Scheme RRS"
-    "Franz Lisp" [ fontsize=60 ]
+    "Franz Lisp" [fontsize=60]
     "K&R C"
     "UCSD Pascal"
     "SYMPL"
@@ -349,6 +362,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1979
+    "FORTH-79"
     "System/38"
     "Oracle V2"
     "Green" [style=dotted]
@@ -359,6 +373,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1980
+    "CCS" [style=dotted]
     "JRT Pascal"
     "Ada" [fontsize=60]
     "Portable\nStandard Lisp"
@@ -366,7 +381,7 @@ node [ fontsize=40, style=filled ];
     "Spice Lisp"
     "Maple"
     "Concurrent\nEuclid"
-    "Smalltalk-80" [ fontsize=60 ]
+    "Smalltalk-80" [fontsize=60]
     "cT"
 }
 
@@ -380,6 +395,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1982
+    "SD-Poplog"
+    "Poly"
     "Pascal-S"
     "Turing"
     "REXX 3.0"
@@ -389,6 +406,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "FORTH-83"
+    "HOL" [style=dotted]
+    "Ratfiv"
     "DB2"
     "Pascal 83"
     "Turbo Pascal"
@@ -408,17 +428,20 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1984
+    "RPL"
+    "MacFORTH"
+    "Standard ML" [fontsize=60]
     "GOM"
     "APL 2"
-    "SML" [ fontsize=60 ]
     "Mumps 1984"
     "Lazy ML"
     "Scheme 84"
     "Modula-2+"
-    "Common Lisp" [ fontsize=60 ]
+    "Common Lisp" [fontsize=60]
 }
 
 { rank = same ; 1985
+    "Heavy CAML"
     "Postgres"
     "Scheme R2RS"
     "XLISP"
@@ -427,7 +450,7 @@ node [ fontsize=40, style=filled ];
     "Miranda"
     "Object Pascal"
     "nawk"
-    "C++" [ fontsize=60 ]
+    "C++" [fontsize=60]
     "Lean"
     "CLIPS"
     "FL"
@@ -436,6 +459,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1986
+    "AlphaPop"
+    "Isabelle" [style=dotted]
     "Scheme R3RS"
     "Allegro CL"
     "AutoLISP"
@@ -444,7 +469,7 @@ node [ fontsize=40, style=filled ];
     "Turbo Prolog"
     "NU-Prolog"
     "KL0"
-    "Eiffel" [ fontsize=60 ]
+    "Eiffel" [fontsize=60]
     "Scheme R3RS"
     "SQL-86"
     "Objective-C"
@@ -452,6 +477,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1987
+    "Clean"
     "ARexx"
     "GNU Pascal"
     "OS/2"
@@ -460,16 +486,16 @@ node [ fontsize=40, style=filled ];
     "Flat GHC"
     "Turing+"
     "Self"
-    "Caml" [ fontsize=60 ]
-    "Perl" [ fontsize=60 ]
+    "Perl" [fontsize=60]
     "ISO SQL"
     "Clean"
-    "Erlang" [ fontsize=60 ]
+    "Erlang" [fontsize=60]
     "occam 2"
     "Parlog"
 }
 
 { rank = same ; 1988
+    "HOL88"
     "Object REXX"
     "Hamilton\nC shell"
     "SIOD"
@@ -480,13 +506,15 @@ node [ fontsize=40, style=filled ];
     "Quick Basic"
     "Life"
     "A+"
-    "Tcl" [ fontsize=60 ]
+    "Tcl" [fontsize=60]
     "Oberon"
     "ksh88"
     "S-PLUS"
 }
 
 { rank = same ; 1989
+    "ProofPower"
+    "Caml Light"
     "SQL-89"
     "ash"
     "rc"
@@ -503,6 +531,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "SML'90"
+    "HOL90"
     "Pascal 90"
     "Scheme R4RS"
     "SCM"
@@ -510,9 +540,8 @@ node [ fontsize=40, style=filled ];
     "PDC Prolog"
     "C-INTERCAL"
     "Object Oberon"
-    "Haskell" [ fontsize=60 ]
-    "Fortran 90" [ fontsize=60 ]
-    "SML 90"
+    "Haskell" [fontsize=60]
+    "Fortran 90"
     "zsh"
     "Ease"
     "Visual Basic"
@@ -521,13 +550,16 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1991
+    "Concurrent ML"
+    "Extended ML"
+    "sml2c"
     "TriINTERCAL"
     "Object-Oriented\nTuring"
     "VisualWorks"
     "Gofer"
     "Oberon-2"
     "CLIPS 5.0"
-    "Python" [ fontsize=60 ]
+    "Python" [fontsize=60]
     "Perl 4"
     "Sather 0.1"
     "Oak"
@@ -535,6 +567,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1992
+    "Poplog"
     "ODBC"
     "Gödel"
     "HyTime"
@@ -544,6 +577,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1993
+    "SML/NJ"
+    "SML#"
     "SuperPascal"
     "Free Pascal"
     "Guile Scheme"
@@ -557,13 +592,14 @@ node [ fontsize=40, style=filled ];
     "K"
     "ksh93"
     "Acme"
-    "R" [ fontsize=60 ]
+    "R" [fontsize=60]
 }
 
 { rank = same ; 1994
+    "ANS Forth"
     "Visual Prolog"
     "Oberon/F"
-    "Perl 5" [ fontsize=60 ]
+    "Perl 5" [fontsize=60]
     "PostScript level 2"
     "Sather 1.0"
     "ANSI Common Lisp"
@@ -575,17 +611,21 @@ node [ fontsize=40, style=filled ];
     "Mercury"
     "Delphi"
     "Oz 1"
-    "Java" [ fontsize=60 ]
-    "JavaScript" [ fontsize=60 ]
+    "Java" [fontsize=60]
+    "JavaScript" [fontsize=60]
     "Prolog ISO"
-    "Ruby" [ fontsize=60 ]
+    "Ruby" [fontsize=60]
     "Ada 95"
     "PHP"
     "C95"
     "Postgres95"
+    "Fortran 95"
 }
 
 { rank = same ; 1996
+    "HBC"
+    "Poly/ML"
+    "F"
     "NetRexx"
     "PostgreSQL"
     "CSS"
@@ -602,11 +642,15 @@ node [ fontsize=40, style=filled ];
     "Limbo"
     "Squeak"
     "Pizza"
-    "OCaml" [ fontsize=60 ]
+    "OCaml"
     "CobolScript"
 }
 
 { rank = same ; 1997
+    "TILT"
+    "MLton"
+    "SML'97"
+    "Moscow ML"
     "dash"
     "Visual Lisp"
     "ISLISP"
@@ -619,6 +663,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1998
+    "Dependent ML"
+    "jEdit"
+    "HOL Light"
+    "HOL98"
     "Maxima"
     "WebSGML"
     "XML"
@@ -626,7 +674,7 @@ node [ fontsize=40, style=filled ];
     "C++98"
     "F-Script"
     "Scheme R5RS"
-    "Haskell 98" [ fontsize=60 ]
+    "Haskell 98" [fontsize=60]
     "Java 2 (v1.2)"
     "Perl 5.005"
     "REBOL"
@@ -639,6 +687,7 @@ node [ fontsize=40, style=filled ];
     "C99"
     "Oz 3"
     ".NET"
+    "CLR"
     "SQL3"
     "J++ 6.0"
     "Tcl 8.1"
@@ -647,41 +696,46 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2000
+    "CLI"
+    "Isabelle/ML"
+    "Alice ML"
     "TinyScheme"
     "OCaml 3.0"
-    "C#" [ fontsize=60 ]
+    "C#" [fontsize=60]
     "Quilt"
     "Lua 4.0"
     "PHP4"
     "Perl 5.6.0"
-    "Python 2.0" [ fontsize=60 ]
+    "Python 2.0" [fontsize=60]
     "JavaScript 1.5"
     "Mondrian"
     "VPython"
 }
 
 { rank = same ; 2001
+    "HaMLet"
+    "Cyclone" [style=dotted]
     "XLink"
     "VB.NET"
     "zsh 4.0"
     "XQuery"
     "GHC 5.00"
+    "Poly/ML 4.0"
 }
 
 { rank = same ; 2002
+    "MLKit"
+    "SML/NJ 110"
     "Zonnon"
     "Python 2.2"
     "SML.NET"
     "Perl 5.8.0"
-    "Cyclone"
-    "F#"
     "J#"
     "COBOL 2002"
 }
 
 { rank = same ; 2003
     "Delphi 8"
-    "Fortran 2003"
     "Nemerle"
     "Lua 5.0"
     "Boo"
@@ -691,31 +745,32 @@ node [ fontsize=40, style=filled ];
     "Io"
     "Ruby 1.8"
     "C++03"
+    "Scala"
 }
 
 { rank = same ; 2004
+    "Fortran 2003"
+    "F#"
     "DOT"
     "CDL3"
-}
-
-{ rank = same ; 2004
     "AJAX"
     "Groovy"
     "PHP5"
     "Python 2.4"
     "bash 3.0"
-    "Scala"
-    "Java 2 (v1.5 beta)" [ fontsize=60 ]
+    "Java 2 (v1.5 beta)" [fontsize=60]
 }
 
 { rank = same ; 2005
     "Morfik"
-    "C# 2.0" [ fontsize=60 ]
+    "C# 2.0" [fontsize=60]
     "Unicon"
-    "Cyclone 1.0"
 }
 
 { rank = same ; 2006
+    "RPAL"
+    "SQL:2006"
+    "Cyclone 1.0"
     "Oxygene"
     "CAL (Open Quark)"
     "JavaScript 1.7"
@@ -733,6 +788,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2008
+    "Ur"
+    "ATS"
     "Lisp Flavored\nErlang"
     "Delphi Prism"
     "SQL:2008"
@@ -745,6 +802,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2010
+    "Fortran 2008"
     "Haskell 2010"
 }
 
@@ -812,12 +870,41 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "FORTRAN II" -> "FORTRAN IV" [weight=4]
 "FORTRAN II" -> "BASIC"
 "FORTRAN IV" -> "FORTRAN 66" [weight=4]
+"FORTRAN IV" -> "FORTRAN V"
 "FORTRAN II" -> "Basic FORTRAN"
 "FORTRAN 66" -> "FORTRAN 77" [weight=4]
 "FORTRAN 77" -> "Fortran 90" [weight=4]
+"Fortran 90" -> "Fortran 95" [weight=4]
+"Fortran 95" -> "Fortran 2003" [weight=4]
+"Fortran 2003" -> "Fortran 2008" [weight=4]
+"C89" -> "Fortran 2003"
+"Modula-2" -> "Fortran 2003"
+"Ada 95" -> "Fortran 2003"
 "FORTRAN" -> "COMTRAN"
 "FORTRAN" -> "PACT I"
-"FORTRAN IV" -> "MORTRAN" [weight=4]
+"FORTRAN 66" -> "MORTRAN" [weight=4]
+"C" -> "Ratfor"
+"FORTRAN 66" -> "Ratfor"
+"Ratfor" -> "Ratfiv" [weight=4]
+"FORTRAN 77" -> "Ratfiv"
+"Fortran 95" -> "F"
+"FORTRAN IV" -> "SIMSCRIPT"
+"SIMSCRIPT" -> "SIMSCRIPT II.5"
+"SIMSCRIPT" -> "SIMULA I"
+"SIMSCRIPT" -> "QUICKSCRIPT"
+"20-GATE" -> "QUICKSCRIPT"
+"SIMSCRIPT" -> "GPSS"
+
+
+"APL" -> "FORTH"
+"FORTH" -> "MicroFORTH"
+"FORTRAN 66" -> "MicroFORTH"
+"MicroFORTH" -> "FORTH-79"
+"FORTRAN 66" -> "FORTH-79"
+"FORTH-79" -> "FORTH-83"
+"FORTH-83" -> "ANS Forth"
+"FORTH-79" -> "MacFORTH"
+
 
 "FARGO" -> "RPG"
 "RPG" -> "RPG II"
@@ -836,9 +923,9 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COBOL-74" -> "COBOL-85" [weight=5]
 "COBOL-85" -> "COBOL 2002" [weight=5]
 "COBOL-85" -> "CobolScript" [weight=3]
-"NPL" -> "PL/I"
 "COBOL" -> "PL/I"
-"ALGOL 60" -> "PL/I"
+"ALGOL 60" -> "MPPL"
+"MPPL" -> "PL/I"
 "PL/I" -> "IITRAN"
 "PL/I" -> "XPL"
 "XPL" -> "Sue"
@@ -1001,7 +1088,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "JOSS I" -> "FILECOMP"
 "JOSS I" -> "STRINGCOMP"
 
-"ALGOL 60" -> "SIMULA I"
+"ALGOL 60" -> "SIMULA I" [weight=3]
 "SIMULA I" -> "SIMULA 67"
 "SIMULA 67" -> "Smalltalk"
 "LISP" -> "Smalltalk"
@@ -1086,6 +1173,14 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "ALGOL 60" -> "ISWIM"
 "LISP" -> "ISWIM" [weight=6]
 "ISWIM" -> "ML" [weight=9]
+"ISWIM" -> "PAL"
+"ISWIM" -> "SASL" [weight=3]
+"SASL" -> "KRC" [weight=3]
+"Lazy ML" -> "Miranda"
+"KRC" -> "Miranda" [weight=3]
+"Hope" -> "Miranda"
+"Miranda" -> "Haskell"
+"PAL" -> "RPAL"
 "LISP" -> "PDP-1 LISP" [weight=4]
 "PDP-1 LISP" -> "BBN LISP"
 "BBN LISP" -> "InterLISP"
@@ -1093,6 +1188,104 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "LISP" -> "Ghost"
 "Ghost" -> "Logo"
 "Logo" -> "Smalltalk-72"
+
+"POP-2" -> "NPL"
+"NPL" -> "Hope" [weight=3]
+"Pascal-P3" -> "Hope"
+
+"ML" -> "Standard ML" [weight=3]
+"ML" -> "Lazy ML" [weight=3]
+"Lazy ML" -> "Haskell"
+"Lazy ML" -> "Clean"
+"Lazy ML" -> "HBC"
+"Haskell" -> "HBC"
+"Standard ML" -> "SML'90" [weight=3]
+"SML'90" -> "SML'97" [weight=3]
+"SML'90" -> "SML/NJ"
+"SML'90" -> "Poly/ML"
+"SML'90" -> "Extended ML"
+"SML'90" -> "Concurrent ML"
+"Poly" -> "Poly/ML" [weight=3]
+"SML'97" -> "Poly/ML 4.0"
+"Poly/ML" -> "Poly/ML 4.0"
+"SML'97" -> "HaMLet"
+"SML'97" -> "SML/NJ"
+"SML'97" -> "MLton"
+"SML'97" -> "ML Kit"
+"SML/NJ" -> "sml2c"
+"SML/NJ" -> "SML/NJ 110" [weight=3]
+"SML/NJ 110" -> "Mythryl"
+"Perl" -> "Mythryl"
+"C89" -> "Mythryl"
+"C89" -> "SML#"
+"SML/NJ" -> "SML#"
+"SML'97" -> "SML/NJ 110"
+"SML'97" -> "MLKit"
+"SML'97" -> "TILT"
+"KML" -> "TILT"
+"Caml Light" -> "TILT"
+".NET" -> "SML.NET"
+"SML'97" -> "SML.NET"
+
+"OCaml" -> "Rust"
+
+"SML/NJ" -> "Dependent ML"
+"Dependent ML" -> "ATS" [weight=3]
+"Ocaml" -> "ATS"
+
+"BNF" -> "LCF"
+"LCF" -> "ML"
+"LCF" -> "CCS"
+"CCS" -> "HOL"
+"HOL" -> "HOL88" [weight=3]
+"HOL88" -> "HOL90" [weight=3]
+"Z notation" -> "ProofPower" [weight=3]
+"HOL88" -> "ProofPower"
+"Standard ML" -> "ProofPower"
+"Standard ML" -> "HOL90"
+"HOL90" -> "HOL98"
+"HOL90" -> "HOL Light"
+"OCaml" -> "HOL Light"
+"HOL98" -> "HOL4"
+"HOL Light" -> "HOL4"
+"Caml Light" -> "Moscow ML"
+"SML'97" -> "Moscow ML"
+"Standard ML" -> "Alice ML"
+"Haskell" -> "Alice ML"
+"Moscow ML" -> "HOL98"
+"Standard ML" -> "Isabelle"
+"HOL" -> "Isabelle"
+"Poly/ML" -> "Isabelle/ML"
+"Isabelle" -> "Isabelle/ML"
+"jEdit" -> "Isabelle/ML"
+"Common Lisp" -> "Heavy CAML"
+"ML" -> "Caml"
+"Standard ML" -> "Heavy CAML" [weight=3]
+"Standard ML" -> "Haskell" [weight=3]
+"Heavy CAML" -> "Caml Light" [weight=3]
+"Caml Light" -> "OCaml" [weight=3]
+
+"ML" -> "Ur"
+"Haskell" -> "Ur"
+
+"OCaml" -> "F#"
+"C#" -> "F#"
+"Haskell" -> "F#"
+"Scala" -> "F#"
+
+"Scheme" -> "Scala"
+"Haskell" -> "Scala"
+"C#" -> "Scala"
+"Java" -> "Scala"
+"OCaml" -> "Scala"
+
+"C#" -> "Nemerle"
+"OCaml" -> "Nemerle"
+"Haskell" -> "Nemerle"
+
+".NET" -> "CLR"
+"CLR" -> "CLI"
+
 
 "ALGOL 60" -> "Standard LISP"
 "LISP 1.5" -> "Standard LISP"
@@ -1130,6 +1323,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "MACLISP" -> "Zetalisp"
 "Zetalisp" -> "Maple"
 "MACLISP" -> "CGOL"
+"MACLISP" -> "RPL"
 "ALGOL 68" -> "CGOL"
 "Macsyma" -> "Franz Lisp"
 "Macsyma" -> "Mathematica"
@@ -1208,6 +1402,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SBASIC" -> "BASIC v7" [weight=4]
 "BASIC v7" -> "True BASIC"
 
+"BASIC" -> "COMAL"
+"Pascal" -> "COMAL"
+"Logo" -> "COMAL"
+
 "APL" -> "APL 2"
 "APL" -> "PPL"
 "PPL" -> "S"
@@ -1221,6 +1419,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "REXX" -> "NetRexx"
 "Java" -> "NetRexx"
 
+"Java" -> "jEdit"
+
 "Alpha" -> "QUEL"
 "Ingres" -> "QUEL"
 "QUEL" -> "Postgres"
@@ -1233,6 +1433,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SQL/DS" -> "DB2" [weight=3]
 "SQL/DS" -> "SQL-86" [weight=3]
 "SQL-86" -> "SQL-89" [weight=3]
+"SQL-89" -> "SQL-92" [weight=3]
 "SQL-92" -> "SQL:1999" [weight=3]
 "SQL:1999" -> "SQL:2003" [weight=3]
 "SQL:2003" -> "SQL:2006" [weight=3]
@@ -1258,6 +1459,14 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COWSEL" -> "POP-1"
 "POP-1" -> "POP-2"
 "POP-2" -> "POP-11"
+"POP-11" -> "SD-Poplog" [weight=3]
+"POP-11" -> "AlphaPop"
+"Prolog" -> "SD-PopLog" [weight=3]
+"SD-Poplog" -> "Poplog"
+"Standard ML" -> "Poplog"
+"Common Lisp" -> "Poplog"
+
+
 "CPL" -> "BCPL" [weight=9]
 "BCPL" -> "B"[weight=9]
 "B" -> "C" [weight=9]
@@ -1272,7 +1481,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Smalltalk-80" -> "Objective-C"
 "C" -> "Objective-C"
 "K&R C" -> "C++" [weight=8]
-"Simula" -> "C++"
+"SIMULA 67" -> "C++"[weight=3]
 "Ada" -> "C++"
 "CLU" -> "C++"
 "ML" -> "C++"
@@ -1280,6 +1489,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "C++98" -> "C++03" [weight=9]
 "C++03" -> "C++TR1" [weight=9]
 "C++TR1" -> "C++11" [weight=9]
+
+"C89" -> "Cyclone"
+"Standard ML" -> "Cyclone"
+"Cyclone" -> "Cyclone 1.0" [weight=3]
 
 "ALGOL 68" -> "sh"
 "Unix" -> "C"
