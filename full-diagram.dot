@@ -127,6 +127,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1962
+    "META II"
     "LISP 1.5"
     "SIMULA I" [style=dotted, fontsize=60]
     "ALGOL 30"
@@ -191,7 +192,7 @@ node [ fontsize=40, style=filled ];
     "Basic FORTRAN"
     "IPL-VI"
     "JOSS II"
-    "MUMPS"
+    "MUMPS" [fontsize=60]
     "BBN LISP"
 }
 
@@ -205,6 +206,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1968
+    "TREE-META"
+    "MUMPS-11"
+    "MIIS"
     "FORTRAN V"
     "TMG"
     "Macsyma"
@@ -216,12 +220,12 @@ node [ fontsize=40, style=filled ];
     "MLISP"
     "TTM"
     "POP-1"
-    "DIBOL"
     "REFAL"
     "Speakeasy"
 }
 
 { rank = same ; 1969
+    "SLANG"
     "Unix"
     "GML"
     "Bon"
@@ -236,6 +240,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1970
+    "BASIC-PLUS"
     "yacc"
     "BLISS"
     "FORTH"
@@ -247,6 +252,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1971
+    "Basic Four"
     "SIMSCRIPT II.5"
     "Alpha"
     "NQTHM"
@@ -262,6 +268,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1972
+    "DGBB"
     "MORTRAN"
     "EXEC 2"
     "Pascal-P"
@@ -291,6 +298,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1974
+    "ANSI MUMPS"
+    "PROSE"
     "GPSS"
     "Ingres"
     "Pascal-P2"
@@ -301,6 +310,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1975
+    "Tiny BASIC"
+    "BASIC Plus 2"
+    "Altair BASIC"
+    "DIBOL-32"
     "InterLISP 65" //no, this isn't an error; InterLISP 65 was published for the Atari 6502 computer line
     "NIL"
     "ABC"
@@ -312,6 +325,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1976
+    "Microsoft\nBASIC"
     "Ratfor"
     "QUEL"
     "Pascal-P3"
@@ -331,6 +345,13 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1977
+    "Level I\nBASIC"
+    "Level II\nBASIC"
+    "PET BASIC"
+    "Applesoft\nBASIC"
+    "DSM-11"
+    "VAX BASIC"
+    "GRASS3"
     "NPL"
     "Z notation" [style=dotted]
     "Concurrent\nPascal"
@@ -347,6 +368,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1978
+    "CCSM"
+    "M/11+"
     "MicroFORTH"
     "Scheme RRS"
     "Franz Lisp" [fontsize=60]
@@ -362,6 +385,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1979
+    "ATARI BASIC"
     "FORTH-79"
     "System/38"
     "Oracle V2"
@@ -373,6 +397,12 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1980
+    "Color BASIC"
+    "Xenix"
+    "MAGIC"
+    "MSM"
+    "IBM BASIC"
+    "COMAL 80"
     "CCS" [style=dotted]
     "JRT Pascal"
     "Ada" [fontsize=60]
@@ -386,6 +416,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1981
+    "MBASIC"
+    "GT.M"
+    "MS-DOS"
+    "BASICA"
     "SQL/DS"
     "Pascal-SC"
     "tsch"
@@ -395,6 +429,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1982
+    "PBASIC"
     "SD-Poplog"
     "Poly"
     "Pascal-S"
@@ -406,6 +441,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1983
+    "Chinese BASIC"
+    "ISM"
+    "VAX/DSM"
+    "GW-BASIC"
     "FORTH-83"
     "HOL" [style=dotted]
     "Ratfiv"
@@ -428,6 +467,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1984
+    "MSX BASIC"
+    "Galaksija\nBASIC"
     "RPL"
     "MacFORTH"
     "Standard ML" [fontsize=60]
@@ -441,6 +482,11 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1985
+    "ABasiC"
+    "StarOffice\nBasic"
+    "MacMUMPS"
+    "DTM"
+    "QuickBASIC"
     "Heavy CAML"
     "Postgres"
     "Scheme R2RS"
@@ -459,6 +505,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1986
+    "B32 Basic"
+    "AmigaBASIC"
     "AlphaPop"
     "Isabelle" [style=dotted]
     "Scheme R3RS"
@@ -495,6 +543,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1988
+    "UBB"
     "HOL88"
     "Object REXX"
     "Hamilton\nC shell"
@@ -531,6 +580,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1990
+    "basic Thunder"
+    "Open Basic"
     "SML'90"
     "HOL90"
     "Pascal 90"
@@ -544,12 +595,13 @@ node [ fontsize=40, style=filled ];
     "Fortran 90"
     "zsh"
     "Ease"
-    "Visual Basic"
     "Smalltalk-80 v2.5"
     "HTML"
 }
 
 { rank = same ; 1991
+    "QBasic"
+    "Visual Basic 1.0"
     "Concurrent ML"
     "Extended ML"
     "sml2c"
@@ -567,6 +619,12 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1992
+    "ISO M"
+    "Jet"
+    "Visual Basic 2.0"
+    "DEC BASIC"
+    "PDComal"
+    "Dibol 1992"
     "Poplog"
     "ODBC"
     "Gödel"
@@ -577,6 +635,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1993
+    "WordBASIC"
+    "Visual Basic 3.0"
     "SML/NJ"
     "SML#"
     "SuperPascal"
@@ -596,6 +656,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1994
+    "LotusScript"
     "ANS Forth"
     "Visual Prolog"
     "Oberon/F"
@@ -607,12 +668,14 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1995
+    "Qt"
+    "LiveScript"
+    "Visual Basic 4.0"
     "Virtual Pascal"
     "Mercury"
     "Delphi"
     "Oz 1"
     "Java" [fontsize=60]
-    "JavaScript" [fontsize=60]
     "Prolog ISO"
     "Ruby" [fontsize=60]
     "Ada 95"
@@ -623,6 +686,11 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1996
+    "Merle"
+    "OpenM"
+    "JavaScript" [fontsize=60]
+    "JScript"
+    "VBScript"
     "HBC"
     "Poly/ML"
     "F"
@@ -647,6 +715,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1997
+    "Cache\nObjectScript"
+    "ECMAScript"
+    "Visual Basic 5.0"
     "TILT"
     "MLton"
     "SML'97"
@@ -657,12 +728,13 @@ node [ fontsize=40, style=filled ];
     "Component\nPascal"
     "zsh 3.0"
     "J"
-    "ECMAScript"
     "SML 97"
     "J++"
 }
 
 { rank = same ; 1998
+    "Visual Basic 6.0"
+    "Compaq BASIC"
     "Dependent ML"
     "jEdit"
     "HOL Light"
@@ -682,6 +754,9 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 1999
+    "CorelScript"
+    "WinWrap Basic"
+    "Gambas"
     "SQL:1999"
     "XSL"
     "C99"
@@ -696,6 +771,8 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2000
+    "OpenOffice\nBasic"
+    "MUMPS V1"
     "CLI"
     "Isabelle/ML"
     "Alice ML"
@@ -713,10 +790,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2001
+    "M2 Mumps"
     "HaMLet"
     "Cyclone" [style=dotted]
     "XLink"
-    "VB.NET"
     "zsh 4.0"
     "XQuery"
     "GHC 5.00"
@@ -724,6 +801,10 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2002
+    "JScript .NET"
+    "VB.NET"
+    "HP BASIC"
+    "OpenComal"
     "MLKit"
     "SML/NJ 110"
     "Zonnon"
@@ -732,6 +813,7 @@ node [ fontsize=40, style=filled ];
     "Perl 5.8.0"
     "J#"
     "COBOL 2002"
+    "M21"
 }
 
 { rank = same ; 2003
@@ -749,6 +831,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2004
+    "FreeBASIC"
     "Fortran 2003"
     "F#"
     "DOT"
@@ -778,6 +861,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2007
+    "QB64"
     "C++TR1"
     "Clojure"
     "Scheme R6RS"
@@ -788,6 +872,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2008
+    "Small Basic"
     "Ur"
     "ATS"
     "Lisp Flavored\nErlang"
@@ -802,6 +887,7 @@ node [ fontsize=40, style=filled ];
 }
 
 { rank = same ; 2010
+    "LibreOffice\nBasic"
     "Fortran 2008"
     "Haskell 2010"
 }
@@ -820,6 +906,7 @@ node [ fontsize=40, style=filled ];
 
 edge [ arrowsize=3.0, penwidth=3.0 ];
 
+//temp
 
 "Plankalkül" -> "Klammerausdrücke"
 
@@ -895,6 +982,9 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "20-GATE" -> "QUICKSCRIPT"
 "SIMSCRIPT" -> "GPSS"
 
+"FORTRAN 66" -> "SLANG"
+"SLANG" -> "PROSE" [weight=3]
+
 
 "APL" -> "FORTH"
 "FORTH" -> "MicroFORTH"
@@ -939,6 +1029,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=9]
 "Laning Zierler\nSystem" -> "IT" [weight=4]
 
+"BNF" -> "META II"
+"META II" -> "TREE-META"
 "BNF" -> "CDL"
 "CDL" -> "CDL2"
 "CDL2" -> "CDL3"
@@ -1055,11 +1147,11 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Oberon-2" -> "Oberon/F"
 "Oberon/F" -> "Component\nPascal"
 
-"LIS" -> "Green"
-"Green" -> "Ada"
+"Pascal" -> "LIS" [weight=2]
+"SIMULA 67" -> "LIS" [weight=2]
+"LIS" -> "Green" [weight=3]
+"Green" -> "Ada" [weight=3]
 "ALGOL 68" -> "Ada"
-"Pascal" -> "Ada" [weight=3]
-"UCSD Pascal" -> "Ada"
 "Ada" -> "Ada 83" [weight=5]
 "SETL" -> "Ada 83"
 "Ada 83" -> "Ada 87"
@@ -1080,13 +1172,41 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "C" -> "Go"
 
 "ALGOL 58" -> "JOSS I"
+"JOSS I" -> "TELCOMP"
+"JOSS I" -> "FILECOMP"
+"JOSS I" -> "STRINGCOMP"
 "JOSS I" -> "JOSS II"
 "FILECOMP" -> "MUMPS"
 "STRINGCOMP" -> "MUMPS"
 "TELCOMP" -> "MUMPS"
-"JOSS I" -> "TELCOMP"
-"JOSS I" -> "FILECOMP"
-"JOSS I" -> "STRINGCOMP"
+"MUMPS" -> "MIIS" [weight=2]
+"MIIS" -> "MAGIC" [weight=3]
+"MUMPS" -> "MUMPS-11"
+"MUMPS-11" -> "ANSI MUMPS"
+"ANSI MUMPS" -> "DSM-11"
+"ANSI MUMPS" -> "M/11+"
+"ANSI MUMPS" -> "DTM"
+"ANSI MUMPS" -> "GT.M"
+"ANSI MUMPS" -> "CCSM"
+"ANSI MUMPS" -> "ISO M" [weight=3]
+"ANSI MUMPS" -> "MSM"
+"ANSI MUMPS" -> "Merle"
+"Perl" -> "Merle"
+"REXX" -> "Merle"
+"Merle" -> "M2 Mumps" [weight=3]
+"DSM-11" -> "MUMPS V1"
+"MSM" -> "M21" [weight=3]
+"DSM-11" -> "VAX/DSM" [weight=3]
+"CCSM" -> "MacMUMPS" [weight=3]
+"M/11+" -> "ISM" [weight=3]
+"ISM" -> "OpenM" [weight=3]
+"VAX/DSM" -> "OpenM"
+"DTM" -> "OpenM"
+"OpenM" -> "Cache\nObjectScript" [weight=3]
+"Cache\nObjectScript" -> "Cache BASIC" [weight=3]
+"SQL-92" -> "Cache\nObjectScript"
+
+/*
 
 "ALGOL 60" -> "SIMULA I" [weight=3]
 "SIMULA I" -> "SIMULA 67"
@@ -1161,6 +1281,7 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SNOBOL3" -> "SNOBOL4"
 "SNOBOL4" -> "Lua"
 
+"FORTRAN 66" -> "Speakeasy"
 "Named\nStorage" -> "Speakeasy"
 "Speakeasy" -> "Speakeasy-3"
 "MORTRAN" -> "Speakeasy-3"
@@ -1259,7 +1380,6 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Isabelle" -> "Isabelle/ML"
 "jEdit" -> "Isabelle/ML"
 "Common Lisp" -> "Heavy CAML"
-"ML" -> "Caml"
 "Standard ML" -> "Heavy CAML" [weight=3]
 "Standard ML" -> "Haskell" [weight=3]
 "Heavy CAML" -> "Caml Light" [weight=3]
@@ -1392,6 +1512,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "TRAC" -> "SAM76"
 "LISP" -> "SAM76"
 
+*/
+
 "BASIC" -> "BASIC v2" [weight=9]
 "BASIC v2" -> "BASIC v3" [weight=4]
 "BASIC v3" -> "BASIC v4" [weight=4]
@@ -1402,9 +1524,91 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SBASIC" -> "BASIC v7" [weight=4]
 "BASIC v7" -> "True BASIC"
 
+"True BASIC" -> "Gambas"
+"Qt" -> "Gambas"
+
+"BASIC" -> "Tiny BASIC"
+"Tiny BASIC" -> "Level I\nBASIC"
+"Microsoft\nBASIC" -> "Level II\nBASIC"
+"Level I\nBASIC" -> "Galaksija\nBASIC"
+"Microsoft\nBASIC" -> "Galaksija\nBASIC"
+
+
+"FORTRAN 66" -> "BASIC-PLUS"
+"BASIC v4" -> "BASIC-PLUS"
+"BASIC-PLUS" -> "BASIC Plus 2" [weight=3]
+"BASIC Plus 2" -> "VAX BASIC" [weight=3]
+"VAX BASIC" -> "DEC BASIC" [weight=3]
+"DEC BASIC" -> "Compaq BASIC" [weight=3]
+"Compaq BASIC" -> "HP BASIC" [weight=3]
+"BASIC-PLUS" -> "Altair BASIC"
+"Altair BASIC" -> "Microsoft\nBASIC"
+
+"Microsoft\nBASIC" -> "IBM BASIC"
+"Microsoft\nBASIC" -> "AmigaBASIC"
+"Microsoft\nBASIC" -> "ATARI BASIC"
+"Microsoft\nBASIC" -> "Color BASIC"
+"Microsoft\nBASIC" -> "PET BASIC"
+"Altair BASIC" -> "MBASIC"
+"MBASIC" -> "PBASIC"
+"MBASIC" -> "ST BASIC"
+"ST BASIC" -> "ABasiC"
+"MBASIC" -> "ABasiC"
+"ABasiC" -> "AmigaBASIC"
+"AmigaBASIC" -> "ARexx"
+"Microsoft\nBASIC" -> "Applesoft\nBASIC"
+"Applesoft\nBASIC" -> "Chinese BASIC"
+
+
+"IBM BASIC" -> "BASICA" [weight=4]
+"BASICA" -> "GW-BASIC" [weight=4]
+"GW-BASIC" -> "QuickBASIC" [weight=4]
+"GW-BASIC" -> "MSX BASIC"
+"QuickBASIC" -> "WordBASIC"
+"WordBASIC" -> "VBA"
+"VBA" -> "LotusScript"
+"VBA" -> "CorelScript"
+"MS-DOS" -> "Visual Basic 1.0"
+"Visual Basic 1.0" -> "P-code"
+"Visual Basic 1.0" -> "Visual Basic 2.0" [weight=3]
+"Visual Basic 2.0" -> "VBA" [weight=3]
+"VBA" -> "ActiveX"
+"Visual Basic 2.0" -> "WinWrap Basic"
+"Microsoft\nBASIC" -> "StarOffice\nBasic" [weight=3]
+"StarOffice\nBasic" -> "OpenOffice\nBasic" [weight=3]
+"OpenOffice\nBasic" -> "LibreOffice\nBasic" [weight=3]
+"Visual Basic 2.0" -> "Visual Basic 3.0" [weight=3]
+"Visual Basic 3.0" -> "Visual Basic 4.0" [weight=3]
+"LiveScript" -> "VBScript"
+"Visual Basic 3.0" -> "VBScript"
+"VBScript" -> "Cache BASIC"
+"VBScript" -> ".NET"
+"Visual Basic 4.0" -> "ActiveX"
+"Visual Basic 5.0" -> "Visual Basic 6.0" [weight=3]
+"QuickBASIC" -> "Visual Basic 1.0" [weight=3]
+"QuickBASIC" -> "QBasic" [weight=3]
+"QBasic" -> "QB64"
+"Visual Basic 6.0" -> "VB.NET"
+"VB.NET" -> "Small Basic"
+"QBasic" -> "FreeBASIC"
+
+
+"BASIC" -> "GRASS"
+"GRASS" -> "GRASS3"
+"BASIC" -> "Basic Four"
+"Basic Four" -> "Open Basic" [weight=3]
+"COBOL" -> "DGBB"
+"Basic Four" -> "DGBB"
+"DGBB" -> "B32 Basic"
+"DGBB" -> "UBB"
+
 "BASIC" -> "COMAL"
 "Pascal" -> "COMAL"
 "Logo" -> "COMAL"
+"COMAL" -> "COMAL 80"
+"COMAL 80" -> "PDComal"
+"PDComal" -> "OpenComal"
+
 
 "APL" -> "APL 2"
 "APL" -> "PPL"
@@ -1418,6 +1622,14 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "REXX" -> "ARexx"
 "REXX" -> "NetRexx"
 "Java" -> "NetRexx"
+
+"C89" -> "LiveScript"
+"Scheme R4RS" -> "LiveScript"
+"Java" -> "LiveScript"
+"LiveScript" -> "JavaScript" [weight=3]
+"JavaScript" -> "ECMAScript" [weight=3]
+"LiveScript" -> "JScript"
+"JScript" -> "JScript .NET" [weight=3]
 
 "Java" -> "jEdit"
 
@@ -1439,6 +1651,8 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "SQL:2003" -> "SQL:2006" [weight=3]
 "SQL:2006" -> "SQL:2008" [weight=3]
 "SQL:2008" -> "SQL:2011" [weight=3]
+
+/*
 
 "PL/I" -> "EPL" [weight=3]
 "EPL" -> "TMG"
@@ -1466,6 +1680,10 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "Standard ML" -> "Poplog"
 "Common Lisp" -> "Poplog"
 
+"ALGOL 60" -> "CLU"
+"CLU" -> "C++"
+"CLU" -> "Python"
+"CLU" -> "Ruby"
 
 "CPL" -> "BCPL" [weight=9]
 "BCPL" -> "B"[weight=9]
@@ -1483,7 +1701,6 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "K&R C" -> "C++" [weight=8]
 "SIMULA 67" -> "C++"[weight=3]
 "Ada" -> "C++"
-"CLU" -> "C++"
 "ML" -> "C++"
 "C++" -> "C++98" [weight=9]
 "C++98" -> "C++03" [weight=9]
@@ -1526,7 +1743,12 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "nawk" -> "Tcl"
 "Tcl" -> "Tcl 8.1"
 
-"DIBOL" -> "DIBOL-8"
+
+"BASIC" -> "DIBOL-8"
+"COBOL" -> "DIBOL-8"
+"FORTRAN" -> "DIBOL-8"
+"DIBOL-8" -> "DIBOL-32"
+"DIBOL-32" -> "Dibol 1992"
 
 "RPG" -> "CRT RPS"
 "CRT RPS" -> "MAPPER"
@@ -1571,5 +1793,11 @@ edge [ arrowsize=3.0, penwidth=3.0 ];
 "COM" -> "ActiveX"
 "ActiveX" -> "Visual Lisp"
 "AutoLISP" -> "Visual Lisp"
+
+*/
+
+"Unix" -> "Xenix"
+
+"C++" -> "Qt"
 
 }
