@@ -495,6 +495,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1984
+    "Coq"
     "Orwell"
     "FORM"
     "OPL"
@@ -514,6 +515,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1985
+    "AMPL"
     "BASIC/Z"
     "Paradox"
     "PAL/DOS"
@@ -587,6 +589,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1988
+    "STOS BASIC"
     "Perl2"
     "Cantor"
     "XBasic"
@@ -641,6 +644,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1990
+    "AMOS BASIC"
     "Clipper 5"
     "Sather"
     "J"
@@ -664,6 +668,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1991
+    "ALF"
     "Oz"
     "S-Lang"
     "S3"
@@ -766,6 +771,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1996
+    "Curry"
     "Original E"
     "Pike"
     "OVAL"
@@ -844,6 +850,9 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1999
+    "JoCaml"
+    "Cayenne"
+    "Agda"
     "NetLogo"
     "Glulx"
     "MSIL"
@@ -865,6 +874,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2000
+    "Hume"
     "OCL"
     "Join Java"
     "BeanShell"
@@ -921,6 +931,7 @@ node [ fontsize=10, style=filled ];
     "SML.NET"
     "Perl 5.8.0"
     "COBOL 2002"
+    "Omega"
     "M21"
 }
 
@@ -943,6 +954,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2004
+    "Epigram"
     "X10"
     "CAL"
     "GDL"
@@ -980,6 +992,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2007
+    "Agda 2"
     "Frege"
     "NASM"
     "Clang"
@@ -1025,6 +1038,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2011
+    "Idris"
     "Xtend"
     "Kotlin"
     "C++11"
@@ -1284,10 +1298,10 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Oberon" -> "Modula-3"
 "Oberon-2" -> "Active Oberon"
 "Active Oberon" -> "Zonnon"
-"Oberon" -> "Object Oberon"
-"Object Oberon" -> "Oberon-2"
-"Oberon-2" -> "Oberon/F"
-"Oberon/F" -> "Component\nPascal"
+"Oberon" -> "Object Oberon" [weight=3]
+"Object Oberon" -> "Oberon-2" [weight=3]
+"Oberon-2" -> "Oberon/F" [weight=3]
+"Oberon/F" -> "Component\nPascal" [weight=3]
 
 "Pascal" -> "Draco"
 "C" -> "Draco"
@@ -1481,7 +1495,23 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Logo" -> "Smalltalk-72"
 
 "Miranda" -> "Orwell"
-"Orwell" -> "Haskell" [weight=2]
+"Orwell" -> "Haskell" [weight=3]
+"Haskell" -> "Haskell 98" [weight=3]
+"Haskell 98" -> "Haskell 2010" [weight=3]
+"Miranda" -> "Clean"
+
+"ML" -> "Coq"
+"Coq" -> "ALF"
+"ALF" -> "Epigram"
+"Haskell" -> "Agda"
+"Haskell" -> "Cayenne"
+"Java" -> "Cayenne"
+"Cayenne" -> "Omega"
+"Coq" -> "Agda" [weight=3]
+"Agda" -> "Agda 2" [weight=3]
+"Agda" -> "Idris"
+"Haskell" -> "Curry"
+"Haskell" -> "Hume"
 
 
 "POP-2" -> "NPL"
@@ -1490,8 +1520,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "ML" -> "Standard ML" [weight=3]
 "ML" -> "Lazy ML" [weight=3]
-"Lazy ML" -> "Haskell"
-"Lazy ML" -> "Clean"
 "Lazy ML" -> "HBC"
 "Haskell" -> "HBC"
 "Standard ML" -> "SML'90" [weight=3]
@@ -1523,6 +1551,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SML'97" -> "SML.NET"
 
 "OCaml" -> "Rust"
+"OCaml" -> "JoCaml"
 
 "SML/NJ" -> "Dependent ML"
 "Dependent ML" -> "ATS" [weight=3]
@@ -1738,6 +1767,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "MBASIC" -> "ST BASIC"
 "ST BASIC" -> "GFA BASIC"
 "ST BASIC" -> "ABasiC" [weight=3]
+"ST BASIC" -> "STOS BASIC"
+"STOS BASIC" -> "AMOS BASIC" [weight=3]
 "MBASIC" -> "ABasiC"
 "ABasiC" -> "AmigaBASIC" [weight=3]
 "AmigaBASIC" -> "ARexx"
@@ -1941,6 +1972,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C" -> "awk"
 "awk" -> "nawk"
 "nawk" -> "Tcl"
+"awk" -> "AMPL"
 "Tcl" -> "Tcl 8.1"
 
 
