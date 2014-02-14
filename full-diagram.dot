@@ -151,6 +151,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1964
+    "P\""
     "BASIC" [ fontsize=30]
     "PL/1" [fontsize=30]
     "Multics"
@@ -603,6 +604,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1988
+    "A+"
     "STOS BASIC"
     "Perl2"
     "Cantor"
@@ -681,6 +683,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1991
+    "Q"
     "ALF"
     "Oz"
     "S-Lang"
@@ -704,6 +707,9 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1992
+    "SOL"
+    "DEL"
+    "FALSE"
     "Dylan"
     "xBase"
     "PostScript\nlevel 2"
@@ -723,6 +729,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1993
+    "Brainfuck"
     "Win-Prolog"
     "Agora"
     "Inform"
@@ -745,6 +752,7 @@ node [ fontsize=10, style=filled ];
     "ksh93"
     "Acme"
     "R" [fontsize=30]
+    "Lua"
 }
 
 { rank = same ; 1994
@@ -762,7 +770,6 @@ node [ fontsize=10, style=filled ];
     "Oberon/F"
     "Sather 1.0"
     "ANSI\nCommon Lisp"
-    "Lua"
 }
 
 { rank = same ; 1995
@@ -777,7 +784,6 @@ node [ fontsize=10, style=filled ];
     "Virtual Pascal"
     "Mercury"
     "Delphi"
-    "Oz 1"
     "Java" [fontsize=30]
     "Prolog ISO"
     "Ruby" [fontsize=30]
@@ -847,6 +853,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1998
+    "ksql"
     "Open Erlang"
     "Strawberry\nProlog"
     "JIProlog"
@@ -886,7 +893,6 @@ node [ fontsize=10, style=filled ];
     "SQL:1999"
     "XSL"
     "C99"
-    "Oz 3"
     ".NET"
     "CLR"
     "SQL3"
@@ -958,6 +964,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2003
+    "Lua 5.0"
+    "Kx Q"
     "Go!"
     "Cw"
     "Flow Java"
@@ -966,7 +974,6 @@ node [ fontsize=10, style=filled ];
     "LLVM"
     "Delphi 8"
     "Nemerle"
-    "Lua 5.0"
     "Boo"
     "GHC 6.0"
     "SQL:2003"
@@ -1034,6 +1041,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2008
+    "Pure"
     "Genie"
     "MacRuby"
     "Python 3.0"
@@ -1185,6 +1193,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "FORTH-79" -> "FORTH-83"
 "FORTH-83" -> "ANS Forth"
 "FORTH-79" -> "MacFORTH"
+"FORTH-83" -> "FALSE"
+"FALSE" -> "Brainfuck"
+"P\"" -> "Brainfuck"
 
 
 "FARGO" -> "RPG"
@@ -1891,12 +1902,18 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PDComal" -> "OpenComal"
 
 
-"APL" -> "APL 2"
+"APL" -> "APL 2" [weight=1000]
+"APL" -> "A+" [weight=1000]
+"A+" -> "K"
+"Scheme" -> "K"
+"SQL:92" -> "ksql"
+"K" -> "ksql"
+"ksql" -> "Kx Q"
+"K" -> "Kx Q"
 "APL" -> "PPL"
 "APL" -> "FP"
-"FP" -> "FL"
-"FL" -> "J"
-"APL" -> "J"
+"FP" -> "FL" [weight=500]
+"FL" -> "J" [weight=500]
 "PPL" -> "S"
 "PL/1" -> "SAS"
 "SAS" -> "S"
@@ -2044,6 +2061,15 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "nawk" -> "Tcl"
 "awk" -> "AMPL"
 "Tcl" -> "Tcl 8.1"
+
+"CLU" -> "Lua"
+"C++" -> "Lua"
+"Modula-3" -> "Lua"
+"awk" -> "Lua"
+"Tcl" -> "Lua"
+"SOL" -> "Lua" [weight=500]
+"DEL" -> "Lua" [weight=500]
+"Lua" -> "Lua 5.0" [weight=1000]
 
 
 "BASIC" -> "DIBOL-8"
@@ -2228,6 +2254,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Macsyma" -> "SMP"
 "SMP" -> "Mathematica" [weight=3]
 "Mathematica" -> "Wolfram" [weight=3]
+"Mathematica" -> "Q"
+"Q" -> "Pure"
+"Haskell" -> "Pure"
 
 "K&R C" -> "LPC"
 "LPC" -> "micro LPC" [weight=3]
@@ -2269,6 +2298,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Original E" -> "E"
 "Java" -> "Fan"
 "Fan" -> "Fantom"
+"Prolog" -> "Oz"
 "Oz" -> "Flow Java" [weight=3]
 "Java" -> "Flow Java"
 "Haskell" -> "Fortress"
