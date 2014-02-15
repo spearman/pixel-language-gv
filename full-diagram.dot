@@ -590,7 +590,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1987
-    "Bison"
+    "Flex"
     "SWI-Prolog"
     "Turbo Basic"
     "HyperTalk"
