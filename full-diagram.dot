@@ -97,6 +97,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1958
+    "G-code"    //CNC
     "IPL-V"
     "BNF"
     "ALGOL 58" [fontsize=30]
@@ -123,6 +124,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1961
+    "BLODI"
     "Darwin" [style=dotted]
     "ALGO"
     "COBOL-61"
@@ -169,6 +171,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1965
+    "MOL-360"
     "QUICKSCRIPT"
     "EPL"
     "COCOA"
@@ -202,6 +205,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1967
+    "MOL-940"
+    "CAL-940"
     "Regular\nExpressions"
     "PAL"
     "Ghost"
@@ -486,6 +491,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1983
+    "SISAL"
     "Miranda"
     "Act 2"
     "Chinese BASIC"
@@ -529,7 +535,6 @@ node [ fontsize=10, style=filled ];
     "GOM"
     "APL 2"
     "Lazy ML"
-    "Scheme 84"
     "Modula-2+"
     "Common Lisp" [fontsize=30]
 }
@@ -555,8 +560,8 @@ node [ fontsize=10, style=filled ];
     "Object Pascal"
     "nawk"
     "C++" [fontsize=30]
-    "Lean"
     "CLIPS"
+    "Lean"
     "FL"
     "COBOL-85"
     "Apple Smalltalk"
@@ -606,7 +611,6 @@ node [ fontsize=10, style=filled ];
     "Self"
     "Perl" [fontsize=30]
     "ISO SQL"
-    "Clean"
     "Erlang" [fontsize=30]
     "occam 2"
     "Parlog"
@@ -789,6 +793,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1995
+    "Jess"
     "HTML 2.0"
     "ZPL"
     "ISO Prolog"
@@ -1091,7 +1096,6 @@ node [ fontsize=10, style=filled ];
     "SQL:2006"
     "Cyclone 1.0"
     "Oxygene"
-    "CAL (Open Quark)"
     "JavaScript 1.7"
 }
 
@@ -1319,8 +1323,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Whirlwind\nAssembler" -> "Laning Zierler\nSystem" [weight=9]
 "Laning Zierler\nSystem" -> "IT" [weight=4]
 
-"BNF" -> "META II"
+"BNF" -> "META II" [weight=500]
 "META II" -> "TREE-META"
+"TREE-META" -> "NLS"
 "BNF" -> "CDL"
 "CDL" -> "CDL2"
 "CDL2" -> "CDL3"
@@ -1362,6 +1367,10 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "IMP65" -> "IMP70"
 "BNF" -> "IMP72"
 "IMP70" -> "IMP72"
+
+"ALGOL 60" -> "MOL-360"
+"MOL-360" -> "MOL-940" [weight=500]
+"MOL-940" -> "NLS"
 
 "ALGOL 60" -> "MPPL" [weight=3]
 "MPPL" -> "PL/1" [weight=1000]
@@ -1503,7 +1512,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "JOSS I" -> "TELCOMP"
 "JOSS I" -> "FILECOMP"
 "JOSS I" -> "STRINGCOMP"
-"JOSS I" -> "JOSS II"
+"JOSS I" -> "JOSS II" [weight=500]
+"JOSS II" -> "CAL-940"
 "FILECOMP" -> "MUMPS"
 "STRINGCOMP" -> "MUMPS"
 "TELCOMP" -> "MUMPS"
@@ -1618,6 +1628,11 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ODBC" -> "Visual Prolog"
 "PDC Prolog" -> "Visual Prolog" [weight=500]
 "ISO Prolog" -> "Go!"
+"Prolog" -> "CLIPS"
+"C++" -> "CLIPS"
+"CLIPS" -> "CLIPS 5.0" [weight=500]
+"CLIPS" -> "Jess"
+"Java" -> "Jess"
 
 "Eriplex" -> "PLEX" [weight=1000]
 "PLEX" -> "Erlang" [weight=1000]
@@ -1690,7 +1705,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Orwell" -> "Haskell" [weight=1000]
 "Haskell" -> "Haskell 98" [weight=1000]
 "Haskell 98" -> "Haskell 2010" [weight=1000]
-"Miranda" -> "Clean"
+"Miranda" -> "Lean"
+"Lean" -> "Clean" [weight=500]
+"Clean" -> "Concurrent\nClean" [weight=500]
 
 "ML" -> "Coq"
 "Coq" -> "ALF"
@@ -2188,6 +2205,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Java" -> "XL"
 "Fortran 95" -> "XL"
 "ISO Prolog" -> "XL"
+
+"BLODI" -> "SISAL"
+"SIAL" -> "G"
 
 "Ruby" -> "D"
 "C#" -> "D"
