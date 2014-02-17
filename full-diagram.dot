@@ -88,6 +88,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1957
+    "MUSIC"
     "SOAP"
     "IAL" [ style=dotted ]
     "MATH-MATIC"
@@ -154,6 +155,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1964
+    "MUSIC IV"
     "P\""
     "BASIC" [ fontsize=30]
     "PL/1" [fontsize=30]
@@ -305,6 +307,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1973
+    "POGOL"
     "JPLDIS"
     "COMAL"
     "System R"
@@ -353,6 +356,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1976
+    "Lucid"
     "PL/I"
     "BASIC-E"
     "SAS 76"
@@ -421,6 +425,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1979
+    "VAL"
     "SMP"
     "ZIL"
     "C with\nClasses"
@@ -479,6 +484,7 @@ node [ fontsize=10, style=filled ];
 
 { rank = same ; 1982
     "Draco"
+    "SIGNAL"
     "SAS 82"
     "PBASIC"
     "SD-Poplog"
@@ -519,6 +525,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1984
+    "Verilog"
     "DOS Prolog"
     "Ciao"
     "Coq"
@@ -540,6 +547,10 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1985
+    "VHDL"
+    "Esterel"
+    "LUSTRE"
+    "Max"
     "YAP"
     "AMPL"
     "BASIC/Z"
@@ -649,6 +660,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1989
+    "Max/FTS"
     "VimSim"
     "LPC"
     "PowerBASIC"
@@ -697,6 +709,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1991
+    "VEE"
     "Q"
     "ALF"
     "Oz"
@@ -721,6 +734,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1992
+    "PL/SQL"
     "SOL"
     "DEL"
     "FALSE"
@@ -743,6 +757,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1993
+    "Prograph CPX"
     "HPF"
     "cmd"
     "CGI"
@@ -774,6 +789,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1994
+    "Linda"
+    "SAC"
     "CHSS"
     "RAPID"
     "Python 1.0"
@@ -793,6 +810,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1995
+    "GLU"
+    "VirtualDub"
     "Jess"
     "HTML 2.0"
     "ZPL"
@@ -818,6 +837,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1996
+    "Pure Data"
     "Strongtalk"
     "HPF+"
     "PDL"
@@ -854,6 +874,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1997
+    "ASCET"
+    "Max/MSP"
     "HPF 2.0"
     "Tea"
     "Pico"
@@ -885,6 +907,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1998
+    "Vvvv"
+    "jMax"
     "ActionScript"
     "PIKT"
     "M2001"
@@ -921,6 +945,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1999
+    "PilotScript"
     "GameMaker\nLanguage"
     "XPath"
     "XSLT"
@@ -978,6 +1003,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2001
+    "OpenVera"
     "AspectJ"
     "JSON"
     "RELAX NG"
@@ -1001,6 +1027,9 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2002
+    "SystemVerilog"
+    "Quartz\nComposer"
+    "AviSynth"
     "HASTE"
     "A#"
     "JLog"
@@ -1039,12 +1068,14 @@ node [ fontsize=10, style=filled ];
     "Boo"
     "GHC 6.0"
     "SQL:2003"
+    "Tersus"
     "Io"
     "C++03"
     "Scala" [fontsize=30]
 }
 
 { rank = same ; 2004
+    "VSXu"
     "Little b"
     "Factor"
     "DOM Level 3"
@@ -1094,6 +1125,7 @@ node [ fontsize=10, style=filled ];
     "Vala"
     "RPAL"
     "SQL:2006"
+    "VPL"
     "Cyclone 1.0"
     "Oxygene"
     "JavaScript 1.7"
@@ -1139,6 +1171,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2009
+    "Curin"
     "Coherence"
     "Jekejeke\nProlog"
     "Noop"
@@ -2122,6 +2155,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SEQUEL" -> "SQL" [weight=1000]
 "SQL" -> "SQL/DS" [weight=1000]
 "SQL/DS" -> "DB2"
+"DB2" -> "PL/SQL"
 "SQL/DS" -> "SQL-86" [weight=1000]
 "SQL-86" -> "SQL-89" [weight=1000]
 "SQL-89" -> "SQL-92" [weight=1000]
@@ -2167,11 +2201,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Standard ML" -> "Poplog"
 "Common Lisp" -> "Poplog"
 
-"ALGOL 60" -> "CLU"
-"CLU" -> "C++"
-"CLU" -> "Python"
-"CLU" -> "Ruby"
-
 "CPL" -> "BCPL" [weight=1000]
 "BCPL" -> "B"[weight=1000]
 "B" -> "C" [weight=1000]
@@ -2206,8 +2235,55 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Fortran 95" -> "XL"
 "ISO Prolog" -> "XL"
 
-"BLODI" -> "SISAL"
-"SIAL" -> "G"
+"BLODI" -> "Prograph"
+"Prograph" -> "Prograph CPX" [weight=500]
+"Pascal" -> "CLU"
+"CLU" -> "VAL"
+"CLU" -> "C++"
+"CLU" -> "Python"
+"CLU" -> "Ruby"
+"BLODI" -> "VAL"
+"CLU" -> "VAL" [weight=3]
+"VAL" -> "SISAL"
+"VAL" -> "CAL" [weight=3]
+"C89" -> "SAC"
+"SISAL" -> "SAC"
+"MUSIC IV" -> "Max"
+"MUSIC" -> "MUSIC IV"
+"Prograph" -> "G"
+"G" -> "VEE"
+"G" -> "Curin"
+"VirtualDub" -> "AviSynth"
+"MATLAB" -> "ASCET"
+"VEE" -> "ASCET"
+"SAC" -> "ANI"
+"C99" -> "ANI"
+"Prograph" -> "Max"
+"Max" -> "Max/FTS" [weight=500]
+"Max/FTS" -> "jMax"
+"Java" -> "jMax"
+"Max" -> "Pure Data"
+"Pure Data" -> "VSXu"
+"Max/FTS" -> "Max/MSP"
+"Pure Data" -> "Max/MSP"
+"Max/MSP" -> "Vvvv"
+"Vvvv" -> "Quartz\nComposer"
+"Ease" -> "Linda"
+"ISWIM" -> "Lucid"
+"Lucid" -> "LUSTRE"
+"Lucid" -> "SIGNAL"
+"Lucid" -> "Esterel"
+"Lucid" -> "GLU" [weight=500]
+"Lucid" -> "SISAL"
+"C#" -> "VPL"
+"PL/SQL" -> "PilotScript"
+"K&R C" -> "Verilog"
+"Verilog" -> "VHDL"
+"Ada 83" -> "VHDL"
+"Verilog" -> "OpenVera"
+"OpenVera" -> "SystemVerilog" [weight=500]
+"CSS" -> "Tersus"
+"XML" -> "Tersus"
 
 "Ruby" -> "D"
 "C#" -> "D"
