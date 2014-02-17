@@ -579,6 +579,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1986
+    "LOGIN"
     "MASTER"
     "SB-Prolog"
     "PROMAL"
@@ -621,7 +622,6 @@ node [ fontsize=10, style=filled ];
     "Turing+"
     "Self"
     "Perl" [fontsize=30]
-    "ISO SQL"
     "Erlang" [fontsize=30]
     "occam 2"
     "Parlog"
@@ -631,7 +631,7 @@ node [ fontsize=10, style=filled ];
     "Bison"
     "A+"
     "STOS BASIC"
-    "Perl2"
+    "Perl 2"
     "Cantor"
     "XBasic"
     "HyperScript"
@@ -649,8 +649,6 @@ node [ fontsize=10, style=filled ];
     "XLISP 2.0"
     "Mathematica"
     "SICStus Prolog"
-    "Object REXX"
-    "Quick Basic"
     "Life"
     "A+"
     "Tcl" [fontsize=30]
@@ -661,11 +659,10 @@ node [ fontsize=10, style=filled ];
 
 { rank = same ; 1989
     "Max/FTS"
-    "VimSim"
     "LPC"
     "PowerBASIC"
     "PEARL-90"
-    "Perl3"
+    "Perl 3"
     "TASM"
     "SuperTalk"
     "JMP"
@@ -678,7 +675,7 @@ node [ fontsize=10, style=filled ];
     "REFAL-5"
     "bash"[fontsize=30]
     "Modula-3"
-    "Concurrent Clean"
+    "Concurrent\nClean"
     "CLOS"
     "Lambda Prolog"
     "Newsqueak"
@@ -689,7 +686,6 @@ node [ fontsize=10, style=filled ];
     "Clipper 5"
     "Sather"
     "J"
-    "basic Thunder"
     "Open Basic"
     "SML'90"
     "HOL90"
@@ -727,8 +723,6 @@ node [ fontsize=10, style=filled ];
     "Oberon-2"
     "CLIPS 5.0"
     "Python" [fontsize=30]
-    "Perl 4"
-    "Sather 0.1"
     "Oak"
     "vimscript"
 }
@@ -742,7 +736,6 @@ node [ fontsize=10, style=filled ];
     "xBase"
     "PostScript\nlevel 2"
     "ISO M"
-    "Jet"
     "Visual Basic 2.0"
     "DEC BASIC"
     "PDComal"
@@ -752,7 +745,7 @@ node [ fontsize=10, style=filled ];
     "Gödel"
     "HyTime"
     "Cecil"
-    "SQL-92"
+    "SQL2"
     "Alef"
 }
 
@@ -827,7 +820,6 @@ node [ fontsize=10, style=filled ];
     "Mercury"
     "Delphi"
     "Java" [fontsize=30]
-    "Prolog ISO"
     "Ruby" [fontsize=30]
     "Ada 95"
     "PHP"
@@ -864,7 +856,6 @@ node [ fontsize=10, style=filled ];
     "SGML (ENR)"
     "KM"
     "occam pi"
-    "APL 96"
     "bash 2.0"
     "Limbo"
     "Squeak"
@@ -961,16 +952,17 @@ node [ fontsize=10, style=filled ];
     "CorelScript"
     "WinWrap Basic"
     "Gambas"
-    "SQL:1999"
+    "SQL3"
+    "Hugs 98"
     "XSL"
     "C99"
     ".NET"
     "CLR"
-    "SQL3"
     "Tcl 8.1"
 }
 
 { rank = same ; 2000
+    "JSL"
     "Ferite"
     "PureBasic"
     "DOM Level 2"
@@ -995,14 +987,13 @@ node [ fontsize=10, style=filled ];
     "OCaml 3.0"
     "C#" [fontsize=40]
     "Quilt"
-    "Lua 4.0"
-    "PHP4"
     "JavaScript 1.5"
     "Mondrian"
     "VPython"
 }
 
 { rank = same ; 2001
+    "Mondrian"
     "OpenVera"
     "AspectJ"
     "JSON"
@@ -1022,7 +1013,7 @@ node [ fontsize=10, style=filled ];
     "XLink"
     "zsh 4.0"
     "XQuery"
-    "GHC 5.00"
+    "GHC 5.0"
     "Poly/ML 4.0"
 }
 
@@ -1066,7 +1057,6 @@ node [ fontsize=10, style=filled ];
     "Delphi 8"
     "Nemerle"
     "Boo"
-    "GHC 6.0"
     "SQL:2003"
     "Tersus"
     "Io"
@@ -1092,7 +1082,6 @@ node [ fontsize=10, style=filled ];
     "CDL3"
     "AJAX"
     "Groovy"
-    "PHP5"
     "bash 3.0"
 }
 
@@ -1107,7 +1096,7 @@ node [ fontsize=10, style=filled ];
     "Apache Jelly"
     "Fan"
     "ECMA Eiffel"
-    "Morfik"
+    "Morfik Pascal"
     "C# 2.0"
     "Unicon"
 }
@@ -1132,6 +1121,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2007
+    "XQuery 1.0"
     "LOLCODE"
     "Oberon-07"
     "XPath 2.0"
@@ -1147,7 +1137,7 @@ node [ fontsize=10, style=filled ];
     "Scheme R6RS"
     "D2"
     "C# 3.0"
-    "Groovy 1"
+    "Groovy 1.0"
 }
 
 { rank = same ; 2008
@@ -1171,11 +1161,11 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2009
+    "bash 4.0"
     "Curin"
     "Coherence"
     "Jekejeke\nProlog"
     "Noop"
-    "PIR"
     "Embarcadero\nDelphi 2009"
     "Fantom"
     "Go" [fontsize=30]
@@ -1212,6 +1202,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2012
+    "Groovy 2.0"
     "Julia"
     "TypeScript"
     "Rebol 3"
@@ -1437,6 +1428,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SIMULA 67" -> "Pascal"
 "Pascal" -> "Icon"
 "SNOBOL4" -> "Icon"
+"Icon" -> "Unicon" [weight=3]
 "Pascal" -> "WEB"
 "WEB" -> "TeX"
 
@@ -1564,6 +1556,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ANSI MUMPS" -> "Merle"
 "Perl" -> "Merle"
 "REXX" -> "Merle"
+"REXX" -> "Object REXX"
 "Merle" -> "M2 Mumps" [weight=3]
 "DSM-11" -> "MUMPS V1"
 "MSM" -> "M21" [weight=3]
@@ -1575,7 +1568,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "DTM" -> "OpenM"
 "OpenM" -> "Cache\nObjectScript" [weight=3]
 "Cache\nObjectScript" -> "Cache BASIC" [weight=3]
-"SQL-92" -> "Cache\nObjectScript"
+"SQL2" -> "Cache\nObjectScript"
 
 
 "ALGOL 60" -> "SIMULA I" [weight=3]
@@ -1645,6 +1638,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Edinburgh\nProlog" -> "Open Prolog"
 "Edinburgh\nProlog" -> "SB-Prolog"
 "Edinburgh\nProlog" -> "YAP"
+"Edinburgh\nProlog" -> "LOGIN"
+"Edinburgh\nProlog" -> "Lambda Prolog"
+"LOGIN" -> "LIFE" [weight=500]
 "SB-Prolog" -> "XSB"
 "ISO Prolog" -> "JIProlog"
 "Java" -> "JIProlog"
@@ -1738,6 +1734,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Orwell" -> "Haskell" [weight=1000]
 "Haskell" -> "Haskell 98" [weight=1000]
 "Haskell 98" -> "Haskell 2010" [weight=1000]
+"Haskell 98" -> "Mondrian"
+"Haskell 98" -> "GHC 5.0"
 "Miranda" -> "Lean"
 "Lean" -> "Clean" [weight=500]
 "Clean" -> "Concurrent\nClean" [weight=500]
@@ -1754,6 +1752,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Agda" -> "Idris"
 "Haskell" -> "Curry"
 "Haskell" -> "Hume"
+"Haskell" -> "Gofer"
+"Gofer" -> "Hugs 98" [weight=500]
 
 
 "POP-2" -> "NPL"
@@ -1799,6 +1799,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "OCaml" -> "Rust"
 "LLVM" -> "Rust"
 "OCaml" -> "JoCaml"
+"Ocaml" -> "Ocaml 3.0" [weight=500]
 
 "SML/NJ" -> "Dependent ML"
 "Dependent ML" -> "ATS" [weight=3]
@@ -2103,6 +2104,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SAS" -> "SAS 71" [weight=500]
 "SAS 71" -> "SAS 76" [weight=500]
 "SAS 76" -> "SAS 82" [weight=500]
+"SAS 82" -> "JMP" [weight=3]
+"JMP" -> "JSL" [weight=500]
 "FORTRAN" -> "S"
 "S" -> "New S" [weight=500]
 "New S" -> "S3" [weight=500]
@@ -2158,9 +2161,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "DB2" -> "PL/SQL"
 "SQL/DS" -> "SQL-86" [weight=1000]
 "SQL-86" -> "SQL-89" [weight=1000]
-"SQL-89" -> "SQL-92" [weight=1000]
-"SQL-92" -> "SQL:1999" [weight=1000]
-"SQL:1999" -> "SQL:2003" [weight=1000]
+"SQL-89" -> "SQL2" [weight=1000]
+"SQL2" -> "SQL3" [weight=1000]
+"SQL3" -> "SQL:2003" [weight=1000]
 "SQL:2003" -> "SQL:2006" [weight=1000]
 "SQL:2006" -> "SQL:2008" [weight=1000]
 "SQL:2008" -> "SQL:2011" [weight=1000]
@@ -2314,7 +2317,12 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ksh" -> "bash"
 "csh" -> "bash"
 "bash" -> "zsh"
+"bash" -> "bash 2.0" [weight=500]
+"bash 2.0" -> "bash 3.0" [weight=500]
+"bash 3.0" -> "bash 4.0" [weight=500]
 "ksh" -> "zsh"
+"zsh" -> "zsh 3.0" [weight=500]
+"zsh 3.0" -> "zsh 4.0" [weight=500]
 "ash" -> "dash" [weight=500]
 
 "QED" -> "ed"
@@ -2398,12 +2406,16 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "DTD" -> "TREX"
 "TREX" -> "RELAX NG"
 "RELAX" -> "RELAX NG"
+"RELAX NG" -> "DSDL"
 "XML" -> "XSD"
 "XML" -> "RELAX NG"
 "XML" -> "XHTML"
 "XML" -> "XSLT"
 "XML" -> "XPath"
 "XPath" -> "XPath 2.0" [weight=500]
+"SQL3" -> "XQuery"
+"XPath" -> "XQuery"
+"XQuery" -> "XQuery 1.0" [weight=500]
 "XSLT" -> "XSLT 2.0" [weight=500]
 "XSD" -> "XSLT 2.0"
 "HTML" -> "XHTML"
@@ -2439,6 +2451,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SIMULA 67" -> "Eiffel" [weight=3]
 "Pascal" -> "Eiffel" [weight=3]
 "Eiffel" -> "Sather"
+"Sather" -> "Sather 1.0" [weight=500]
 
 "Smalltalk-80" -> "HyperTalk" [weight=2]
 "Pascal" -> "HyperTalk"
@@ -2469,7 +2482,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Clipper 5" -> "CA-Clipper 5" [weight=500]
 "CA-Clipper 5" -> "Harbour"
 "Harbour" -> "xHarbour" [weight=500]
-"SQL-92" -> "xBase"
+"SQL2" -> "xBase"
 
 "BPL" -> "VisiCalc"
 
@@ -2567,8 +2580,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "J++" -> "J#" [weight=500]
 "J#" -> "C#" [weight=3]
 "Java" -> "Groovy"
-"Groovy" -> "Groovy 1.0" [weight=3]
-"Groovy 1.0" -> "Groovy 2.0" [weight=3]
+"Groovy" -> "Groovy 1.0" [weight=500]
+"Groovy 1.0" -> "Groovy 2.0" [weight=500]
 
 "Java" -> "Clojure"
 "Common Lisp" -> "Clojure"
@@ -2648,6 +2661,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 ".NET 3.0" -> ".NET 4.0" [weight=1000]
 ".NET" -> "PowerShell"
 "MS-DOS" -> "COMMAND.COM"
+"MS-DOS" -> "OS/2"
 "COMMAND.COM" -> "cmd"
 "cmd" -> "PowerShell"
 
@@ -2701,7 +2715,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Ruby" -> "Ferite"
 "PHP" -> "Ferite"
 "C++98" -> "Ferite"
-"Java 2" -> "ApsectJ"
+"Java 2" -> "AspectJ"
 "Clojure" -> "JFactor"
 "ANS Forth" -> "JFactor"
 "JFactor" -> "Factor" [weight=1000]
