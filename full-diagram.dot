@@ -143,6 +143,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1963
+    "Situational\nCalculus" [style=dotted]
     "Scoonship"
     "SIMSCRIPT"
     "Standard LISP"
@@ -734,6 +735,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1992
+    "pi-calculus"
     "PL/SQL"
     "SOL"
     "DEL"
@@ -789,6 +791,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1994
+    "GOLOG"
     "Linda"
     "SAC"
     "CHSS"
@@ -874,6 +877,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1997
+    "spi-calculus"
     "ASCET"
     "Max/MSP"
     "HPF 2.0"
@@ -1027,6 +1031,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2002
+    "BPML"
     "SystemVerilog"
     "Quartz\nComposer"
     "AviSynth"
@@ -1151,6 +1156,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2008
+    "BPDL"
     "Flex++"
     "2APL"
     "Pure"
@@ -1528,19 +1534,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Ada 95" -> "Ada 2005" [weight=1000]
 
 
-"CSP" -> "Newsqueak"
-"CSP" -> "occam"
-"occam" -> "occam 2"
-"occam 2" -> "occam pi"
-"occam" -> "Ease"
-"Newsqueak" -> "Alef"
-"C" -> "Alef"
-"Alef" -> "Limbo"
-"Alef" -> "Acme"
-"Limbo" -> "Go"
-"CSP" -> "Go"
-"C" -> "Go"
-
 "ALGOL 58" -> "JOSS I"
 "JOSS I" -> "TELCOMP"
 "JOSS I" -> "FILECOMP"
@@ -1804,9 +1797,29 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Dependent ML" -> "ATS" [weight=3]
 "OCaml" -> "ATS"
 
+"Edinburgh\nProlog" -> "GOLOG"
+"Situational\nCalculus" -> "GOLOG"
+"CSP" -> "Newsqueak"
+"CSP" -> "occam"
+"occam" -> "occam 2"
+"occam 2" -> "occam pi"
+"occam" -> "Ease"
+"Newsqueak" -> "Alef"
+"C" -> "Alef"
+"Alef" -> "Limbo"
+"Alef" -> "Acme"
+"Limbo" -> "Go"
+"CSP" -> "Go"
+"C" -> "Go"
+
 "BNF" -> "LCF"
 "LCF" -> "ML"
 "LCF" -> "CCS"
+"CCS" -> "pi-calculus"
+"UML" -> "BPML"
+"pi-calculus" -> "BPML"
+"BPML" -> "BPDL" [weight=500]
+"pi-calculus" -> "spi-calculus"
 "CCS" -> "HOL"
 "HOL" -> "HOL88" [weight=3]
 "HOL88" -> "HOL90" [weight=3]
@@ -1832,8 +1845,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Common Lisp" -> "Heavy CAML"
 "Standard ML" -> "Heavy CAML" [weight=3]
 "Standard ML" -> "Haskell" [weight=3]
-"Heavy CAML" -> "Caml Light" [weight=3]
-"Caml Light" -> "OCaml" [weight=3]
+"Heavy CAML" -> "Caml Light" [weight=500]
+"Caml Light" -> "OCaml" [weight=500]
 
 "ML" -> "Ur"
 "Haskell" -> "Ur"
