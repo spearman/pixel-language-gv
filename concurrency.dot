@@ -411,7 +411,8 @@ node [ fontsize=10, style=filled ];
     "SBASIC"
 }
 
-{ rank = same ; 1978
+{ rank = same 1978
+    "EPL"
     "PL/P"
     "VisiCalc"
     "CCSM"
@@ -587,6 +588,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1986
+    "Emerald"
     "LOGIN"
     "MASTER"
     "SB-Prolog"
@@ -957,6 +959,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1999
+    "JErlang"
     "PilotScript"
     "GameMaker\nLanguage"
     "XPath"
@@ -1515,6 +1518,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Modula-2" -> "Oberon"
 "Modula-2" -> "M2001"
 "Oberon" -> "Modula-3"
+"Modula-3" -> "Obliq"
 "Oberon-2" -> "Active Oberon"
 "Active Oberon" -> "Zonnon"
 "Oberon" -> "Object Oberon" [weight=3]
@@ -1674,34 +1678,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "CLIPS" -> "Jess"
 "Java" -> "Jess"
 
-"Eriplex" -> "PLEX" [weight=1000]
-"PLEX" -> "Erlang" [weight=1000]
-"Erlang" -> "Open Erlang" [weight=1000]
-"Edinburgh\nProlog" -> "Erlang"
-"Clojure" -> "Elixir"
-"Erlang" -> "Elixir"
-"Common Lisp" -> "Lisp Flavored\nErlang"
-"Erlang" -> "Lisp Flavored\nErlang"
-
-"Edinburgh\nProlog" -> "SICStus Prolog"
-"SICStus Prolog" -> "Gödel"
-"Edinburgh\nProlog" -> "NU-Prolog"
-"NU-Prolog" -> "Gödel"
-"Relational\nLanguage" -> "Gödel"
-"Relational\nLanguage" -> "Parlog"
-"ML" -> "Gödel"
-"Modula-2" -> "Gödel"
-
-"Edinburgh\nProlog" -> "KL0"
-"Flat GHC" -> "KL1"
-"KL0" -> "KL1"
-
-"Edinburgh\nProlog" -> "AgentSpeak"
-"PRS" -> "BDI"
-"BDI" -> "AgentSpeak"
-
-"Edinburgh\nProlog" -> "Mercury"
-"Haskell" -> "Mercury"
 
 
 "MARK IV" -> "Space Programming\nLanguage"
@@ -1722,6 +1698,43 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "INTERCAL" -> "C-INTERCAL"
 "C-INTERCAL" -> "TriINTERCAL"
+
+*/
+
+
+"Eriplex" -> "PLEX" [weight=1000]
+"PLEX" -> "Erlang" [weight=1000]
+"Erlang" -> "Open Erlang" [weight=1000]
+"Open Erlang" -> "JErlang"
+"join-calculus" -> "JErlang"
+"Edinburgh\nProlog" -> "Erlang"
+"Clojure" -> "Elixir"
+"Erlang" -> "Elixir"
+"Common Lisp" -> "Lisp Flavored\nErlang"
+"Erlang" -> "Lisp Flavored\nErlang"
+
+
+
+
+"Edinburgh\nProlog" -> "SICStus Prolog"
+"SICStus Prolog" -> "Gödel"
+"Edinburgh\nProlog" -> "NU-Prolog"
+"NU-Prolog" -> "Gödel"
+"Relational\nLanguage" -> "Gödel"
+"Relational\nLanguage" -> "Parlog"
+"ML" -> "Gödel"
+"Modula-2" -> "Gödel"
+
+"Edinburgh\nProlog" -> "KL0"
+"Flat GHC" -> "KL1"
+"KL0" -> "KL1"
+
+"Edinburgh\nProlog" -> "AgentSpeak"
+"PRS" -> "BDI"
+"BDI" -> "AgentSpeak"
+
+"Edinburgh\nProlog" -> "Mercury"
+"Haskell" -> "Mercury"
 
 "ALGOL 60" -> "ISWIM"
 "LISP" -> "ISWIM" [weight=6]
@@ -1790,7 +1803,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SML'97" -> "SML/NJ"
 "SML'97" -> "MLton"
 "SML'97" -> "ML Kit"
-"SML/NJ" -> "sml2c"
+"SML'90" -> "sml2c"
 "SML/NJ" -> "SML/NJ 110" [weight=3]
 "SML/NJ 110" -> "Mythryl"
 "Perl" -> "Mythryl"
@@ -1815,8 +1828,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SML/NJ" -> "Dependent ML"
 "Dependent ML" -> "ATS" [weight=3]
 "OCaml" -> "ATS"
-
-*/
 
 "PLANNER" -> "Actors model"
 "Actors model" -> "pi-calculus"
