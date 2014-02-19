@@ -667,6 +667,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1989
+    "Facile"
     "Estelle"
     "LOTOS"
     "Max/FTS"
@@ -1847,6 +1848,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ACP" -> "ACP-tau"
 "CCS" -> "pi-calculus"
 "CCS" -> "PEPA"
+"CCS" -> "Facile"
+"Standard ML" -> "Facile"
 "CSP" -> "PEPA"
 "pi-calculus" -> "ambient\ncalculus"
 "ambient\ncalculus" -> "Bigraphical\nModel"
