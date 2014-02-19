@@ -132,6 +132,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1962
+    "Petri nets" [style=dotted]
     "META II"
     "LISP 1.5"
     "SIMULA I" [style=dotted, fontsize=30]
@@ -244,6 +245,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1969
+    "Hoare logic"
     "BPL"
     "SLANG"
     "Unix"
@@ -308,6 +310,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1973
+    "Actors model" [style=dotted]
     "POGOL"
     "JPLDIS"
     "COMAL"
@@ -357,6 +360,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1976
+    "SDL" [style=dotted] //ISO specification and description language
     "Lucid"
     "PL/I"
     "BASIC-E"
@@ -381,6 +385,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1977
+    "trace theory" [style=dotted]
     "PEARL"
     "INFORM-11"
     "MATLAB"
@@ -443,6 +448,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1980
+    "OSI"
     "SabreTalk"
     "CBASIC"
     "dBASE II"
@@ -484,6 +490,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1982
+    "ACP" [style=dotted]
     "Draco"
     "SIGNAL"
     "SAS 82"
@@ -608,6 +615,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1987
+    "ACP-tau" [style=dotted]
     "Flex"
     "SWI-Prolog"
     "Turbo Basic"
@@ -659,6 +667,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1989
+    "Estelle"
+    "LOTOS"
     "Max/FTS"
     "LPC"
     "PowerBASIC"
@@ -729,7 +739,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1992
-    "pi-calculus"
+    "pi-calculus" [style=dotted]
     "PL/SQL"
     "SOL"
     "DEL"
@@ -784,6 +794,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1994
+    "PEPA" [style=dotted]
     "GOLOG"
     "Linda"
     "SAC"
@@ -806,6 +817,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1995
+    "join-calculus" [style=dotted]
     "GLU"
     "VirtualDub"
     "Jess"
@@ -868,7 +880,9 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1997
-    "spi-calculus"
+    "Pict"
+    "blue calculus" [style=dotted]
+    "spi-calculus" [style=dotted]
     "ASCET"
     "Max/MSP"
     "HPF 2.0"
@@ -902,6 +916,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1998
+    "Fusion Calculus" [style=dotted]
+    "ambient\ncalculus" [style=dotted]
     "Vvvv"
     "jMax"
     "ActionScript"
@@ -996,6 +1012,8 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 2001
+    "Bigraphical\nModel" [style=dotted]
+    "E-LOTOS"
     "Mondrian"
     "OpenVera"
     "AspectJ"
@@ -1227,7 +1245,7 @@ node [ fontsize=10, style=filled ];
 
 edge [ arrowsize=1.0, penwidth=1.0 ];
 
-
+/*
 "Plankalkül" -> "Klammerausdrücke"
 
 "ENIAC" -> "ENIAC Short Code" [weight=4]
@@ -1797,11 +1815,20 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Dependent ML" -> "ATS" [weight=3]
 "OCaml" -> "ATS"
 
+*/
+
+"PLANNER" -> "Actors model"
+"Actors model" -> "pi-calculus"
+
+"Petri nets" -> "trace theory"
+
 "Edinburgh\nProlog" -> "GOLOG"
 "Situational\nCalculus" -> "GOLOG"
+"Hoare logic" -> "CSP"
 "CSP" -> "Newsqueak"
 "CSP" -> "occam"
 "occam" -> "occam 2"
+"pi-calculus" -> "occam pi"
 "occam 2" -> "occam pi"
 "occam" -> "Ease"
 "Newsqueak" -> "Alef"
@@ -1814,12 +1841,35 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "BNF" -> "LCF"
 "LCF" -> "ML"
+"CSP" -> "CCS"
 "LCF" -> "CCS"
+"CCS" -> "ACP"
+"ACP" -> "ACP-tau"
 "CCS" -> "pi-calculus"
+"CCS" -> "PEPA"
+"CSP" -> "PEPA"
+"pi-calculus" -> "ambient\ncalculus"
+"ambient\ncalculus" -> "Bigraphical\nModel"
+"pi-calculus" -> "Fusion Calculus"
+"Act 1" -> "Act 2" [weight=500]
+"OSI" -> "LOTOS"
+"LOTOS" -> "E-LOTOS" [weight=500]
+"Act 1" -> "LOTOS"
+"CSP" -> "LOTOS"
+"CCS" -> "LOTOS"
+"SDL" -> "LOTOS"
+"SDL" -> "Estelle"
 "UML" -> "BPML"
 "pi-calculus" -> "BPML"
 "BPML" -> "BPDL" [weight=500]
 "pi-calculus" -> "spi-calculus"
+"pi-calculus" -> "join-calculus"
+"pi-calculus" -> "blue calculus"
+"pi-calculus" -> "Pict"
+"join-calculus" -> "JoCaml"
+"join-calculus" -> "Polyphonic C#"
+"join-calculus" -> "Join Java"
+
 "CCS" -> "HOL"
 "HOL" -> "HOL88" [weight=3]
 "HOL88" -> "HOL90" [weight=3]
@@ -1848,6 +1898,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Heavy CAML" -> "Caml Light" [weight=500]
 "Caml Light" -> "OCaml" [weight=500]
 
+
+/*
 "ML" -> "Ur"
 "Haskell" -> "Ur"
 
@@ -2533,7 +2585,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "INFORM-11" -> "Application\nFactory" [weight=3]
 "Application\nFactory" -> "CorVision" [weight=3]
 
-"Act 1" -> "Act 2" [weight=3]
 
 "MASM" -> "TASM"
 "Cesil" -> "MASM"
@@ -2747,5 +2798,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "Subtext" -> "Coherence"
 
+*/
 
 }
