@@ -1,7 +1,7 @@
 digraph dd {
 
   {
-    node [ shape=plaintext,fontsize=80 ];
+    node [ shape=plaintext,fontsize=40 ];
 
     1940 -> 1941 -> 1942 -> 1943 -> 1944 -> 1945 -> 1946 -> 1947 -> 1948 -> 1949 ->
     1950 -> 1951 -> 1952 -> 1953 -> 1954 -> 1955 -> 1956 -> 1957 -> 1958 -> 1959 ->
@@ -14,7 +14,7 @@ digraph dd {
 
   }
 
-node [ fontsize=10, style=filled ];
+node [ fontsize=20, style=filled ];
 
 { rank = same ; 1943
     "ENIAC"
@@ -144,7 +144,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1963
-    "Intergalactic\nComputer\nNetwork"
+    "Intergalactic\nComputer\nNetwork" [style=dotted]
     "Situational\nCalculus" [style=dotted]
     "Scoonship"
     "SIMSCRIPT"
@@ -417,6 +417,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same 1978
+    "JaM"
     "EPL"
     "PL/P"
     "VisiCalc"
@@ -437,6 +438,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1979
+    "Metafont"
     "VAL"
     "SMP"
     "ZIL"
@@ -454,6 +456,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1980
+    "Interpress"
     "OSI"
     "SabreTalk"
     "CBASIC"
@@ -773,6 +776,7 @@ node [ fontsize=10, style=filled ];
 }
 
 { rank = same ; 1993
+    "PDF"
     "Prograph CPX"
     "HPF"
     "cmd"
@@ -1457,6 +1461,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PL/I" -> "SabreTalk"
 "PL/1" -> "PL/8"
 
+*/
+
 "ALGOL 60" -> "EULER"
 "EULER" -> "Pascal"
 "PL360" -> "ALGOL W"
@@ -1471,10 +1477,13 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "troff" -> "TeX"
 "WEB" -> "TeX"
 "TeX" -> "TeX82"
+"TeX" -> "Metafont"
 "TeX82" -> "AMS-TeX"
 "TeX82" -> "LaTeX"
 "LaTeX" -> "LaTeX2e"
 
+
+/*
 
 "Pascal" -> "Pascal-P" [weight=1000]
 "Pascal-P" -> "Pascal-P2" [weight=1000]
@@ -1715,7 +1724,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "INTERCAL" -> "C-INTERCAL"
 "C-INTERCAL" -> "TriINTERCAL"
 
-*/
 
 
 "Eriplex" -> "PLEX" [weight=1000]
@@ -1934,7 +1942,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Caml Light" -> "OCaml" [weight=500]
 
 
-/*
 "ML" -> "Ur"
 "Haskell" -> "Ur"
 
@@ -2089,7 +2096,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "True BASIC" -> "OPL"
 "Visual Basic 4.0" -> "OVAL"
 "OPL" -> "OVAL" [weight=3]
-"True BASIC" -> "XBasic"
+"QuickBASIC" -> "XBasic"
 "C" -> "XBasic"
 "True BASIC" -> "PureBasic"
 
@@ -2586,6 +2593,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "BPL" -> "VisiCalc"
 
+*/
+
 "PostScript" -> "S-Lang"
 "MATLAB" -> "S-Lang"
 "MATLAB" -> "MATLAB 1.0" [weight=3]
@@ -2593,11 +2602,16 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "MATLAB 1.0" -> "MATLAB 6.0" [weight=3]
 "Java" -> "MATLAB 6.0"
 
-"FORTH" -> "PostScript"
-"LISP" -> "PostScript"
-"PostScript" -> "PostScript\nlevel 1"
-"PostScript\nlevel 1" -> "PostScript\nlevel 2"
-"PostScript\nlevel 2" -> "PostScript\nlevel 3"
+"FORTH" -> "JaM"
+"JaM" -> "Interpress" [weight=500]
+"Interpress" -> "PostScript" [weight=500]
+"Zetalisp" -> "PostScript"
+"PostScript" -> "PostScript\nlevel 1" [weight=1000]
+"PostScript\nlevel 1" -> "PostScript\nlevel 2" [weight=1000]
+"PostScript\nlevel 2" -> "PostScript\nlevel 3" [weight=1000]
+"PostScript" -> "PDF" [weight=3]
+
+/*
 
 "Unix" -> "Xenix"
 
