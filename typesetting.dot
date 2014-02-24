@@ -598,6 +598,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1986
+    "SGML"
     "LaTeX"
     "Emerald"
     "LOGIN"
@@ -753,6 +754,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1992
+    "DocBook"
     "pi-calculus" [style=dotted]
     "PL/SQL"
     "SOL"
@@ -1057,6 +1059,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 2002
+    "AsciiDoc"
     "BPML"
     "SystemVerilog"
     "Quartz\nComposer"
@@ -2497,6 +2500,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "GML" -> "SGML"
 "GML" -> "ISIL"
 "SGML" -> "HyTime"
+"SGML" -> "DocBook"
+"DocBook" -> "AsciiDoc"
 "HyTime" -> "XML"
 "SGML" -> "XML"
 "ISIL" -> "DWISIL"
