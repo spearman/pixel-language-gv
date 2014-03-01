@@ -1004,6 +1004,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 2000
+    "Thue"
     "JSL"
     "Ferite"
     "PureBasic"
@@ -2863,5 +2864,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "SBN" -> "URISC"
 "RISC" -> "URISC"
+"SBN" -> "Thue"
 
 }
