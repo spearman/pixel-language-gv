@@ -316,6 +316,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1973
+    "Marseille\nProlog"
     "Actor model" [style=dotted]
     "POGOL"
     "JPLDIS"
@@ -517,6 +518,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1983
+    "Prolog II+"
     "AMS-TeX"
     "SISAL"
     "Miranda"
@@ -531,7 +533,6 @@ node [ fontsize=20, style=filled ];
     "DB2"
     "Pascal 83"
     "Turbo Pascal"
-    "Edinburgh\nProlog"
     "ISIL"
     "Cedar"
     "True BASIC"
@@ -546,6 +547,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1984
+    "Prolog III"
     "Verilog"
     "DOS Prolog"
     "Ciao"
@@ -568,6 +570,8 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1985
+    "CHIP"
+    "Edinburgh\nProlog"
     "VHDL"
     "Esterel"
     "LUSTRE"
@@ -711,6 +715,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1990
+    "Prolog-2"
     "AMOS BASIC"
     "Clipper 5"
     "Sather"
@@ -781,6 +786,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1993
+    "CLP(R)"
     "PDF"
     "Prograph CPX"
     "HPF"
@@ -865,6 +871,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1996
+    "Prolog IV"
     "Pure Data"
     "Strongtalk"
     "HPF+"
@@ -1673,12 +1680,20 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PLANNER" -> "Ether"
 "PLANNER" -> "PLASMA"
 "Prolog" -> "Datalog"
-"Prolog" -> "Edinburgh\nProlog" [weight=1000]
+"Marseille\nProlog" -> "Edinburgh\nProlog" [weight=1000]
+"Marseille\nProlog" -> "Edinburgh\nProlog" [weight=1000]
+"Prolog" -> "Prolog II+"
+"Prolog II+" -> "Prolog III" [weight=500]
+"Prolog III" -> "Prolog IV" [weight=500]
+"Prolog III" -> "CHIP"
+"CHIP" -> "CHIP V5" [weight=500]
+"Prolog III" -> "CLP(R)"
 "Prolog" -> "Relational\nLanguage"
 "Edinburgh\nProlog" -> "Turbo Prolog"
 "Edinburgh\nProlog" -> "B-Prolog"
 "Edinburgh\nProlog" -> "Ciao"
-"Edinburgh\nProlog" -> "ISO Prolog" [weight=1000]
+"Edinburgh\nProlog" -> "Prolog-2" [weight=1000]
+"Prolog-2" -> "ISO Prolog" [weight=1000]
 "Edinburgh\nProlog" -> "DOS Prolog"
 "DOS Prolog" -> "Win-Prolog" [weight=500]
 "Edinburgh\nProlog" -> "SWI-Prolog"
