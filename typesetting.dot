@@ -211,6 +211,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1967
+    "W-Grammar"
     "MOL-940"
     "CAL-940"
     "Regular\nExpressions"
@@ -1427,6 +1428,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ALGOL 60" -> "PL360"
 "ALGOL 60" -> "BASIC"
 "ALGOL X" -> "ALGOL 68" [weight=1000]
+"W-Grammar" -> "ALGOL 68" [weight=3]
 "ALGOL 68" -> "ALGOL 68G" [weight=1000]
 "ALGOL 58" -> "JOVIAL"
 "ALGOL 60" -> "SAIL"
