@@ -211,6 +211,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1967
+    "QA3"
     "W-Grammar"
     "MOL-940"
     "CAL-940"
@@ -224,6 +225,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1968
+    "QA4"
     "ARPANET"
     "NLS"
     "GRAIL"
@@ -279,6 +281,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1971
+    "STRIPS"
     "FTP"
     "troff"
     "Creeper"
@@ -636,6 +639,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1987
+    "ADL"
     "ACP-tau" [style=dotted]
     "Flex"
     "SWI-Prolog"
@@ -945,6 +949,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1998
+    "PDDL"
     "Fusion Calculus" [style=dotted]
     "ambient\ncalculus" [style=dotted]
     "Vvvv"
@@ -2004,6 +2009,12 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "NQTHM" -> "ACL2"
 "Common Lisp" -> "ACL2"
 "ACL2" -> "ANSI\nCommon Lisp"
+
+"LISP 1.5" -> "QA3"
+"QA3" -> "QA4" [weight=500]
+"QA4" -> "STRIPS" [weight=500]
+"STRIPS" -> "ADL"
+"ADL" -> "PDDL"
 
 "Scheme R6RS" -> "Julia"
 "Fortress" -> "Julia"
