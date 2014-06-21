@@ -1288,6 +1288,7 @@ node [ fontsize=20, style=filled ];
 
 { rank = same ; 2014
     "DOM Level 4"
+    "Purescript"
 }
 
 
@@ -2305,6 +2306,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Strongtakl" -> "Dart"
 "JavaScript" -> "Elm"
 "Haskell 98" -> "Elm"
+"Haskell 98" -> "Purescript"
+"JavaScript" -> "Purescript"
 "JScript .NET" -> "TypeScript" [weight=3]
 
 "Java" -> "jEdit"
