@@ -211,6 +211,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1967
+    "Automath"
     "QA3"
     "W-Grammar"
     "MOL-940"
@@ -251,6 +252,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1969
+    "PCF"
     "Hoare logic"
     "BPL"
     "SLANG"
@@ -320,6 +322,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1973
+    "Mizar"
     "Marseille\nProlog"
     "Actor model" [style=dotted]
     "POGOL"
@@ -1845,6 +1848,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "NPL" -> "Hope" [weight=3]
 "Pascal-P3" -> "Hope"
 
+"PCF" -> "ML" [weight=3]
 "ML" -> "Standard ML" [weight=1000]
 "ML" -> "Lazy ML" [weight=3]
 "Lazy ML" -> "HBC"
@@ -2909,5 +2913,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SBN" -> "URISC"
 "RISC" -> "URISC"
 "SBN" -> "Thue"
+
+"Automath" -> "Mizar" [weight=500]
 
 }
