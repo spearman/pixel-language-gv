@@ -1258,6 +1258,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 2011
+    "F*"
     "RDDL"
     "Dart"
     "tuProlog"
@@ -2845,6 +2846,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Scala" -> "F#"
 "Ada 95" -> "A#"
 ".NET" -> "A#"
+"F#" -> "F*"
 
 "Cool" -> "C#" [weight=1000]
 ".NET" -> "C#"
