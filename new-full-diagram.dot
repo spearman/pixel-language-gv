@@ -911,7 +911,7 @@ node [ fontsize=20, style=filled ];
     "Limbo"
     "Squeak"
     "Pizza"
-    "OCaml"
+    "OCaml" [fontsize=30]
     "CobolScript"
 }
 
@@ -1051,6 +1051,7 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 2001
+    "Arc"
     "SALSA"
     "Bigraphical\nModel" [style=dotted]
     "E-LOTOS"
@@ -1228,6 +1229,7 @@ node [ fontsize=20, style=filled ];
     "Delphi Prism"
     "SQL:2008"
     "Xpand"
+    "Nim"
 }
 
 { rank = same ; 2009
@@ -1581,6 +1583,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Oberon/F" -> "Component\nPascal" [weight=3]
 "Oberon" -> "Oberon-07"
 "Modula-2" -> "Alma-0"
+"Modula-3" -> "Nim" [weight=3]
+"Ada" -> "Nim"
+"C++" -> "Nim"
 
 "Pascal" -> "Draco"
 "C" -> "Draco"
@@ -2007,6 +2012,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Zetalisp" -> "Common Lisp" [weight=1000]
 "Common Lisp" -> "ANSI\nCommon Lisp" [weight=1000]
 "ANSI\nCommon Lisp" -> "ISLISP" [weight=1000]
+"ANSI\nCommon Lisp" -> "Arc" [weight=3]
 "LISP 1.5" -> "VLISP"
 "LISP" -> "MLISP"
 "LISP" -> "PLANNER"
