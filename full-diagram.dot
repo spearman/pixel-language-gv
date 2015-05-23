@@ -208,6 +208,7 @@ node [ fontsize=20, style=filled ];
     "JOSS II"
     "MUMPS" [fontsize=30]
     "BBN LISP"
+    "POP-1"
 }
 
 { rank = same ; 1967
@@ -223,6 +224,7 @@ node [ fontsize=20, style=filled ];
     "SNOBOL4"
     "SIMULA 67"
     "BCPL"
+    "POP-2"
 }
 
 { rank = same ; 1968
@@ -246,7 +248,6 @@ node [ fontsize=20, style=filled ];
     "BASIC v4"
     "MLISP"
     "TTM"
-    "POP-1"
     "REFAL"
     "Speakeasy"
 }
@@ -277,7 +278,6 @@ node [ fontsize=20, style=filled ];
     "FORTH"
     "Space Programming\nLanguage"
     "BASIC v5"
-    "POP-2"
     "DIBOL-8"
     "Pascal" [fontsize=30]
 }
@@ -396,6 +396,7 @@ node [ fontsize=20, style=filled ];
     "Smalltalk-76"
     "ex"
     "S"
+    "CLEAR"
 }
 
 { rank = same ; 1977
@@ -423,6 +424,7 @@ node [ fontsize=20, style=filled ];
     "microTutor"
     "Modula-2"
     "SBASIC"
+    "OBJ"
 }
 
 { rank = same 1978
@@ -608,6 +610,7 @@ node [ fontsize=20, style=filled ];
     "FL"
     "COBOL-85"
     "Apple Smalltalk"
+    "OBJ2"
 }
 
 { rank = same ; 1986
@@ -693,6 +696,7 @@ node [ fontsize=20, style=filled ];
     "Oberon"
     "ksh88"
     "S-PLUS"
+    "OBJ3"
 }
 
 { rank = same ; 1989
@@ -949,6 +953,7 @@ node [ fontsize=20, style=filled ];
     "Component\nPascal"
     "zsh 3.0"
     "J++"
+    "Maude"
 }
 
 { rank = same ; 1998
@@ -1396,6 +1401,10 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "FALSE" -> "Brainfuck"
 "P\"" -> "Brainfuck"
 
+"CLEAR" -> "OBJ" [weight=1000]
+"OBJ" -> "OBJ2" [weight=1000]
+"OBJ2" -> "OBJ3" [weight=1000]
+"OBJ3" -> "Maude" [weight=7]
 
 "FARGO" -> "RPG"
 "RPG" -> "RPG II"
