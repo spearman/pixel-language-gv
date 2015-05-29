@@ -322,8 +322,8 @@ node [ fontsize=20, style=filled ];
 }
 
 { rank = same ; 1973
-    "Mizar"
     "Marseille\nProlog"
+    "Mizar"
     "Actor model" [style=dotted]
     "POGOL"
     "JPLDIS"
@@ -528,6 +528,7 @@ node [ fontsize=20, style=filled ];
 
 { rank = same ; 1983
     "Prolog II+"
+    "Edinburgh\nProlog"
     "AMS-TeX"
     "SISAL"
     "Miranda"
@@ -580,7 +581,6 @@ node [ fontsize=20, style=filled ];
 
 { rank = same ; 1985
     "CHIP"
-    "Edinburgh\nProlog"
     "VHDL"
     "Esterel"
     "LUSTRE"
@@ -1709,9 +1709,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PLANNER" -> "Ether"
 "PLANNER" -> "PLASMA"
 "Prolog" -> "Datalog"
+"Prolog" -> "Marseille\nProlog" [weight=1000]
 "Marseille\nProlog" -> "Edinburgh\nProlog" [weight=1000]
-"Marseille\nProlog" -> "Edinburgh\nProlog" [weight=1000]
-"Prolog" -> "Prolog II+"
+"Marseille\nProlog" -> "Prolog II+" [weight=500]
 "Prolog II+" -> "Prolog III" [weight=500]
 "Prolog III" -> "Prolog IV" [weight=500]
 "Prolog III" -> "CHIP"
