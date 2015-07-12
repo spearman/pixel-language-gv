@@ -1022,6 +1022,7 @@ node [ fontsize=20, style=filled ];
     ".NET"
     "CLR"
     "Tcl 8.1"
+    "Unlambda"
 }
 
 { rank = same ; 2000
@@ -1082,6 +1083,8 @@ node [ fontsize=20, style=filled ];
     "XQuery"
     "GHC 5.0"
     "Poly/ML 4.0"
+    "Iota"
+    "Jot"
 }
 
 { rank = same ; 2002
@@ -1109,6 +1112,7 @@ node [ fontsize=20, style=filled ];
     "COBOL 2002"
     "Omega"
     "M21"
+    "Zot"
 }
 
 { rank = same ; 2003
@@ -2928,5 +2932,10 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SBN" -> "Thue"
 
 "Automath" -> "Mizar" [weight=500]
+
+"Unlambda" -> "Iota" [weight=200]
+"Unlambda" -> "Jot" [weight=200]
+"Jot" -> "Zot" [weight=200]
+"Iota" -> "Zot" [weight=200]
 
 }
