@@ -2400,7 +2400,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Objective-C" -> "Objective-C 2.0" [weight=1000]
 "K&R C" -> "C with\nClasses" [weight=8]
 "C with\nClasses" -> "C++" [weight=9]
-"SIMULA 67" -> "C++"[weight=3]
+"SIMULA 67" -> "C++"[weight=9]
 "Ada" -> "C++"
 "ML" -> "C++"
 "STL" -> "C++98"
