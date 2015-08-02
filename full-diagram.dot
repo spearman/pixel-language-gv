@@ -1266,6 +1266,7 @@ node [ fontsize=20, style=filled ];
     "LibreOffice\nBasic"
     "Fortran 2008"
     "Haskell 2010"
+    "Shen"
 }
 
 { rank = same ; 2011
@@ -1858,6 +1859,12 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell" -> "Hume"
 "Haskell" -> "Gofer"
 "Gofer" -> "Hugs 98" [weight=500]
+
+"SASL" -> "Shen"
+"ML" -> "Shen"
+"Common Lisp" -> "Shen"
+"Hope" -> "Shen"
+"ISO Prolog" -> "Shen"
 
 
 "POP-2" -> "NPL"
