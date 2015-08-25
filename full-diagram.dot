@@ -577,6 +577,7 @@ node [ fontsize=20, style=filled ];
     "Lazy ML"
     "Modula-2+"
     "Common Lisp" [fontsize=30]
+    "Nuprl"
 }
 
 { rank = same ; 1985
@@ -1113,6 +1114,7 @@ node [ fontsize=20, style=filled ];
     "Omega"
     "M21"
     "Zot"
+    "Nuprl 5"
 }
 
 { rank = same ; 2003
@@ -1874,6 +1876,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PCF" -> "ML" [weight=3]
 "ML" -> "Standard ML" [weight=1000]
 "ML" -> "Lazy ML" [weight=3]
+"ML" -> "Nuprl"
+"Nuprl" -> "Nuprl 5"
 "Lazy ML" -> "HBC"
 "Haskell" -> "HBC"
 "Standard ML" -> "SML'90" [weight=1000]
