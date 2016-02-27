@@ -1302,6 +1302,7 @@ node [ fontsize=8, style=filled ];
 
 { rank = same ; 2014
     "DOM Level 4"
+    "Eff"
 }
 
 
@@ -1858,6 +1859,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Coq" -> "Agda" [weight=3]
 "Agda" -> "Agda 2" [weight=3]
 "Agda" -> "Idris"
+"Haskell" -> "Idris"
+"Idris" -> "Eff"
 "Haskell" -> "Curry"
 "Haskell" -> "Hume"
 "Haskell" -> "Gofer"
