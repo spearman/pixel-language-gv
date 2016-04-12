@@ -253,7 +253,8 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1969
-    "PCF"
+    "LCF" [style=dotted]
+    "PCF" [style=dotted]
     "Hoare logic"
     "BPL"
     "SLANG"
@@ -318,7 +319,6 @@ node [ fontsize=8, style=filled ];
     "Smalltalk-72"
     "PL/M"
     "CONNIVER"
-    "LCF" [style=dotted]
 }
 
 { rank = same ; 1973
@@ -1860,7 +1860,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Agda" -> "Agda 2" [weight=3]
 "Agda" -> "Idris"
 "Haskell" -> "Idris"
-"Idris" -> "Eff"
 "Haskell" -> "Curry"
 "Haskell" -> "Hume"
 "Haskell" -> "Gofer"
@@ -1877,7 +1876,6 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "NPL" -> "Hope" [weight=3]
 "Pascal-P3" -> "Hope"
 
-"PCF" -> "ML" [weight=3]
 "ML" -> "Standard ML" [weight=1000]
 "ML" -> "Lazy ML" [weight=3]
 "ML" -> "Nuprl"
@@ -1919,6 +1917,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "LLVM" -> "Rust"
 "OCaml" -> "JoCaml"
 "OCaml" -> "OCaml 3.0" [weight=500]
+"OCaml" -> "Eff" [weight=3]
 
 "SML/NJ" -> "Dependent ML"
 "Dependent ML" -> "ATS" [weight=3]
@@ -1951,7 +1950,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C" -> "Go"
 
 "BNF" -> "LCF"
-"LCF" -> "ML"
+"LCF" -> "PCF"
+"PCF" -> "ML" [weight=3]
 "CSP" -> "CCS"
 "LCF" -> "CCS"
 "CCS" -> "ACP"
