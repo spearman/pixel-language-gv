@@ -1024,6 +1024,7 @@ node [ fontsize=8, style=filled ];
     "CLR"
     "Tcl 8.1"
     "Unlambda"
+    "Yarrow"
 }
 
 { rank = same ; 2000
@@ -1055,6 +1056,7 @@ node [ fontsize=8, style=filled ];
     "Quilt"
     "JavaScript 1.5"
     "VPython"
+    "Henk 2000"
 }
 
 { rank = same ; 2001
@@ -1198,6 +1200,7 @@ node [ fontsize=8, style=filled ];
     "Cyclone 1.0"
     "Oxygene"
     "JavaScript 1.7"
+    "Sage"
 }
 
 { rank = same ; 2007
@@ -1298,6 +1301,7 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2013
     "Ruby 2.0"
     "Elixir"
+    "Scribble"
 }
 
 { rank = same ; 2014
@@ -1918,6 +1922,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "OCaml" -> "JoCaml"
 "OCaml" -> "OCaml 3.0" [weight=500]
 "OCaml" -> "Eff" [weight=3]
+"Standard ML" -> "Sage"
+"Scheme" -> "Sage"
+"OCaml" -> "Sage" [weight=3]
 
 "SML/NJ" -> "Dependent ML"
 "Dependent ML" -> "ATS" [weight=3]
@@ -2000,6 +2007,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "SML'97" -> "Moscow ML"
 "Standard ML" -> "Alice ML"
 "Haskell" -> "Alice ML"
+"Haskell" -> "Yarrow"
+"Coq" -> "Yarrow"
+"Haskell" -> "Henk 2000"
 "Moscow ML" -> "HOL98"
 "Standard ML" -> "Isabelle"
 "HOL" -> "Isabelle"
