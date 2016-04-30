@@ -2797,6 +2797,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "Java" -> "Clojure"
 "Common Lisp" -> "Clojure"
+"Scheme" -> "Clojure"
 "Haskell" -> "Clojure"
 
 "Java" -> "Jython"
