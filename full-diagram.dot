@@ -881,6 +881,7 @@ node [ fontsize=8, style=filled ];
     "C95"
     "Postgres95"
     "Fortran 95"
+    "PLT Scheme"
 }
 
 { rank = same ; 1996
@@ -1272,6 +1273,7 @@ node [ fontsize=8, style=filled ];
     "Fortran 2008"
     "Haskell 2010"
     "Shen"
+    "Racket"
 }
 
 { rank = same ; 2011
@@ -2138,6 +2140,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Scheme R4RS" -> "Pico"
 "SIOD" -> "SCM"
 "SIOD" -> "Guile Scheme"
+"Scheme R4RS" -> "PLT Scheme"
+"PLT Scheme" -> "Racket" [weight=500]
 "Scheme R5RS" -> "TinyScheme"
 
 "Actor model" -> "Scheme"
