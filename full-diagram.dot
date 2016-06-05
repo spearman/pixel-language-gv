@@ -1309,6 +1309,7 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2014
     "DOM Level 4"
     "Eff"
+    "Swift"
 }
 
 
@@ -2767,6 +2768,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "JRuby" -> "Ioke"
 "Ruby 1.0" -> "MacRuby"
 "Objective-C" -> "MacRuby"
+"Objective-C" -> "Swift" [weight=3]
 "Ruby 1.0" -> "IronRuby"
 ".NET" -> "IronRuby"
 "Io" -> "Ioke"
