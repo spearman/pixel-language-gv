@@ -1304,12 +1304,14 @@ node [ fontsize=8, style=filled ];
     "Ruby 2.0"
     "Elixir"
     "Scribble"
+    "Mezzo"
 }
 
 { rank = same ; 2014
     "DOM Level 4"
     "Eff"
     "Swift"
+    "F*"
 }
 
 
@@ -1922,6 +1924,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Open Erlang" -> "Rust"
 "OCaml" -> "Rust"
 "LLVM" -> "Rust"
+"Rust" -> "Mezzo"
 "OCaml" -> "JoCaml"
 "OCaml" -> "OCaml 3.0" [weight=500]
 "OCaml" -> "Eff" [weight=3]
@@ -2509,6 +2512,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C89" -> "Cyclone"
 "Standard ML" -> "Cyclone"
 "Cyclone" -> "Cyclone 1.0" [weight=3]
+"Cyclone 1.0" -> "Rust"
 
 "ALGOL 68" -> "sh"
 "Unix" -> "C"
@@ -2886,6 +2890,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 ".NET" -> "F#"
 "OCaml" -> "F#"
+"F#" -> "F*"
 "C#" -> "F#"
 "Haskell" -> "F#"
 "Scala" -> "F#"
@@ -2895,6 +2900,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Cool" -> "C#" [weight=1000]
 ".NET" -> "C#"
 "Eiffel" -> "C#"
+"Object Pascal" -> "C#" [weight=10]
 "C++98" -> "C#" [weight=3]
 "C#" -> "C# 2.0"
 "C# 2.0" -> "C# 3.0"
