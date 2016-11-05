@@ -643,6 +643,7 @@ node [ fontsize=8, style=filled ];
     "SQL-86"
     "Objective-C" [fontsize=12]
     "DWISIL"
+    "Scheme 48"
 }
 
 { rank = same ; 1987
@@ -830,6 +831,7 @@ node [ fontsize=8, style=filled ];
     "Acme"
     "R" [fontsize=12]
     "Lua"
+    "Amiga E"
 }
 
 { rank = same ; 1994
@@ -2134,6 +2136,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ABCL/R" -> "ABCL/R1" [weight=3]
 
 "Scheme" -> "Scheme RRS" [weight=1000]
+"Scheme" -> "Scheme 48"
+"Standard ML" -> "Scheme 48"
 "Scheme RRS" -> "Scheme R2RS" [weight=1000]
 "Scheme R2RS" -> "Scheme R3RS" [weight=1000]
 "Scheme R3RS" -> "Scheme R4RS" [weight=1000]
@@ -2334,6 +2338,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C89" -> "LiveScript"
 "Scheme R4RS" -> "LiveScript"
 "Java" -> "LiveScript"
+"Scheme" -> "JavaScript"
+"Self" -> "JavaScript"
 "LiveScript" -> "JavaScript" [weight=1000]
 "JavaScript" -> "ECMAScript" [weight=500]
 "JavaScript" -> "JavaScript 1.5" [weight=1000]
@@ -2423,6 +2429,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C" -> "csh"
 "C" -> "K&R C" [weight=1000]
 "K&R C" -> "C89" [weight=1000]
+"K&R C" -> "Amiga E"
 "C++" -> "C89"
 "C89" -> "C95" [weight=1000]
 "C95" -> "C99" [weight=1000]
