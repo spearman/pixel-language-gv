@@ -1122,6 +1122,7 @@ node [ fontsize=8, style=filled ];
     "M21"
     "Zot"
     "Nuprl 5"
+    "Pyrex"
 }
 
 { rank = same ; 2003
@@ -2605,6 +2606,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell" -> "Python 2.0"
 "Icon" -> "Python 2.0"
 "Python 2.0" -> "Python 3.0" [weight=1000]
+"Python 2.0" -> "Pyrex"
 
 "TUTOR" -> "microTutor"
 "microTutor" -> "cT"
