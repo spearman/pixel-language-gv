@@ -1093,6 +1093,7 @@ node [ fontsize=8, style=filled ];
     "Poly/ML 4.0"
     "Iota"
     "Jot"
+    "Xanadu"
 }
 
 { rank = same ; 2002
@@ -1944,7 +1945,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "OCaml" -> "Sage" [weight=3]
 
 "SML/NJ" -> "Dependent ML"
-"Dependent ML" -> "ATS" [weight=3]
+"Dependent ML" -> "ATS" [weight=10]
+"Dependent ML" -> "Xanadu"
+"Xanadu" -> "ATS"
 "OCaml" -> "ATS"
 
 "Smalltalk-72" -> "Actor model"
