@@ -2119,6 +2119,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Zetalisp" -> "Maple"
 "MACLISP" -> "CGOL"
 "MACLISP" -> "RPL"
+"FORTH" -> "RPL"
 "ALGOL 68" -> "CGOL"
 "Macsyma" -> "Franz Lisp"
 "Macsyma" -> "Maple"
