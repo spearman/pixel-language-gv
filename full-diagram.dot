@@ -674,6 +674,7 @@ node [ fontsize=8, style=filled ];
     "URISC"
     "Bison"
     "A+"
+    "Andorra Prolog"
     "STOS BASIC"
     "Perl 2"
     "Cantor"
@@ -925,6 +926,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1997
+    "C--"
     "Pict"
     "blue calculus" [style=dotted]
     "spi-calculus" [style=dotted]
@@ -1176,6 +1178,7 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2005
     "Ada 2005"
     "Links"
+    "miniKanren"
     "Seed7"
     "Subtext"
     "Sing#"
@@ -1212,6 +1215,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2007
+    "alphaKanren" # nominal logic programming
     "XQuery 1.0"
     "LOLCODE"
     "Oberon-07"
@@ -1310,8 +1314,9 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2013
     "Ruby 2.0"
     "Elixir"
-    "Scribble"
     "Mezzo"
+    "microKanren"
+    "Scribble"
 }
 
 { rank = same ; 2014
@@ -1393,6 +1398,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Fortran 95" -> "Fortran 2003" [weight=1000]
 "Fortran 2003" -> "Fortran 2008" [weight=1000]
 "C89" -> "Fortran 2003"
+"C89" -> "C--"
 "Modula-2" -> "Fortran 2003"
 "Ada 95" -> "Fortran 2003"
 "FORTRAN" -> "COMTRAN"
@@ -1751,6 +1757,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Edinburgh\nProlog" -> "Turbo Prolog"
 "Edinburgh\nProlog" -> "B-Prolog"
 "Edinburgh\nProlog" -> "Ciao"
+"Ciao" -> "Andorra Prolog"  # parallel prolog
 "Edinburgh\nProlog" -> "Prolog-2" [weight=1000]
 "Prolog-2" -> "ISO Prolog" [weight=1000]
 "Edinburgh\nProlog" -> "DOS Prolog"
@@ -1828,6 +1835,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "NU-Prolog" -> "Gödel"
 "Relational\nLanguage" -> "Gödel"
 "Relational\nLanguage" -> "Parlog"
+"Relational\nLanguage" -> "miniKanren"  # relational programming
+"miniKanren" -> "microKanren" [weight=10]
+"miniKanren" -> "alphaKanren" [weight=10]
 "ML" -> "Gödel"
 "Modula-2" -> "Gödel"
 
@@ -1873,14 +1883,14 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ML" -> "Coq"
 "Coq" -> "ALF"
 "ALF" -> "Epigram"
+"Epigram" -> "Agda"
 "Haskell" -> "Agda"
+"Agda" -> "Idris"
 "Haskell" -> "Cayenne"
 "Java" -> "Cayenne"
 "Cayenne" -> "Omega"
 "Coq" -> "Agda" [weight=3]
 "Agda" -> "Agda 2" [weight=3]
-"Agda" -> "Idris"
-"Haskell" -> "Idris"
 "Haskell" -> "Curry"
 "Haskell" -> "Hume"
 "Haskell" -> "Gofer"
