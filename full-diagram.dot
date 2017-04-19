@@ -1032,6 +1032,7 @@ node [ fontsize=8, style=filled ];
     "Tcl 8.1"
     "Unlambda"
     "Yarrow"
+    "JML"
 }
 
 { rank = same ; 2000
@@ -1177,6 +1178,7 @@ node [ fontsize=8, style=filled ];
 
 { rank = same ; 2005
     "Ada 2005"
+    "Ambidexter"
     "Links"
     "miniKanren"
     "Seed7"
@@ -1236,6 +1238,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2008
+    "ACSL"
     "PDDL3.1"
     "BPDL"
     "Flex++"
@@ -1876,6 +1879,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell 98" -> "Haskell 2010" [weight=1000]
 "Haskell 98" -> "Mondrian"
 "Haskell 98" -> "GHC 5.0"
+"Haskell 98" -> "Ambidexter"
 "Miranda" -> "Lean"
 "Lean" -> "Clean" [weight=500]
 "Clean" -> "Concurrent\nClean" [weight=500]
@@ -3010,5 +3014,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Unlambda" -> "Jot" [weight=200]
 "Jot" -> "Zot" [weight=200]
 "Iota" -> "Zot" [weight=200]
+
+"JML" -> "ACSL"
 
 }
