@@ -858,6 +858,7 @@ node [ fontsize=8, style=filled ];
     "Oberon/F"
     "Sather 1.0"
     "ANSI\nCommon Lisp"
+    "Cilk"
 }
 
 { rank = same ; 1995
@@ -1274,6 +1275,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2010
+    "Cilk Plus"
     "Rust"
     "Fancy"
     "Chapel"
@@ -1327,6 +1329,10 @@ node [ fontsize=8, style=filled ];
     "Eff"
     "Swift"
     "F*"
+}
+
+{ rank = same ; 2015
+    "SILL"
 }
 
 { rank = same ; 2016
@@ -1402,6 +1408,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Fortran 2003" -> "Fortran 2008" [weight=1000]
 "C89" -> "Fortran 2003"
 "C89" -> "C--"
+"C89" -> "Cilk"
+"Cilk" -> "Cilk Plus" [weight=100]
 "Modula-2" -> "Fortran 2003"
 "Ada 95" -> "Fortran 2003"
 "FORTRAN" -> "COMTRAN"
@@ -1949,6 +1957,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C++98" -> "Rust"
 "Open Erlang" -> "Rust"
 "OCaml" -> "Rust"
+"OCaml" -> "SILL"
 "LLVM" -> "Rust"
 "Rust" -> "Mezzo"
 "OCaml" -> "JoCaml"
@@ -2112,6 +2121,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "PDDL" -> "RDDL"
 "NDDL" -> "APPL"
 
+"R" -> "Julia"
 "Scheme R6RS" -> "Julia"
 "Fortress" -> "Julia"
 "ANSI\nCommon Lisp" -> "Julia"
