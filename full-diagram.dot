@@ -1131,6 +1131,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2003
+    "Cryptol"
     "OPT"
     "MAPL"
     "Squirrel"
@@ -1333,10 +1334,12 @@ node [ fontsize=8, style=filled ];
 
 { rank = same ; 2015
     "SILL"
+    "JonPRL"
 }
 
 { rank = same ; 2016
     "osh"
+    "RedPRL"
 }
 
 
@@ -1888,6 +1891,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell 98" -> "Mondrian"
 "Haskell 98" -> "GHC 5.0"
 "Haskell 98" -> "Ambidexter"
+"Haskell 98" -> "Cryptol"
 "Miranda" -> "Lean"
 "Lean" -> "Clean" [weight=500]
 "Clean" -> "Concurrent\nClean" [weight=500]
@@ -1923,6 +1927,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ML" -> "Lazy ML" [weight=3]
 "ML" -> "Nuprl"
 "Nuprl" -> "Nuprl 5"
+"Nuprl 5" -> "JonPRL"
+"JonPRL" -> "RedPRL"
 "Lazy ML" -> "HBC"
 "Haskell" -> "HBC"
 "Standard ML" -> "SML'90" [weight=1000]
