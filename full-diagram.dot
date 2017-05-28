@@ -1136,6 +1136,7 @@ node [ fontsize=8, style=filled ];
     "MAPL"
     "Squirrel"
     "Falcon"
+    "Fugue"
     "JFactor"
     "ActionScript 2.0"
     "DSDL"
@@ -1294,18 +1295,19 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2011
-    "RDDL"
-    "Dart"
-    "tuProlog"
-    "Idris"
-    "Xtend"
-    "Kotlin"
-    "C++11"
     "C11"
-    "SQL:2011"
-    "Elm"
+    "C++11"
     "Ceylon"
+    "Dart"
+    "Elm"
+    "Idris"
+    "Kotlin"
+    "Plaid"
     "Red/System"
+    "RDDL"
+    "SQL:2011"
+    "tuProlog"
+    "Xtend"
 }
 
 { rank = same ; 2012
@@ -2541,6 +2543,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Lucid" -> "GLU" [weight=500]
 "Lucid" -> "SISAL"
 "C#" -> "VPL"
+"C#" -> "Fugue"
+"Fugue" -> "Plaid"
 "PL/SQL" -> "PilotScript"
 "K&R C" -> "Verilog"
 "Verilog" -> "VHDL"
