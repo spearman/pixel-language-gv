@@ -133,6 +133,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1962
+    "FORMAC"
     "Petri nets" [style=dotted]
     "META II"
     "LISP 1.5"
@@ -1394,6 +1395,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "FORTRAN" -> "ALGOL 58"
 "FORTRAN" -> "FORTRAN II" [weight=1000]
 "FORTRAN II" -> "FORTRAN III" [weight=1000]
+"FORTRAN III" -> "FORMAC"
+"COBOL" -> "FORMAC"
 "FORTRAN II" -> "FORTRAN IV" [weight=1000]
 "FORTRAN II" -> "BASIC"
 "FORTRAN IV" -> "FORTRAN 66" [weight=1000]
