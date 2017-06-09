@@ -906,6 +906,7 @@ node [ fontsize=8, style=filled ];
     "OpenM"
     "JavaScript" [fontsize=12]
     "JScript"
+    "SuperCollider"
     "VBScript"
     "HBC"
     "Poly/ML"
@@ -1724,6 +1725,10 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Smalltalk-80 v2.5" -> "VisualWorks"
 "Smalltalk-80" -> "sam"
 "Smalltalk-80" -> "Apple Smalltalk"
+"Smalltalk-80" -> "SuperCollider" [weight=10]
+"J" -> "SuperCollider" [weight=1]
+"ANSI\nCommon LispLisp" -> "SuperCollider"
+"C89" -> "SuperCollider"
 "Apple Smalltalk" -> "Squeak"
 "Smalltalk-80 v2" -> "ANSI Smalltalk" [weight=1000]
 "APL 2" -> "F-Script"
