@@ -1344,6 +1344,7 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2016
     "osh"
     "RedPRL"
+    "Rholang"
 }
 
 
@@ -2945,6 +2946,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Pizza" -> "Generic Java" [weight=500]
 "Generic Java" -> "Scala" [weight=500]
 "Funnel" -> "Scala"
+"Scala" -> "Rholang" [weight=10]
 
 ".NET" -> ".NET 2.0" [weight=1000]
 ".NET 2.0" -> ".NET 3.0" [weight=1000]
