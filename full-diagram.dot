@@ -1161,13 +1161,14 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2004
-    "VSXu"
-    "Little b"
-    "Factor"
     "DOM Level 3"
+    "Epigram"
+    "Factor"
+    "Kernel"
+    "Little b"
     "PHP 5"
     "Spec#"
-    "Epigram"
+    "VSXu"
     "X10"
     "CAL"
     "GDL"
@@ -2197,6 +2198,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Scheme R3RS" -> "Scheme R4RS" [weight=1000]
 "Scheme R4RS" -> "Scheme R5RS" [weight=1000]
 "Scheme R5RS" -> "Scheme R6RS" [weight=1000]
+"Scheme R5RS" -> "Kernel"
 "Scheme R3RS" -> "SIOD"
 "Scheme R4RS" -> "SCM"
 "Scheme R4RS" -> "Pico"
