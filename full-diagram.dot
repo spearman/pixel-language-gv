@@ -1346,6 +1346,7 @@ node [ fontsize=8, style=filled ];
     "osh"
     "RedPRL"
     "Rholang"
+    "Zig"
 }
 
 
@@ -2491,6 +2492,9 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C95" -> "C99" [weight=1000]
 "C++" -> "C99"
 "C99" -> "C11" [weight=1000]
+"C11" -> "Zig"
+"Rust" -> "Zig"
+"C++11" -> "Zig"
 "Smalltalk-80" -> "Objective-C"
 "C" -> "Objective-C"
 "Objective-C" -> "Objective-C 2.0" [weight=1000]
