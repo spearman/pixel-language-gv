@@ -838,6 +838,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1994
+    "ANS Forth"
     "LaTeX2e"
     "PEPA" [style=dotted]
     "GOLOG"
@@ -968,6 +969,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1998
+    "ANSI Smalltalk"
     "PDDL"
     "Fusion Calculus" [style=dotted]
     "ambient\ncalculus" [style=dotted]
@@ -1005,7 +1007,7 @@ node [ fontsize=8, style=filled ];
     "Haskell 98"
     "Java 2"
     "REBOL"
-    "ANSI Smalltalk"
+    "RetroFORTH"
 }
 
 { rank = same ; 1999
@@ -1164,6 +1166,7 @@ node [ fontsize=8, style=filled ];
     "DOM Level 3"
     "Epigram"
     "Factor"
+    "HelFORTH"
     "Kernel"
     "Little b"
     "PHP 5"
@@ -1281,6 +1284,7 @@ node [ fontsize=8, style=filled ];
 
 { rank = same ; 2010
     "Cilk Plus"
+    "Reva"
     "Rust"
     "Fancy"
     "Chapel"
@@ -1331,6 +1335,7 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 2014
+    "8th"
     "DOM Level 4"
     "Eff"
     "Swift"
@@ -1457,6 +1462,11 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "FORTH-83" -> "ANS Forth" [weight=1000]
 "FORTH-79" -> "MacFORTH"
 "FORTH-83" -> "FALSE"
+"FORTH-83" -> "ANS Forth"
+"ANS Forth" -> "RetroFORTH"
+"RetroFORTH" -> "HelFORTH"  [weight=100]
+"HelFORTH" -> "Reva"  [weight=100]
+"Reva" -> "8th"  [weight=100]
 "FALSE" -> "Brainfuck"
 "P\"" -> "Brainfuck"
 
@@ -2902,7 +2912,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell" -> "CAL"
 "Joule" -> "Original E" [weight=500]
 "Java" -> "Original E"
-"Original E" -> "E" [weight=500]
+"Original E" -> "E" [weight=100]
+"Joule" -> "E" [weight=500]
 "Java" -> "Fan"
 "Fan" -> "Fantom" [weight=500]
 "Prolog" -> "Oz"
