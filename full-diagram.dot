@@ -1351,6 +1351,7 @@ node [ fontsize=8, style=filled ];
     "osh"
     "RedPRL"
     "Rholang"
+    "Sixten"
     "Zig"
 }
 
@@ -1915,6 +1916,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Haskell 98" -> "GHC 5.0"
 "Haskell 98" -> "Ambidexter"
 "Haskell 98" -> "Cryptol"
+"Haskell 2010" -> "Sixten"
 "Miranda" -> "Lean"
 "Lean" -> "Clean" [weight=500]
 "Clean" -> "Concurrent\nClean" [weight=500]
