@@ -1336,6 +1336,7 @@ node [ fontsize=8, style=filled ];
 
 { rank = same ; 2014
     "8th"
+    "Crystal"
     "DOM Level 4"
     "Eff"
     "Swift"
@@ -2863,6 +2864,11 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 ".NET" -> "IronRuby"
 "Io" -> "Ioke"
 "Rubinius" -> "Fancy"
+"Ruby" -> "Crystal" [weight=10]
+"Go" -> "Crystal"
+"Rust" -> "Crystal"
+"Python" -> "Crystal"
+"C#" -> "Crystal"
 
 "Scoonship" -> "FORM" [weight=3]
 "Scoonship" -> "SMP"
