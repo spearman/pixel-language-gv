@@ -1274,6 +1274,7 @@ node [ fontsize=8, style=filled ];
     "bash 4.0"
     "Curin"
     "Coherence"
+    "Dafny"
     "Jekejeke\nProlog"
     "Noop"
     "Embarcadero\nDelphi 2009"
@@ -1856,6 +1857,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Eriplex" -> "PLEX" [weight=1000]
 "PLEX" -> "Erlang" [weight=1000]
 "Actor model" -> "Erlang"
+"Smalltalk" -> "Erlang"
 "Erlang" -> "Open Erlang" [weight=1000]
 "Open Erlang" -> "JErlang"
 "join-calculus" -> "JErlang"
@@ -3003,6 +3005,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Standard\nEiffel" -> "Spec#"
 "C#" -> "Spec#" [weight=3]
 "Spec#" -> "Sing#" [weight=500]
+"Spec#" -> "Dafny"
 "C#" -> "Vala"
 "Python" -> "Genie"
 "Vala" -> "Genie" [weight=3]
