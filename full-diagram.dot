@@ -1330,6 +1330,7 @@ node [ fontsize=8, style=filled ];
 { rank = same ; 2013
     "Ruby 2.0"
     "Elixir"
+    "Futhark"
     "Mezzo"
     "microKanren"
     "Scribble"
@@ -1967,6 +1968,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "Lazy ML" -> "HBC"
 "Haskell" -> "HBC"
 "Standard ML" -> "SML'90" [weight=1000]
+"Standard ML" -> "Futhark"
 "SML'90" -> "SML'97" [weight=1000]
 "SML'97" -> "sML" [weight=1000]
 "HaMLet" -> "sML"
