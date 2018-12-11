@@ -732,9 +732,10 @@ node [ fontsize=8, style=filled ];
 }
 
 { rank = same ; 1990
-    "Prolog-2"
     "AMOS BASIC"
     "Clipper 5"
+    "M-LISP"
+    "Prolog-2"
     "Sather"
     "J"
     "Open Basic"
@@ -2143,6 +2144,8 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "ALGOL 60" -> "MLISP"
 "MLISP" -> "MLISP2"
 "MLISP2" -> "LISP70"
+"MLISP2" -> "M-LISP" [weight=3]
+"Scheme" -> "M-LISP"
 
 "LISP 1.5" -> "NQTHM"
 "NQTHM" -> "ACL2"
