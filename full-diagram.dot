@@ -2293,7 +2293,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "C" -> "XBasic"
 "True BASIC" -> "PureBasic"
 
-"ALGOL-68" -> "Turbo Basic"
+"ALGOL 68" -> "Turbo Basic"
 "True BASIC" -> "BASIC/Z" [weight=1000]
 "BASIC/Z" -> "Turbo Basic"
 "Turbo Basic" -> "PowerBASIC" [weight=3]
@@ -2546,7 +2546,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 
 "BLODI" -> "Prograph"
 "Prograph" -> "Prograph CPX" [weight=500]
-"Pascal" -> "CLU"
+"ALGOL 68" -> "CLU"
 "CLU" -> "VAL"
 "CLU" -> "C++"
 "CLU" -> "Python"
