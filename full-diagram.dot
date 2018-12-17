@@ -519,6 +519,7 @@ node [ fontsize=8, style=filled ];
     "SAS 82"
     "PBASIC"
     "SD-Poplog"
+    "SuperBASIC"
     "Poly"
     "Pascal-S"
     "Turing"
@@ -2301,6 +2302,7 @@ edge [ arrowsize=1.0, penwidth=1.0 ];
 "BASIC" -> "Tiny BASIC"
 "Tiny BASIC" -> "Level I\nBASIC"
 "Microsoft\nBASIC" -> "Level II\nBASIC"
+"Microsoft\nBASIC" -> "SuperBASIC"
 "Level I\nBASIC" -> "Galaksija\nBASIC"
 "Microsoft\nBASIC" -> "Galaksija\nBASIC"
 
